@@ -1,0 +1,97 @@
+project:
+  type: book
+
+lang: es
+
+book:
+  title: "Bioinformática para los aterrorizados"
+  subtitle: 'Una introducción a la ciencia de la bioinformática'
+
+  chapters:
+    - index.qmd
+    - part: qué-es-bioinformática.qmd
+      chapters:
+        - para-quién.qmd
+    - part: rol-bases-de-datos.qmd
+    - part: envío-datos.qmd
+    - part: bioinformática-experimental.qmd
+      chapters:
+        - búsqueda.qmd
+        - ejemplo-guiado-1.qmd
+        - buscando-ZAP70.qmd
+    - references.qmd
+
+  translator:
+    - name: Laura Manuela Builes Cerón
+    - name: Juan Camilo Arboleda Rivera
+
+  author:
+    - name:
+        given: Laura Manuela
+        family: Builes Cerón
+      email: manuela.builes@udea.edu.co
+      roles: 'Traductora'
+      affiliation:
+        - id: udea
+          name: Universidad de Antioquia
+          city: Medellín
+          country: Colombia
+          group: Grupo de Biología Computacional
+    - name:
+        given: Juan Camilo
+        family: Arboleda Rivera
+      email: juan.arboleda2@udea.edu.co
+      url: https://nesper94.github.io/
+      orcid: 0000-0002-0030-056X
+      corresponding: true
+      roles: 'Traductor'
+      affiliation:
+        - ref: udea
+
+  date: 2024-06-11
+
+  description: |
+    ¿Qué es la bioinformática y dónde encaja con la investigación de
+    laboratorio en ciencias biológicas? Obten más información sobre las
+    herramientas y recursos bioinformáticos disponibles y cómo puedes empezar a
+    aplicarlos en tu investigación.
+
+  sharing:
+    - twitter
+    - facebook
+    - linkedin
+
+  language: es
+
+  license: "CC BY"
+
+  original-author:
+    - name: Cath Brooksbank
+      url: https://www.ebi.ac.uk/about/people/cath-brooksbank
+    - name: Andrew Cowley
+
+  original-title: 'Bioinformatics for the terrified: An introduction to the
+    science of bioinformatics'
+
+  search: true
+
+  margin-header: 'Traducción realizada por el [Grupo de Biología
+    Computacional](https://biologia-computacional.github.io/)'
+
+  image: https://trainingcontent.embl.org/sites/default/files/book-images/the_scream.jpg
+
+  open-graph:
+    image: https://trainingcontent.embl.org/sites/default/files/book-images/the_scream.jpg
+
+  other-links:
+    - text: Tutorial original en inglés
+      href: https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    link-external-newwindow: true
+  pdf:
+    documentclass: scrreprt

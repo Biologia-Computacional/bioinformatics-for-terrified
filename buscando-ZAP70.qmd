@@ -1,0 +1,55 @@
+# Buscando a ZAP70 usando EBI-search
+
+{{< fa pencil >}} En este escenario ayudaremos a Melissa a encontrar más
+sobre ZAP70 usando EBI Search.
+
+Para usar EBI Search, simplemente ve a la [página principal del
+EMBL-EBI](https://www.ebi.ac.uk/) y escribe ZAP70 en el cuadro de búsqueda.
+Una vez la búsqueda haya finalizado desplázate hacia abajo para ver los
+resultados y las piezas de información de los datos.
+
+![**Figura 13.** EBI
+Search.](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2024/01/Screenshot-2024-01-31-at-10.14.08.png)
+
+El panel principal de resultados está dividido en tres secciones:
+
+- Los **Filtros** a la izquierda agrupan las bases de datos en grupos que
+  también pueden ser usados para refinar tus resultados.
+
+- La sección de más arriba, **Gene & protein summaries** (resúmenes de genes
+  y proteínas), tiene páginas de resúmen para especies frecuentemente
+  estudiadas. Estos resúmenes obtienen datos a partir de numerosos recursos
+  en el EMBL-EBI para juntar información comunmente buscada tal como las
+  secuencias de genes y proteínas, patrones de expresión e información de
+  estructuras tridimensionales.
+
+- Desplázate más abajo y podrás navegar por la **lista completa de
+  resultados**.
+
+![**Figura 14.** Resultados de EBI Search para
+ZAP70.](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/10/ZAP70_search2.png)
+
+A continuación echaremos un vistazo a la sección 'Gene & protein summaries'
+para ZAP70. Haz click en el enlace para ir a través de esta página.
+
+En el lado izquierdo verás varias pestañas que te guiarán a la información
+resumida sobre el gen, su expresión, la proteína, su estructura y cualquier
+literatura de respaldo.
+
+Explora estas pestañas para encontrar las respuestas a las siguientes
+preguntas:
+
+- ¿En qué cromosoma humano está ZAP70?
+
+- ¿En cuál de los siguientes tejidos no están disponibles los datos sobre la
+  expresión basal de ZAP70? Sangre, Cerebro, Epitelio intestinal,
+  Endometrio.
+
+- ¿Cuántas isoformas de ZAP70 se han identificado?
+
+- ¿Es ZAP70 una proteína tirosina quinasa que atraviesa la membrana
+  plasmática?
+
+- ¿Hay roedores con ortólogos 1:1 del ZAP70 humano?
+
+{{< fa list-check >}} Corrobora tus respuestas en el siguiente quiz.

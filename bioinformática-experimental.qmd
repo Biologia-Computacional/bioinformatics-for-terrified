@@ -1,0 +1,30 @@
+# La bioinformática como una ciencia experimental
+
+La bioinformática no es solo sobre almacenar datos en bases de datos,
+también es sobre hacer experimentos con esos datos. Encontrar una entrada en
+la que estás interesado en una base de datos es una búsqueda en bases de
+datos, pero tan pronto como quieras sacar una conclusión de tu búsqueda
+(inferir cuáles son los homólogos de una proteína de interés por ejemplo)
+estás haciendo un experimento y necesitas aplicar las mismas metodologías
+científicas en términos de controles, etc. que usarías en un experimento en
+el laboratorio.
+
+También es importante que tomes una decisión informada cuando decidas qué
+método computacional usar, y que entiendas las ventajas y limitaciones del
+método que estás usando.
+
+## Tipos de experimentos en bioinformática
+
+Hemos explorado cómo los datos bioinformáticos son almacenados y cómo están
+estructurados y anotados. Ahora aprenderemos cómo puedes obtener los datos y
+cómo podrías usarlos para informar el proceso de descubrimiento científico.
+
+Existen un gran número de técnicas para analizar grandes cantidades de datos
+biológicos. En este curso trataremos las principales bases de datos como una
+puerta de entrada a la literatura científica con datos adicionales y
+estructurados para ayudarte a realizar búsquedas más sistemáticas de las que
+podrías realizar usando solo una base de datos de literatura.
+
+Como parte de eso, en las siguientes secciones consideraremos cuatro tipos
+diferentes de experimentos bioinformáticos: **búsqueda**, **comparación**,
+**modelamiento** e **integración**.

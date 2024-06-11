@@ -1,0 +1,29 @@
+# Ejemplo guiado 1: ZAP70 como potencial diana para terapia inmunosupresiva {.unnumbered}
+
+## Contexto
+
+ZAP70 es una tirosina quinasa citoplasmática que se encuentra principalmente
+en células T y es importante tanto para el desarrollo de las células T como
+para la señalización del receptor de células T (Figura 12). Su deficiencia
+conduce a Inmunodeficiencia combinada severa (SCID, por sus siglas en
+inglés). ZAP70 se considera un blanco relevante para la enfermedad
+autoinmune, donde la activación de las células T juega un papel importante.
+ZAP70 también se sobreexpresa en algunos individuos con leucemia linfocítica
+crónica, y estos individuos tienen un pronóstico especialmente pobre. ZAP70
+podría por lo tanto ser también un blanco terapéutico útil en estos
+pacientes.
+
+![**Figura 12.** Complejo de señalización del receptor de células T
+mostrando donde encaja ZAP70 en la cascada de señalización. Tomado del
+[reporte de Reactome sobre la señalización
+TCR](https://reactome.org/PathwayBrowser/#/R-HSA-202403&SEL=R-HSA-202430&).](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/09/fig_12.png)
+
+## Escenario
+
+Melissa es una bióloga en una gran compañía farmacéutica internacional
+que trabaja en enfermedades autoinmunes. Ella también quiere saber qué
+proteínas están involucradas en la señalización de células T de tal forma
+que pueda identificar blancos de fármacos. Ella ha escuchado que ZAP70 es
+importante para la señalización del receptor de células T y quiere saber más
+sobre él.
+

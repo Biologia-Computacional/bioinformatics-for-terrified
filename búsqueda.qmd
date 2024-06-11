@@ -1,0 +1,40 @@
+# Búsqueda
+
+Tal vez el tipo más simple de experimento bioinformático que puedes realizar
+es buscar en las bases de datos públicas la información sobre un gen o una
+proteína en específico. Con [EBI Search](https://www.ebi.ac.uk/ebisearch/),
+puedes buscar a lo largo de un gran número de bases de datos públicas de
+manera simultánea, sin necesidad de saber de antemano cuál base de datos es
+más relevante para ti (Figura 11).
+
+![**Figura 11.** Tipos de datos que se pueden buscar usando EBI Search.
+Puedes explorar los datos del EMBL-EBI usando una versión interactiva y
+[ampliable](https://www.ebi.ac.uk/ebisearch/overview.ebi/data-coverage) de
+este
+mapa.](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/09/fig_11.png)
+
+Para aprender a usar la búsqueda simple de EBI Search, mira [este corto
+video](https://embl-ebi.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7e4c828c-a0cd-439f-91c1-b108009d95c9)
+(en inglés) con Anna Swan, directora sénior de formación científica del
+EMBL-EBI.
+
+## Controles
+
+Llevar a cabo una búsqueda simple no es necesariamente un experimento y por
+lo tanto no necesita un control. Sin embargo, tan pronto como uses los
+resultados de una búsqueda para responder a una pregunta biológica, se
+convierte en un experimento. Por ejemplo, si quieres encontrar todas las
+secuencias de proteína con la palabra clave 'globin' (globina), esto es una
+búsqueda, no un experimento. Pero si quieres encontrar qué proteína quinasas
+i) hacen parte de una ruta de reacción en particular y ii) están
+sobrerreguladas en un estado particular de una enfermedad, esto es un
+experimento y deberías añadir algunos controles para corroborar que estás
+sacando las conclusiones correctas de los resultados. Por ejemplo, podrías
+corroborar si tus términos de búsqueda mapean a otras rutas no relacionadas.
+Podrías también mirar si tus términos de búsqueda están asociados
+correctamente a la entrada biológica (¿puedes, por ejemplo, encontrar los
+mismos términos en entradas relacionadas?).
+
+Para aprender cómo usar EBI Search para estudiar dianas potenciales, sigue
+el [ejemplo guiado sobre ZAP70](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/bioinformatics-as-an-experimental-science/searching/guided-example-1-zap70-as-a-potential-target-for-immunosuppressive-therapy/).
+

@@ -1,0 +1,25 @@
+# El rol de las bases de datos públicas
+
+## Centros bioinformáticos de excelencia
+
+Hay un pequeño número de centros de bioinformática de excelencia a nivel
+mundial que han tomado la responsabilidad de colectar, catalogar y proveer
+acceso abierto a datos biológicos publicados (Figura 3). Entre estos centros
+están:
+
+- El [EMBL-European Bioinformatics Institute](https://www.ebi.ac.uk/) (EMBL-EBI)
+- El [National Center for Biotechnology
+  Information](http://www.ncbi.nlm.nih.gov/) (NCBI) de Estados Unidos
+- El [National Institute of Genetics](https://www.nig.ac.jp/nig/) en Japón
+  (NIG)
+
+Este trabajo comenzó a principios de la década de 1980 cuando los datos de
+secuencias de ADN se empezaron a acumular en la literatura científica. La
+librería de datos del EMBL (ahora el [European Nucleotide
+Archive](https://www.ebi.ac.uk/ena)) fue desarrollada para almacenar
+secuencias de ADN publicadas en la literatura científica. El GenBank del
+NCBI y el DDBJ del NIG le siguieron.
+
+![**Figura 3.** El rol de los centros de bioinformática de excelencia en
+hacer que los datos biológicos estén disponibles para toda la
+comunidad.](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/09/bx_terrified_fig_3-689x516-1.jpg)
