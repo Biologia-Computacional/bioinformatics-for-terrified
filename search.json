@@ -1,0 +1,158 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bioinformática para los aterrorizados",
+    "section": "",
+    "text": "Resumen del curso",
+    "crumbs": [
+      "Resumen del curso"
+    ]
+  },
+  {
+    "objectID": "index.html#descripción-del-curso",
+    "href": "index.html#descripción-del-curso",
+    "title": "Bioinformática para los aterrorizados",
+    "section": "Descripción del curso",
+    "text": "Descripción del curso\n\n¿Para quién es este curso?\nEste curso está dirigido a investigadores experimentales o de laboratorio que trabajan en las ciencias biológicas moleculares y que tienen poca o ninguna experiencia previa en el uso de bases de datos o herramientas bioinformáticas. Este curso proporcionará una visión general amplia de la bioinformática como área de estudio y los recursos disponibles públicamente a los que los investigadores pueden acceder y utilizar.\nSería una ventaja tener conocimiento a nivel de pregrado de un área relacionada a las ciencias de la vida.\nEste tutorial es parte de Introductory bioinformatics pathway: A curated set of EMBL-EBI online courses, el cual provee una introducción a la bioinformática, una breve guía a los recursos disponibles en el EMBL-EBI y más detalles sobre algunos de esos recursos, incluyendo Ensembl, UniProt y Expression Atlas.\n\n\n¿Qué lograré?\nAl finalizar este curso podrás:\n\nEvaluar el papel de la bioinformática en las ciencias moleculares.\nDescribir las características principales de las bases de datos primarias y secundarias.\nListar las estrategias para describir los datos de manera consistente.\nIdentificar algunos de los diferentes tipos de análisis de datos que se pueden aplicar para resolver problemas biológicos.\n\n\n\n¿Qué recursos necesito?\nNo se requieren recursos específicos para completar este curso.",
+    "crumbs": [
+      "Resumen del curso"
+    ]
+  },
+  {
+    "objectID": "qué-es-bioinformática.html",
+    "href": "qué-es-bioinformática.html",
+    "title": "¿Qué es la bioinformática?",
+    "section": "",
+    "text": "Distinción de la informática médica\nLa bioinformática es distinta de la informática médica: el estudio interdisciplinario del diseño, desarrollo, adopción y aplicación de innovaciones basadas en las tecnologías de la información en la prestación, gestión y planificación de servicios de atención médica. En algún lugar en medio de las dos disciplinas se encuentra la informática biomédica: el área interdisciplinaria que estudia y busca el uso efectivo de datos biomédicos, información y conocimiento para la investigación científica, la resolución de problemas y la toma de decisiones, motivados por los esfuerzos por mejorar la salud humana.\nProyectos iniciados recientemente, como el Proyecto 100.000 genomas, están cerrando las brechas entre estas disciplinas, pero de manera general la bioinformática trata con datos de investigaciones y los usa para propósitos de investigación, la informática médica trata con datos de pacientes individuales para propósitos de gestión clínica (diagnóstico, tratamiento, prevención…) y la informática biomédica intenta hacer un puente entre estos extremos.",
+    "crumbs": [
+      "¿Qué es la bioinformática?"
+    ]
+  },
+  {
+    "objectID": "para-quién.html",
+    "href": "para-quién.html",
+    "title": "1  ¿Para quién es la bioinformática?",
+    "section": "",
+    "text": "Figura 2. Las personas (ficticias) ilustradas aquí, mientras que no son bioinformáticos en el sentido clásico, usan bioinformática para su investigación. Caricaturas cortesía de Jenny Cham, EMBL-EBI.\n\n\nLas ciencias moleculares de la vida se han vuelto cada vez más impulsadas por los datos y dependientes del intercambio de datos a través de bases de datos de acceso abierto (Marx 2013). Esto es tan cierto para las ciencias aplicadas como para la investigación fundamental. Además, no es necesario ser un bioinformático para usar las bases de datos, métodos y herramientas biológicas. Sin embargo, a medida que la generación de grandes conjuntos de datos se vuelve más y más central para la investigación biomédica, se vuelve más necesario para cada científico molecular de la vida entender qué se puede (y, muy importante, qué no se puede) lograr usando la bioinformática, y ser capaz de trabajar con expertos en bioinformática para diseñar, analizar e interpretar sus experimentos (Figura 2).\n\n\n\n\nMarx, Vivien. 2013. «Biology: The big challenges of big data». Nature 498 (7453): 255—260. https://doi.org/10.1038/498255a.",
+    "crumbs": [
+      "¿Qué es la bioinformática?",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>¿Para quién es la bioinformática?</span>"
+    ]
+  },
+  {
+    "objectID": "rol-bases-de-datos.html",
+    "href": "rol-bases-de-datos.html",
+    "title": "El rol de las bases de datos públicas",
+    "section": "",
+    "text": "Centros bioinformáticos de excelencia\nHay un pequeño número de centros de bioinformática de excelencia a nivel mundial que han tomado la responsabilidad de colectar, catalogar y proveer acceso abierto a datos biológicos publicados (Figura 3). Entre estos centros están:\nEste trabajo comenzó a principios de la década de 1980 cuando los datos de secuencias de ADN se empezaron a acumular en la literatura científica. La librería de datos del EMBL (ahora el European Nucleotide Archive) fue desarrollada para almacenar secuencias de ADN publicadas en la literatura científica. El GenBank del NCBI y el DDBJ del NIG le siguieron.",
+    "crumbs": [
+      "El rol de las bases de datos públicas"
+    ]
+  },
+  {
+    "objectID": "rol-bases-de-datos.html#centros-bioinformáticos-de-excelencia",
+    "href": "rol-bases-de-datos.html#centros-bioinformáticos-de-excelencia",
+    "title": "El rol de las bases de datos públicas",
+    "section": "",
+    "text": "El EMBL-European Bioinformatics Institute (EMBL-EBI)\nEl National Center for Biotechnology Information (NCBI) de Estados Unidos\nEl National Institute of Genetics en Japón (NIG)\n\n\n\n\n\nFigura 3. El rol de los centros de bioinformática de excelencia en hacer que los datos biológicos estén disponibles para toda la comunidad.",
+    "crumbs": [
+      "El rol de las bases de datos públicas"
+    ]
+  },
+  {
+    "objectID": "envío-datos.html",
+    "href": "envío-datos.html",
+    "title": "¿A dónde envío mis datos?",
+    "section": "",
+    "text": "¿Cuándo no es apropiado compartir de manera abierta?\nHay dos principales razones que puedes encontrar frecuentemente para no compartir datos abiertamente:",
+    "crumbs": [
+      "¿A dónde envío mis datos?"
+    ]
+  },
+  {
+    "objectID": "envío-datos.html#cuándo-no-es-apropiado-compartir-de-manera-abierta",
+    "href": "envío-datos.html#cuándo-no-es-apropiado-compartir-de-manera-abierta",
+    "title": "¿A dónde envío mis datos?",
+    "section": "",
+    "text": "Para proteger a los individuos: cualquier información con relación a individuos identificables es sensible y debería ser protegida mediante políticas éticas. Puedes aprender mucho más sobre esto en el curso Biomedical data: Ethical, legal and social implications. Aun así, estos datos pueden ser compartidos en bases de datos como el European Genome-Phenome Archive, pero los investigadores que deseen acceder a ellos deben solicitar permiso al comité de ética correspondiente para obtener acceso a los datos para su investigación. Para aprender más sobre la gestión de datos sensibles, escucha este webinar grabado (en inglés): Working with sensitive data.\nPara proteger la propiedad intelectual u otro tipo de información competitiva. Si los datos son potencialmente aplicables en el ámbito comercial (digamos, por ejemplo, que has estado modelando el acoplamiento entre el virus del Zika y proteínas transmembranales y piensas que tienes evidencia de un blanco de superficie celular para una terapia), aun así los datos pueden hacerse públicos pero deberían ser protegidos primero mediante patentes apropiadas.",
+    "crumbs": [
+      "¿A dónde envío mis datos?"
+    ]
+  },
+  {
+    "objectID": "bioinformática-experimental.html",
+    "href": "bioinformática-experimental.html",
+    "title": "La bioinformática como una ciencia experimental",
+    "section": "",
+    "text": "Tipos de experimentos en bioinformática\nHemos explorado cómo los datos bioinformáticos son almacenados y cómo están estructurados y anotados. Ahora aprenderemos cómo puedes obtener los datos y cómo podrías usarlos para informar el proceso de descubrimiento científico.\nExisten un gran número de técnicas para analizar grandes cantidades de datos biológicos. En este curso trataremos las principales bases de datos como una puerta de entrada a la literatura científica con datos adicionales y estructurados para ayudarte a realizar búsquedas más sistemáticas de las que podrías realizar usando solo una base de datos de literatura.\nComo parte de eso, en las siguientes secciones consideraremos cuatro tipos diferentes de experimentos bioinformáticos: búsqueda, comparación, modelamiento e integración.",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental"
+    ]
+  },
+  {
+    "objectID": "búsqueda.html",
+    "href": "búsqueda.html",
+    "title": "2  Búsqueda",
+    "section": "",
+    "text": "2.1 Controles\nLlevar a cabo una búsqueda simple no es necesariamente un experimento y por lo tanto no necesita un control. Sin embargo, tan pronto como uses los resultados de una búsqueda para responder a una pregunta biológica, se convierte en un experimento. Por ejemplo, si quieres encontrar todas las secuencias de proteína con la palabra clave ‘globin’ (globina), esto es una búsqueda, no un experimento. Pero si quieres encontrar qué proteína quinasas i) hacen parte de una ruta de reacción en particular y ii) están sobrerreguladas en un estado particular de una enfermedad, esto es un experimento y deberías añadir algunos controles para corroborar que estás sacando las conclusiones correctas de los resultados. Por ejemplo, podrías corroborar si tus términos de búsqueda mapean a otras rutas no relacionadas. Podrías también mirar si tus términos de búsqueda están asociados correctamente a la entrada biológica (¿puedes, por ejemplo, encontrar los mismos términos en entradas relacionadas?).\nPara aprender cómo usar EBI Search para estudiar dianas potenciales, sigue el ejemplo guiado sobre ZAP70.",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Búsqueda</span>"
+    ]
+  },
+  {
+    "objectID": "ejemplo-guiado-1.html",
+    "href": "ejemplo-guiado-1.html",
+    "title": "Ejemplo guiado 1: ZAP70 como potencial diana para terapia inmunosupresiva",
+    "section": "",
+    "text": "Contexto\nZAP70 es una tirosina quinasa citoplasmática que se encuentra principalmente en células T y es importante tanto para el desarrollo de las células T como para la señalización del receptor de células T (Figura 12). Su deficiencia conduce a Inmunodeficiencia combinada severa (SCID, por sus siglas en inglés). ZAP70 se considera un blanco relevante para la enfermedad autoinmune, donde la activación de las células T juega un papel importante. ZAP70 también se sobreexpresa en algunos individuos con leucemia linfocítica crónica, y estos individuos tienen un pronóstico especialmente pobre. ZAP70 podría por lo tanto ser también un blanco terapéutico útil en estos pacientes.",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "Ejemplo guiado 1: ZAP70 como potencial diana para terapia inmunosupresiva"
+    ]
+  },
+  {
+    "objectID": "ejemplo-guiado-1.html#contexto",
+    "href": "ejemplo-guiado-1.html#contexto",
+    "title": "Ejemplo guiado 1: ZAP70 como potencial diana para terapia inmunosupresiva",
+    "section": "",
+    "text": "Figura 12. Complejo de señalización del receptor de células T mostrando donde encaja ZAP70 en la cascada de señalización. Tomado del reporte de Reactome sobre la señalización TCR.",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "Ejemplo guiado 1: ZAP70 como potencial diana para terapia inmunosupresiva"
+    ]
+  },
+  {
+    "objectID": "ejemplo-guiado-1.html#escenario",
+    "href": "ejemplo-guiado-1.html#escenario",
+    "title": "Ejemplo guiado 1: ZAP70 como potencial diana para terapia inmunosupresiva",
+    "section": "Escenario",
+    "text": "Escenario\nMelissa es una bióloga en una gran compañía farmacéutica internacional que trabaja en enfermedades autoinmunes. Ella también quiere saber qué proteínas están involucradas en la señalización de células T de tal forma que pueda identificar blancos de fármacos. Ella ha escuchado que ZAP70 es importante para la señalización del receptor de células T y quiere saber más sobre él.",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "Ejemplo guiado 1: ZAP70 como potencial diana para terapia inmunosupresiva"
+    ]
+  },
+  {
+    "objectID": "buscando-ZAP70.html",
+    "href": "buscando-ZAP70.html",
+    "title": "3  Buscando a ZAP70 usando EBI-search",
+    "section": "",
+    "text": "En este escenario ayudaremos a Melissa a encontrar más sobre ZAP70 usando EBI Search.\nPara usar EBI Search, simplemente ve a la página principal del EMBL-EBI y escribe ZAP70 en el cuadro de búsqueda. Una vez la búsqueda haya finalizado desplázate hacia abajo para ver los resultados y las piezas de información de los datos.\n\n\n\nFigura 13. EBI Search.\n\n\nEl panel principal de resultados está dividido en tres secciones:\n\nLos Filtros a la izquierda agrupan las bases de datos en grupos que también pueden ser usados para refinar tus resultados.\nLa sección de más arriba, Gene & protein summaries (resúmenes de genes y proteínas), tiene páginas de resúmen para especies frecuentemente estudiadas. Estos resúmenes obtienen datos a partir de numerosos recursos en el EMBL-EBI para juntar información comunmente buscada tal como las secuencias de genes y proteínas, patrones de expresión e información de estructuras tridimensionales.\nDesplázate más abajo y podrás navegar por la lista completa de resultados.\n\n\n\n\nFigura 14. Resultados de EBI Search para ZAP70.\n\n\nA continuación echaremos un vistazo a la sección ‘Gene & protein summaries’ para ZAP70. Haz click en el enlace para ir a través de esta página.\nEn el lado izquierdo verás varias pestañas que te guiarán a la información resumida sobre el gen, su expresión, la proteína, su estructura y cualquier literatura de respaldo.\nExplora estas pestañas para encontrar las respuestas a las siguientes preguntas:\n\n¿En qué cromosoma humano está ZAP70?\n¿En cuál de los siguientes tejidos no están disponibles los datos sobre la expresión basal de ZAP70? Sangre, Cerebro, Epitelio intestinal, Endometrio.\n¿Cuántas isoformas de ZAP70 se han identificado?\n¿Es ZAP70 una proteína tirosina quinasa que atraviesa la membrana plasmática?\n¿Hay roedores con ortólogos 1:1 del ZAP70 humano?\n\n Corrobora tus respuestas en el siguiente quiz.",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Buscando a ZAP70 usando EBI-search</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "Referencias",
+    "section": "",
+    "text": "Marx, Vivien. 2013. “Biology: The Big Challenges of Big\nData.” Nature 498 (7453): 255—260. https://doi.org/10.1038/498255a.",
+    "crumbs": [
+      "Referencias"
+    ]
+  }
+]
