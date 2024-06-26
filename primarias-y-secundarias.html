@@ -6,11 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Laura Manuela Builes Cerón">
-<meta name="author" content="Juan Camilo Arboleda Rivera">
 <meta name="description" content="¿Qué es la bioinformática y dónde encaja con la investigación de laboratorio en ciencias biológicas? Obten más información sobre las herramientas y recursos bioinformáticos disponibles y cómo puedes empezar a aplicarlos en tu investigación.">
 
-<title>Bioinformática para los aterrorizados</title>
+<title>Bioinformática para los aterrorizados - 2&nbsp; Base de datos primarias y secundarias</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,7 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./qué-es-bioinformática.html" rel="next">
+<link href="./envío-datos.html" rel="next">
+<link href="./qué-hace-buena-database.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -72,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Bioinformática para los aterrorizados">
+<meta property="og:title" content="Bioinformática para los aterrorizados - 2&nbsp; Base de datos primarias y secundarias">
 <meta property="og:description" content="¿Qué es la bioinformática y dónde encaja con la investigación de laboratorio en ciencias biológicas? Obten más información sobre las herramientas y recursos bioinformáticos disponibles y cómo puedes empezar a aplicarlos en tu investigación.">
 <meta property="og:image" content="https://trainingcontent.embl.org/sites/default/files/book-images/the_scream.jpg">
 <meta property="og:site_name" content="Bioinformática para los aterrorizados">
@@ -87,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Resumen del curso</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./qué-hace-buena-database.html">¿Qué hace que una base de datos bioinformática sea buena?</a></li><li class="breadcrumb-item"><a href="./primarias-y-secundarias.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Base de datos primarias y secundarias</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -139,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Resumen del curso</span></a>
   </div>
 </li>
@@ -175,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./primarias-y-secundarias.html" class="sidebar-item-text sidebar-link">
+  <a href="./primarias-y-secundarias.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Base de datos primarias y secundarias</span></span></a>
   </div>
 </li>
@@ -232,64 +231,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Tabla de contenidos</h2>
    
   <ul>
-  <li><a href="#resumen-del-curso" id="toc-resumen-del-curso" class="nav-link active" data-scroll-target="#resumen-del-curso">Resumen del curso</a>
-  <ul class="collapse">
-  <li><a href="#descripción-del-curso" id="toc-descripción-del-curso" class="nav-link" data-scroll-target="#descripción-del-curso">Descripción del curso</a>
-  <ul class="collapse">
-  <li><a href="#para-quién-es-este-curso" id="toc-para-quién-es-este-curso" class="nav-link" data-scroll-target="#para-quién-es-este-curso">¿Para quién es este curso?</a></li>
-  <li><a href="#qué-lograré" id="toc-qué-lograré" class="nav-link" data-scroll-target="#qué-lograré">¿Qué lograré?</a></li>
-  <li><a href="#qué-recursos-necesito" id="toc-qué-recursos-necesito" class="nav-link" data-scroll-target="#qué-recursos-necesito">¿Qué recursos necesito?</a></li>
-  </ul></li>
-  </ul></li>
+  <li><a href="#base-de-datos-primarias" id="toc-base-de-datos-primarias" class="nav-link active" data-scroll-target="#base-de-datos-primarias"><span class="header-section-number">2.1</span> Base de datos primarias</a></li>
+  <li><a href="#base-de-datos-secundarias" id="toc-base-de-datos-secundarias" class="nav-link" data-scroll-target="#base-de-datos-secundarias"><span class="header-section-number">2.2</span> Base de datos secundarias</a></li>
+  <li><a href="#bases-de-datos-híbridas-y-familias-de-bases-de-datos" id="toc-bases-de-datos-híbridas-y-familias-de-bases-de-datos" class="nav-link" data-scroll-target="#bases-de-datos-híbridas-y-familias-de-bases-de-datos"><span class="header-section-number">2.3</span> Bases de datos híbridas y familias de bases de datos</a></li>
   </ul>
 <div class="quarto-other-links"><h2>Otros Enlaces</h2><ul><li><a href="https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/"><i class="bi bi-link-45deg"></i>Tutorial original en inglés</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./qué-hace-buena-database.html">¿Qué hace que una base de datos bioinformática sea buena?</a></li><li class="breadcrumb-item"><a href="./primarias-y-secundarias.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Base de datos primarias y secundarias</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Bioinformática para los aterrorizados</h1>
-<p class="subtitle lead">Una introducción a la ciencia de la bioinformática</p>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Base de datos primarias y secundarias</span></h1>
 </div>
 
-<div>
-  <div class="description">
-    <p>¿Qué es la bioinformática y dónde encaja con la investigación de laboratorio en ciencias biológicas? Obten más información sobre las herramientas y recursos bioinformáticos disponibles y cómo puedes empezar a aplicarlos en tu investigación.</p>
-  </div>
-</div>
 
-<div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Autores/as</div>
-  <div class="quarto-title-meta-heading">Afiliación</div>
-  
-    <div class="quarto-title-meta-contents">
-    <p class="author">Laura Manuela Builes Cerón <a href="mailto:manuela.builes@udea.edu.co" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            Universidad de Antioquia
-          </p>
-      </div>
-    <div class="quarto-title-meta-contents">
-    <p class="author"><a href="https://nesper94.github.io/">Juan Camilo Arboleda Rivera</a> <a href="mailto:juan.arboleda2@udea.edu.co" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-0030-056X" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            Universidad de Antioquia
-          </p>
-      </div>
-  </div>
 
 <div class="quarto-title-meta">
 
-      
-    <div>
-    <div class="quarto-title-meta-heading">Fecha de publicación</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">11 de junio de 2024</p>
-    </div>
-  </div>
+    
   
     
   </div>
@@ -299,59 +259,50 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="resumen-del-curso" class="level1 unnumbered">
-<h1 class="unnumbered">Resumen del curso</h1>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Nota
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Este tutorial es una traducción realizada por el <a href="https://biologia-computacional.github.io/">Grupo de Biología Computacional</a> de la Universidad de Antioquia. Encuentra el tutorial original <a href="https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/">en este enlace</a>.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Advertencia
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Esta traducción no está finalizada, estamos trabajando para completarla.</p>
-</div>
-</div>
-<section id="descripción-del-curso" class="level2">
-<h2 class="anchored" data-anchor-id="descripción-del-curso">Descripción del curso</h2>
-<section id="para-quién-es-este-curso" class="level3">
-<h3 class="anchored" data-anchor-id="para-quién-es-este-curso">¿Para quién es este curso?</h3>
-<p>Este curso está dirigido a investigadores experimentales o de laboratorio que trabajan en las ciencias biológicas moleculares y que tienen poca o ninguna experiencia previa en el uso de bases de datos o herramientas bioinformáticas. Este curso proporcionará una visión general amplia de la bioinformática como área de estudio y los recursos disponibles públicamente a los que los investigadores pueden acceder y utilizar.</p>
-<p>Sería una ventaja tener conocimiento a nivel de pregrado de un área relacionada a las ciencias de la vida.</p>
-<p>Este tutorial es parte de <a href="https://www.ebi.ac.uk/training/online/courses/introductory-bioinformatics-pathway/">Introductory bioinformatics pathway: A curated set of EMBL-EBI online courses</a>, el cual provee una introducción a la bioinformática, una breve guía a los recursos disponibles en el EMBL-EBI y más detalles sobre algunos de esos recursos, incluyendo Ensembl, UniProt y Expression Atlas.</p>
+<section id="base-de-datos-primarias" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="base-de-datos-primarias"><span class="header-section-number">2.1</span> Base de datos primarias</h2>
+<p>En la bioinformática, y de hecho en otros campos de investigación intensivos en datos, las bases de datos a menudo se clasifican como primarias o secundarias (Tabla 2). Las <strong>base de datos primarias</strong> se completan con datos derivados experimentalmente como secuencias de nucleótidos, secuencias de proteínas o estructuras macromoleculares. Los resultados experimentales se suben directamente a la base de datos por los investigadores, y los datos son esencialmente de naturaleza archivística. Una vez que se le haya dado un número de acceso a la base de datos, los datos en las bases de datos primarias nunca son cambiados: estos hacen parte de un registro científico.</p>
 </section>
-<section id="qué-lograré" class="level3">
-<h3 class="anchored" data-anchor-id="qué-lograré">¿Qué lograré?</h3>
-<p>Al finalizar este curso podrás:</p>
-<ul>
-<li>Evaluar el papel de la bioinformática en las ciencias moleculares.</li>
-<li>Describir las características principales de las bases de datos primarias y secundarias.</li>
-<li>Listar las estrategias para describir los datos de manera consistente.</li>
-<li>Identificar algunos de los diferentes tipos de análisis de datos que se pueden aplicar para resolver problemas biológicos.</li>
-</ul>
+<section id="base-de-datos-secundarias" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="base-de-datos-secundarias"><span class="header-section-number">2.2</span> Base de datos secundarias</h2>
+<p>Por el contrario, las <strong>base de datos secundarias</strong> contienen datos derivados de los resultados del análisis de los datos primarios. A menudo se les conoce como base de datos curada pero este es un nombre poco apropiado porque las bases de datos primarias también son curadas para asegurar que los datos que contienen sean consistentes y precisos.</p>
+<p>Las base de datos secundarias suelen recopilar información de diversas fuentes, incluidas otras base de datos (primarias y secundarias), vocabularios controlados (ver sección posterior) y la literatura científica. Estas bases de datos están altamente curadas, frecuentemente utilizan una combinación compleja de algoritmos computacionales y análisis e interpretación manuales para derivar nuevos conocimientos a partir del registro público de la ciencia.</p>
+<p>En la última década aproximadamente, las bases de datos secundarias se han convertido en la biblioteca de referencia del biólogo molecular, proporcionando una gran cantidad (a menudo abrumadora) de información sobre prácticamente cualquier gen o producto génico que haya sido investigado por la comunidad científica. El potencial para explorar esta información y hacer nuevos descubrimientos es enorme. Nuestro objetivo en este curso es reducir tu energía de activación para que puedas aprovechar al máximo estos recursos en tu investigación.</p>
+<p><strong>Tabla 2.</strong> Apectos escenciales de las bases de datos primarias y secundarias.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th>Base de datos primaria</th>
+<th>Base de datos secundaria</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Sinónimos</strong></td>
+<td>Base de datos de archivo</td>
+<td>Base de datos curada; base de conocimiento</td>
+</tr>
+<tr class="even">
+<td><strong>Fuente de datos</strong></td>
+<td>Subido directamente de datos obtenidos experimentalmente por parte de los investigadores</td>
+<td>Resultados de análisis, investigación bibliográfica y su interpretación, usualmente de información en bases de datos primarias</td>
+</tr>
+<tr class="odd">
+<td><strong>Ejemplos</strong></td>
+<td><a href="https://www.ebi.ac.uk/ena/browser/home">ENA</a>, <a href="https://www.ncbi.nlm.nih.gov/genbank/">GenBank</a> y <a href="https://www.ddbj.nig.ac.jp/index-e.html">DDBJ</a> (secuencias de nucleótidos) <a href="https://www.ebi.ac.uk/biostudies/arrayexpress">ArrayExpress</a> y <a href="https://www.ncbi.nlm.nih.gov/geo/">GEO</a> (datos de genómica funcional) <a href="https://www.ebi.ac.uk/pdbe/">Protein Data Bank</a> (PDB; coordenadas de estructuras macromoleculares tridimensionales)</td>
+<td><a href="https://www.ebi.ac.uk/interpro/">InterPro</a> (familias, motivos y dominios de proteínas) <a href="https://www.uniprot.org/help/uniprotkb">UniProt Knowledgebase</a> (secuencias e información funcional de las proteínas) <a href="https://www.ensembl.org/index.html">Ensembl</a> (variación, función, regulación y otros aspectos incorporados en secuencias completas del genoma)</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="qué-recursos-necesito" class="level3">
-<h3 class="anchored" data-anchor-id="qué-recursos-necesito">¿Qué recursos necesito?</h3>
-<p>No se requieren recursos específicos para completar este curso.</p>
+<section id="bases-de-datos-híbridas-y-familias-de-bases-de-datos" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="bases-de-datos-híbridas-y-familias-de-bases-de-datos"><span class="header-section-number">2.3</span> Bases de datos híbridas y familias de bases de datos</h2>
+<p>Muchos recursos de datos tienen características tanto primarias como secundarias. Por ejemplo, <a href="https://www.uniprot.org/">UniProt</a> acepta secuencias primarias originadas de experimentos de secuenciación de péptidos. No obstante, UniProt también infiere secuencias de péptidos a partir de información genómica, y proporciona una gran cantidad de información adicional, alguna proveniente de anotaciones automáticas (TrEMBL) e incluso de un análisis manual cuidadoso (<a href="https://www.expasy.org/resources/uniprotkb-swiss-prot">SwissProt</a>).</p>
+<p>Algunas bases de datos tienen diferentes ‘ramas’ para datos primarios y secundarios. Un buen ejemplo de esto es la <a href="https://www.ebi.ac.uk/biostudies/arrayexpress">colección de datos de ArrayExpress en BioStudies</a>: ArrayExpress contiene datos de genómica funcional derivados experimentalmente, mientras que <a href="https://www.ebi.ac.uk/gxa/home">Expression Atlas</a> utiliza un subconjunto de datos de alta calidad de la colección ArrayExpress para obtener conocimiento sobre patrones de expresión génica en diferentes condiciones.</p>
+<p>Para aprender más sobre algunas las bases de datos de EMBL-EBI, prueba el tutorial virtual <a href="https://www.ebi.ac.uk/training/online/courses/a-journey-through-bioinformatics/">A journey through bioinformatics: Explore resources from EMBL-EBI</a>.</p>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -771,10 +722,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./qué-hace-buena-database.html" class="pagination-link" aria-label="¿Qué hace que una base de datos bioinformática sea buena?">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">¿Qué hace que una base de datos bioinformática sea buena?</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./qué-es-bioinformática.html" class="pagination-link" aria-label="¿Qué es la bioinformática?">
-        <span class="nav-page-text">¿Qué es la bioinformática?</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./envío-datos.html" class="pagination-link" aria-label="¿A dónde envío mis datos?">
+        <span class="nav-page-text">¿A dónde envío mis datos?</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

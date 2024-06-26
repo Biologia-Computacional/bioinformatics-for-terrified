@@ -61,6 +61,49 @@
     ]
   },
   {
+    "objectID": "qué-hace-buena-database.html",
+    "href": "qué-hace-buena-database.html",
+    "title": "¿Qué hace que una base de datos bioinformática sea buena?",
+    "section": "",
+    "text": "Si bien el registro de datos biológicos en sí es útil, la manera en la que es registrada hace una gran diferencia en el valor de la base de datos tanto para los científicos como para los informáticos.\nEn esta sección discutiremos dos tipos diferentes de base de datos públicas y los mecanismos que utilizan para describir los datos de manera consistente.",
+    "crumbs": [
+      "¿Qué hace que una base de datos bioinformática sea buena?"
+    ]
+  },
+  {
+    "objectID": "primarias-y-secundarias.html",
+    "href": "primarias-y-secundarias.html",
+    "title": "2  Base de datos primarias y secundarias",
+    "section": "",
+    "text": "2.1 Base de datos primarias\nEn la bioinformática, y de hecho en otros campos de investigación intensivos en datos, las bases de datos a menudo se clasifican como primarias o secundarias (Tabla 2). Las base de datos primarias se completan con datos derivados experimentalmente como secuencias de nucleótidos, secuencias de proteínas o estructuras macromoleculares. Los resultados experimentales se suben directamente a la base de datos por los investigadores, y los datos son esencialmente de naturaleza archivística. Una vez que se le haya dado un número de acceso a la base de datos, los datos en las bases de datos primarias nunca son cambiados: estos hacen parte de un registro científico.",
+    "crumbs": [
+      "¿Qué hace que una base de datos bioinformática sea buena?",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Base de datos primarias y secundarias</span>"
+    ]
+  },
+  {
+    "objectID": "primarias-y-secundarias.html#base-de-datos-secundarias",
+    "href": "primarias-y-secundarias.html#base-de-datos-secundarias",
+    "title": "2  Base de datos primarias y secundarias",
+    "section": "2.2 Base de datos secundarias",
+    "text": "2.2 Base de datos secundarias\nPor el contrario, las base de datos secundarias contienen datos derivados de los resultados del análisis de los datos primarios. A menudo se les conoce como base de datos curada pero este es un nombre poco apropiado porque las bases de datos primarias también son curadas para asegurar que los datos que contienen sean consistentes y precisos.\nLas base de datos secundarias suelen recopilar información de diversas fuentes, incluidas otras base de datos (primarias y secundarias), vocabularios controlados (ver sección posterior) y la literatura científica. Estas bases de datos están altamente curadas, frecuentemente utilizan una combinación compleja de algoritmos computacionales y análisis e interpretación manuales para derivar nuevos conocimientos a partir del registro público de la ciencia.\nEn la última década aproximadamente, las bases de datos secundarias se han convertido en la biblioteca de referencia del biólogo molecular, proporcionando una gran cantidad (a menudo abrumadora) de información sobre prácticamente cualquier gen o producto génico que haya sido investigado por la comunidad científica. El potencial para explorar esta información y hacer nuevos descubrimientos es enorme. Nuestro objetivo en este curso es reducir tu energía de activación para que puedas aprovechar al máximo estos recursos en tu investigación.\nTabla 2. Apectos escenciales de las bases de datos primarias y secundarias.\n\n\n\n\nBase de datos primaria\nBase de datos secundaria\n\n\n\n\nSinónimos\nBase de datos de archivo\nBase de datos curada; base de conocimiento\n\n\nFuente de datos\nSubido directamente de datos obtenidos experimentalmente por parte de los investigadores\nResultados de análisis, investigación bibliográfica y su interpretación, usualmente de información en bases de datos primarias\n\n\nEjemplos\nENA, GenBank y DDBJ (secuencias de nucleótidos) ArrayExpress y GEO (datos de genómica funcional) Protein Data Bank (PDB; coordenadas de estructuras macromoleculares tridimensionales)\nInterPro (familias, motivos y dominios de proteínas) UniProt Knowledgebase (secuencias e información funcional de las proteínas) Ensembl (variación, función, regulación y otros aspectos incorporados en secuencias completas del genoma)",
+    "crumbs": [
+      "¿Qué hace que una base de datos bioinformática sea buena?",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Base de datos primarias y secundarias</span>"
+    ]
+  },
+  {
+    "objectID": "primarias-y-secundarias.html#bases-de-datos-híbridas-y-familias-de-bases-de-datos",
+    "href": "primarias-y-secundarias.html#bases-de-datos-híbridas-y-familias-de-bases-de-datos",
+    "title": "2  Base de datos primarias y secundarias",
+    "section": "2.3 Bases de datos híbridas y familias de bases de datos",
+    "text": "2.3 Bases de datos híbridas y familias de bases de datos\nMuchos recursos de datos tienen características tanto primarias como secundarias. Por ejemplo, UniProt acepta secuencias primarias originadas de experimentos de secuenciación de péptidos. No obstante, UniProt también infiere secuencias de péptidos a partir de información genómica, y proporciona una gran cantidad de información adicional, alguna proveniente de anotaciones automáticas (TrEMBL) e incluso de un análisis manual cuidadoso (SwissProt).\nAlgunas bases de datos tienen diferentes ‘ramas’ para datos primarios y secundarios. Un buen ejemplo de esto es la colección de datos de ArrayExpress en BioStudies: ArrayExpress contiene datos de genómica funcional derivados experimentalmente, mientras que Expression Atlas utiliza un subconjunto de datos de alta calidad de la colección ArrayExpress para obtener conocimiento sobre patrones de expresión génica en diferentes condiciones.\nPara aprender más sobre algunas las bases de datos de EMBL-EBI, prueba el tutorial virtual A journey through bioinformatics: Explore resources from EMBL-EBI.",
+    "crumbs": [
+      "¿Qué hace que una base de datos bioinformática sea buena?",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Base de datos primarias y secundarias</span>"
+    ]
+  },
+  {
     "objectID": "envío-datos.html",
     "href": "envío-datos.html",
     "title": "¿A dónde envío mis datos?",
@@ -93,12 +136,12 @@
   {
     "objectID": "búsqueda.html",
     "href": "búsqueda.html",
-    "title": "2  Búsqueda",
+    "title": "3  Búsqueda",
     "section": "",
-    "text": "2.1 Controles\nLlevar a cabo una búsqueda simple no es necesariamente un experimento y por lo tanto no necesita un control. Sin embargo, tan pronto como uses los resultados de una búsqueda para responder a una pregunta biológica, se convierte en un experimento. Por ejemplo, si quieres encontrar todas las secuencias de proteína con la palabra clave ‘globin’ (globina), esto es una búsqueda, no un experimento. Pero si quieres encontrar qué proteína quinasas i) hacen parte de una ruta de reacción en particular y ii) están sobrerreguladas en un estado particular de una enfermedad, esto es un experimento y deberías añadir algunos controles para corroborar que estás sacando las conclusiones correctas de los resultados. Por ejemplo, podrías corroborar si tus términos de búsqueda mapean a otras rutas no relacionadas. Podrías también mirar si tus términos de búsqueda están asociados correctamente a la entrada biológica (¿puedes, por ejemplo, encontrar los mismos términos en entradas relacionadas?).\nPara aprender cómo usar EBI Search para estudiar dianas potenciales, sigue el ejemplo guiado sobre ZAP70.",
+    "text": "3.1 Controles\nLlevar a cabo una búsqueda simple no es necesariamente un experimento y por lo tanto no necesita un control. Sin embargo, tan pronto como uses los resultados de una búsqueda para responder a una pregunta biológica, se convierte en un experimento. Por ejemplo, si quieres encontrar todas las secuencias de proteína con la palabra clave ‘globin’ (globina), esto es una búsqueda, no un experimento. Pero si quieres encontrar qué proteína quinasas i) hacen parte de una ruta de reacción en particular y ii) están sobrerreguladas en un estado particular de una enfermedad, esto es un experimento y deberías añadir algunos controles para corroborar que estás sacando las conclusiones correctas de los resultados. Por ejemplo, podrías corroborar si tus términos de búsqueda mapean a otras rutas no relacionadas. Podrías también mirar si tus términos de búsqueda están asociados correctamente a la entrada biológica (¿puedes, por ejemplo, encontrar los mismos términos en entradas relacionadas?).\nPara aprender cómo usar EBI Search para estudiar dianas potenciales, sigue el ejemplo guiado sobre ZAP70.",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Búsqueda</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Búsqueda</span>"
     ]
   },
   {
@@ -137,12 +180,12 @@
   {
     "objectID": "buscando-ZAP70.html",
     "href": "buscando-ZAP70.html",
-    "title": "3  Buscando a ZAP70 usando EBI-search",
+    "title": "4  Buscando a ZAP70 usando EBI-search",
     "section": "",
     "text": "En este escenario ayudaremos a Melissa a encontrar más sobre ZAP70 usando EBI Search.\nPara usar EBI Search, simplemente ve a la página principal del EMBL-EBI y escribe ZAP70 en el cuadro de búsqueda. Una vez la búsqueda haya finalizado desplázate hacia abajo para ver los resultados y las piezas de información de los datos.\n\n\n\nFigura 13. EBI Search.\n\n\nEl panel principal de resultados está dividido en tres secciones:\n\nLos Filtros a la izquierda agrupan las bases de datos en grupos que también pueden ser usados para refinar tus resultados.\nLa sección de más arriba, Gene & protein summaries (resúmenes de genes y proteínas), tiene páginas de resúmen para especies frecuentemente estudiadas. Estos resúmenes obtienen datos a partir de numerosos recursos en el EMBL-EBI para juntar información comunmente buscada tal como las secuencias de genes y proteínas, patrones de expresión e información de estructuras tridimensionales.\nDesplázate más abajo y podrás navegar por la lista completa de resultados.\n\n\n\n\nFigura 14. Resultados de EBI Search para ZAP70.\n\n\nA continuación echaremos un vistazo a la sección ‘Gene & protein summaries’ para ZAP70. Haz click en el enlace para ir a través de esta página.\nEn el lado izquierdo verás varias pestañas que te guiarán a la información resumida sobre el gen, su expresión, la proteína, su estructura y cualquier literatura de respaldo.\nExplora estas pestañas para encontrar las respuestas a las siguientes preguntas:\n\n¿En qué cromosoma humano está ZAP70?\n¿En cuál de los siguientes tejidos no están disponibles los datos sobre la expresión basal de ZAP70? Sangre, Cerebro, Epitelio intestinal, Endometrio.\n¿Cuántas isoformas de ZAP70 se han identificado?\n¿Es ZAP70 una proteína tirosina quinasa que atraviesa la membrana plasmática?\n¿Hay roedores con ortólogos 1:1 del ZAP70 humano?\n\n Corrobora tus respuestas en el siguiente quiz.",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Buscando a ZAP70 usando EBI-search</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Buscando a ZAP70 usando EBI-search</span>"
     ]
   },
   {
