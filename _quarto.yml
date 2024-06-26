@@ -24,6 +24,9 @@ book:
         - buscando-ZAP70.qmd
     - references.qmd
 
+  sidebar:
+    logo: https://trainingcontent.embl.org/sites/default/files/book-images/the_scream.jpg
+
   translator:
     - name: Laura Manuela Builes Cerón
     - name: Juan Camilo Arboleda Rivera
