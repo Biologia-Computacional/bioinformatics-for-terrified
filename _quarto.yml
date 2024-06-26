@@ -13,6 +13,9 @@ book:
       chapters:
         - para-quién.qmd
     - part: rol-bases-de-datos.qmd
+    - part: qué-hace-buena-database.qmd
+      chapters:
+        - primarias-y-secundarias.qmd
     - part: envío-datos.qmd
     - part: bioinformática-experimental.qmd
       chapters:
@@ -93,5 +96,3 @@ format:
   html:
     theme: cosmo
     link-external-newwindow: true
-  pdf:
-    documentclass: scrreprt
