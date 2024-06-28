@@ -62,6 +62,9 @@ book:
     herramientas y recursos bioinformáticos disponibles y cómo puedes empezar a
     aplicarlos en tu investigación.
 
+  repo-url: https://github.com/Biologia-Computacional/bioinformatics-for-terrified
+  repo-actions: [issue]
+
   sharing:
     - twitter
     - facebook
