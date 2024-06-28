@@ -25,6 +25,12 @@ book:
         - quiz_ZAP70.qmd
         - comparando.qmd
         - ejemplo-guiado-2.qmd
+        - examinando-ZAP70.qmd
+        - modelamiento.qmd
+        - ejemplo-guiado-3.qmd
+        - paso-1-IRAK2.qmd
+        - paso-2-construir-modelo.qmd
+        - integrando.qmd
     - references.qmd
 
   sidebar:

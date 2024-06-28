@@ -1,0 +1,17 @@
+# Integrando
+
+La integración de los datos es desde hace tiempo un reto para la
+bioinformática (Figura 18) pero puede ser una forma tremendamente poderosa de
+compilar evidencia a favor de o en contra de una hipótesis. Por ejemplo,
+integrar datos de experimentos de transcriptómica, proteómica y metabolómica
+puede ayudar a tener evidencias de que una ruta en particular está
+involucrada en una enfermedad, o en la resistencia a un medicamento.
+
+![**Figura 18.** Algunos de los retos asociados con la integración de los
+datos. Basado en una figura otorgada por Sandra
+Orchard.](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/09/fig_15_cropped.jpg)
+
+Como con el modelamiento de sistemas, la integración de los datos te ayuda a
+generar hipótesis, pero debe ser combinada con enfoques experimentales para
+probar tus hipótesis.
+

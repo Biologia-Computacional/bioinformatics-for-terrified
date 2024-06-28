@@ -1,0 +1,48 @@
+# Paso 1: descargando la secuencia de la IRAK2 humana y una primera aproximación a la modelación
+
+{{< fa pencil >}} Ve a [EBI Search](https://www.ebi.ac.uk/ebisearch/) y
+escribe IRAK2 en el cuadro de búsqueda. Encuentra la IRAK2 humana y descarga
+su secuencia en formato FASTA, o copia la secuencia de aquí:
+
+```
+>sp|O43187|IRAK2_HUMAN Interleukin-1 receptor-associated kinase-like 2 OS=Homo sapiens GN=IRAK2 PE=1 SV=2 MACYIYQLPSWVLDDLCRNMDALSEWDWMEFASYVITDLTQLRKIKSMERVQGVSITRELLWWWGMRQAT
+VQQLVDLLCRLELYRAAQIILNWKPAPEIRCPIPAFPDSVKPEKPLAASVRKAEDEQEEGQPVRMATFPG
+PGSSPARAHQPAFLQPPEEDAPHSLRSDLPTSSDSKDFSTSIPKQEKLLSLAGDSLFWSEADVVQATDDF
+NQNRKISQGTFADVYRGHRHGKPFVFKKLRETACSSPGSIERFFQAELQICLRCCHPNVLPVLGFCAARQ
+FHSFIYPYMANGSLQDRLQGQGGSDPLPWPQRVSICSGLLCAVEYLHGLEIIHSNVKSSNVLLDQNLTPK
+LAHPMAHLCPVNKRSKYTMMKTHLLRTSAAYLPEDFIRVGQLTKRVDIFSCGIVLAEVLTGIPAMDNNRS
+PVYLKDLLLSDIPSSTASLCSRKTGVENVMAKEICQKYLEKGAGRLPEDCAEALATAACLCLRRRNTSLQ
+EVCGSVAAVEERLRGRETLLPWSGLSEGTGSSSNTPEETDDVDNSSLDASSSMSVAPWAGAATPLLPTEN
+GEGRLRVIVGREADSSSEACVGLEPPQDVTETSWQIEINEAKRKLMENILLYKEEKVDSIELFGP
+```
+
+Ahora ve al servicio [SWISS-MODEL](http://swissmodel.expasy.org/) en el
+Instituto Suizo de Bioinformática. Haz click en el botón 'Start modelling' y
+pega tu secuencia en el cuadro. Haz click en 'Build model'. SwissModel
+elegirá plantillas automáticamente basado en la secuencia de proteína
+alineada más cercanamente que tenga una estructura tridimensional
+disponible, y modelará la estructura basada en ella (Figura 16).
+
+![**Figura 16.** Resultados del
+modelo.](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/09/fig_13.png)
+
+## Controles
+
+Hay muchos enfoques para evaluar modelos. Uno es revisar que valores tales
+como los ángulos de enlace, distancias, etc. en el modelo concuerden con lo
+que se ha observado en estructuras derivadas experimentalmente. En
+SWISS-MODEL el puntaje QMEAN z representa un estimado de qué tan comparable es
+el modelo con estructuras derivadas experimentalmente de tamaño similar.
+Puntajes QMEAN z alrededor de cero indican una buena concordancia entre la
+estructura del modelo y estructuras experimentales de tamaño similar.
+Modelos de baja calidad típicamente tienen puntajes de -4.0 o menos. Los
+símbolos de "pulgares arriba" y "pulgares abajo" al lado del puntaje se usan
+para indicar si el modelo es de buena calidad o no
+[@swissinstituteofbioinformatics]. Otro enfoque es tener en cuenta las
+observaciones de la calidad del método de alineamiento y búsqueda de
+plantillas (esto es representado en el puntaje GMQE (Global Model Quality
+Estimation)). El puntaje GMQE refleja la precisión esperada de ese
+alineamiento y se expresa como un número entre 0 y 1 donde números mayores
+indican mayor confiabilidad [@swissinstituteofbioinformatics]. Para más
+información lee las páginas de documentación de
+[SWISS-MODEL](https://swissmodel.expasy.org/docs/help).

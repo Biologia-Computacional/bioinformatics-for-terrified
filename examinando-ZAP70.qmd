@@ -1,0 +1,46 @@
+# Examinando la secuencia de ZAP70 con InterProScan
+
+{{< fa pencil >}} En este escenario usaremos
+[InterPro](https://www.ebi.ac.uk/interpro/search/sequence-search) para
+comparar la secuencia de la proteína ZAP70 de oveja con todas las secuencias
+en InterPro, un recurso que provee análisis funcional de secuencias de
+proteínas clasificándolas en familias y prediciendo la presencia de dominios
+y sitios importantes.
+
+```
+>tr|W5PW03|W5PW03_SHEEP Non-specific protein-tyrosine kinase (Fragment) OS=Ovis aries GN=ZAP70 PE=4 SV=1
+PRPAAHLPFFYGSISRAEAEEHLKLAGMADGLFLLRQCLRSLGGYVLSLVHEVRFHHFPIERQLNGTYA
+IAGGKAHCGPAELCEFYSRDPDGLPCNLRKPCNRPSGLEPQPGVFDNLRDAMVRDYVRQTWKLEGEALE
+QAIISQAPQVEKLIATTAHERMPWYHSSLTREEAERKLYSGSQTDGKFLLRPRKEPGTYALSLIYGKTV
+YHYLISQDKAGKYCIPEGTKFDTLWQLVEYLKLKADGLIYCLKEACPNSSASSGAAAPTLPAHPSTFTQ
+PQRRIDTLNSDGYTPEPVRLVSSEKPRTMPMDTSVYESPYSDPEELKNKKLFLKRENLLMADIELGCGN
+FGSVRQGVYRMRKKQIDVAIKVLKQSTEKGDKDEMMREAQIMHQLDNPYIVRLIGVCQAEALMLVMEMA
+GGGPLHKFLVGKKEEIPVSNVAELLHQVSMGMKYLEEKNFVHRDLAARNVLLVNRHYAKISDFGLSKAL
+GADDSYYTARSAGKWPLKWYAPECINFRKFSSRSDVWSYGVTMWEAFSYGQKPYKKMKGPEVMAFIEQG
+KRMECPPEC
+```
+
+Primero, vamos a
+[InterPro](https://www.ebi.ac.uk/interpro/search/sequence/), luego copia y
+pega la secuencia en el cuadro de búsqueda de InterPro, como se muestra
+abajo, y haz click en el botón "Search". Tu búsqueda tomará un tiempo en
+correr; se paciente.
+
+![**Figura 15.** Búsqueda por secuencia en InterPro.](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/10/InterPro-search-wide.png)
+
+En la parte superior de los resultados, verás noticias tranquilizadoras de
+que la isoforma ZAP70 de oveja es de hecho un miembro de la familia de la
+tirosina proteína quinasa. Al desplazarte hacia abajo verás que tiene dos
+dominios SH2 y un dominio proteína tirosina quinasa (ve el video de abajo
+sobre los resultados). Una cosa para revisar es si nuestra secuencia
+concuerda con los patrones para el sitio activo y el sitio de unión a ATP,
+dado que cualquier mutación en esta área puede hacer a la proteína
+enzimáticamente inactiva. En este caso, sin embargo, podemos ver que la
+isoforma ZAP70 de oveja contiene el perfil proteíco tanto para el sitio de
+unión a ATP como para el sitio activo (hacia el final de la página).
+
+¡Melissa debería poder utilizar células de oveja en su ensayo para probar
+inhibidores de tirosina proteína quinasa!
+
+{{< video https://youtu.be/ywWTnzwOccQ >}}
+

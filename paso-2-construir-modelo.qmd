@@ -1,0 +1,17 @@
+# Paso 2: construyendo un modelo basado en una plantilla elegida por ti
+
+![**Figura 17.** Escogiendo tu propia plantilla
+estructural.](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/09/fig_14.png)
+
+También puedes escoger tu propia plantilla estructural. Haz click en 'Search
+for templates'. SWISS-MODEL buscará estructuras en el PDB que tengan una
+secuencia cercanamente relacionada (Figura 17). Se paciente; puede tomar
+algún tiempo generar tu lista de plantillas. Una vez hayas hecho esto,
+puedes alinear tantas de estas plantillas como quieras a tu secuencia
+blanco. Aquí hemos escogido estructuras para IRAK4 (2oib.2.A), el receptor
+quinasa 1 asociado a brasinosteroide insensible 1 (3tl8.2.A) y JAK2
+(4bbe.1.A). Estas tres estructuras se alinean de manera bastante cercana
+entre sí. Basado en esta evidencia, podría valer la pena hacer algunos
+ensayos para ver si inhibidores conocidos de estas enzimas también inhiben a
+IRAK2.
+

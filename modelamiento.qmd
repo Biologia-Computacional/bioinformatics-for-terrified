@@ -1,0 +1,29 @@
+# Modelamiento
+
+El modelamiento estructural puede ser usado para generar hipótesis sobre la
+estructura (y por lo tanto para implicar cosas sobre la función bioquímica)
+de las macromoléculas.
+
+El modelamiento de procesos es un aspecto importante de la biología de
+sistemas. Una [revisión por Bartocci y
+Lió](http://dx.doi.org/10.1371/journal.pcbi.1004591) [-@bartocci2016] provee
+un buen resumen de los tipos de procesos que son susceptibles al
+modelamiento de sistemas, y algunos ejemplos de herramientas que te
+permitirán hacer esto. Puedes descargar modelos matemáticos en un número de
+formatos estándar de la base de datos
+[BioModels](https://www.ebi.ac.uk/biomodels/). Dale un vistazo a [Biomodels:
+Quick
+tour](https://www.ebi.ac.uk/training/online/course/biomodels-database-quick-tour)
+para aprender más sobre esto.
+
+El modelamiento de sistemas forma parte de un ciclo en el cual la biología
+experimental juega un papel igualmente importante: un ciclo típico de
+modelamiento de sistemas involucra construir un modelo que represente lo que
+sabes sobre la biología y luego probar si se comporta de la misma manera que
+el sistema biológico en sí mismo. Si no lo hace, ajustas el modelo para que
+se parezca más al sistema biológico y se repite el ciclo hasta que tu modelo
+represente más fielmente la realidad.
+
+Prueba el ejemplo guiado sobre [modelamiento estructural de
+IRAK2](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/bioinformatics-as-an-experimental-science/modelling/guided-example-3-building-a-structural-model-based-on-sequence-similarity/).
+

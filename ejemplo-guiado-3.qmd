@@ -1,0 +1,19 @@
+# Ejemplo guiado 3: Construyendo un modelo estructural basado en similaridad de secuencias
+
+El modelamiento por homología es el proceso de estimar una estructura
+teórica de una proteína construyendo una plantilla estructural a partir de
+secuencias homólogas y ajustar tu secuencia a esta plantilla y optimizarla.
+
+## Escenario
+
+Juliana está interesada en quinasas asociadas al receptor de la
+interleuquina 1 (IRAKs, por sus siglas en inglés) como posibles blancos para
+terapia contra el cáncer. Muchas mutaciones en IRAK2 están asociadas con
+diferentes tipos de cáncer, de tal forma que a Juliana le gustaría
+investigar IRAK2 como un posible nuevo blanco. Hay unas cuantas pequeñas
+moléculas inhibidoras disponibles para proteínas relacionadas y Juliana
+quiere saber si estas se podrían unir a IRAK2. Sin embargo, no hay una
+estructura cristalográfica disponible para el dominio quinasa de IRAK2, así
+que Juliana quiere modelar la estructura para ver si es probable que se
+parezca a las estructuras 3D de otras IRAKs.
+
