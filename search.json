@@ -189,6 +189,50 @@
     ]
   },
   {
+    "objectID": "quiz_ZAP70.html",
+    "href": "quiz_ZAP70.html",
+    "title": "5  Revisa tu aprendizaje",
+    "section": "",
+    "text": "¿En qué cromosoma está el ZAP70 humano?\n\n\n\n\n\n ✗Cromosoma 22\n\n\n ✓Cromosoma 2\n\n\n ✗Cromosoma X\n\n\n\n\n\n\n\n¿En cuál de los siguientes tejidos NO están disponibles los datos de expresión basal para ZAP70?\n\n\n\n\n\n ✗Cerebro\n\n\n ✓Epitelio intestinal\n\n\n ✗Sangre\n\n\n\n\n\n\n\n¿Hay roedores con ortólogos 1:1 del ZAP70 humano?\n\n\n\n\n\n ✗No\n\n\n ✓Sí\n\n\n\n\n\n\n\n¿Cuántas isoformas de ZAP70 han sido identificadas?\n\n\n\n\n\n ✓3\n\n\n ✗5\n\n\n ✗8\n\n\n\n\n\n\n\n¿ZAP70 es una proteína tirosina quinasa que atraviesa la membrana plasmática?\n\n\n\n\n\n ✗Verdadero\n\n\n ✓Falso",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Revisa tu aprendizaje</span>"
+    ]
+  },
+  {
+    "objectID": "comparando.html",
+    "href": "comparando.html",
+    "title": "6  Comparando",
+    "section": "",
+    "text": "6.1 Controles\nCuando se trata de comparar secuencias con entradas en una base de datos de secuencias (a veces llamado búsqueda de similaridad de secuencias) el reto está en evaluar si un alineamiento en particular es significativo, y no en el alineamiento en sí mismo. En este caso, un alineamiento es significativo cuando la probabilidad de que ocurra por azar (es decir, aleatoriamente) es pequeña. Esto es expresado como el puntaje de expectativa (también conocido como valor-e) en donde entre más pequeño el puntaje, más significativo el alineamiento, y más probable es que se deba a la existencia de un ancestro compartido y por lo tanto a homología. Los controles para chequear la validez de una búsqueda de similaridad de secuencias incluyen hacer una comparación con secuencias aleatorias, y evaluar el puntaje de secuencias no relacionadas. Cuando se realizan búsquedas de secuencias es importante considerar la herramienta que estás usando dado que estas varían en cuanto a su velocidad y precisión y pueden ser mejores para ciertas aplicaciones.\nPara aprender más sobre búsquedas de similaridad de secuencias y cómo escoger una herramienta apropiada mira este seminario web sobre herramientas de similaridad de secuencias: A guide to sequence similarity search for biomolecular sequences.",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Comparando</span>"
+    ]
+  },
+  {
+    "objectID": "ejemplo-guiado-2.html",
+    "href": "ejemplo-guiado-2.html",
+    "title": "7  Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?",
+    "section": "",
+    "text": "7.1 Escenario\nMelissa está trabajando en un programa de descubrimiento de medicamentos para crear nuevos inhibidores de ZAP70 para su uso en enfermedades autoinmunes. Gegorio, un químico médico en su grupo, ha sintetizado una serie de inhibidores de proteína tirosina quinasa. Ella necesita diseñar un ensayo celular para ver cuál de los inhibidores de Greg inhibe a la tirosina quinasa ZAP70. Ella tiene acceso a células T primarias de los siguientes animales:\nPara decidir cuál de sus modelos tiene una proteína ZAP70 más cercanamente relacionada a la humana, ella ha decidido hacer un rápido alineamiento múltiple de secuencias. Usando EBI search, ella localizó las secuencias canónicas (isoforma 1) para las proteínas ZAP70 humana, de ratón, de rata y de oveja. Para cada una, ella descargó la secuencia de proteína en formato FASTA. Luego, ella realizó un alineamiento múltiple de secuencias de estas proteínas usando la herramienta Clustal Omega. Puedes repetir su experimento si quieres.\nCon base en este alineamiento, Melissa decidió usar células T de oveja para su ensayo pero ella quiere revisar que la ZAP70 de oveja tenga un dominio tirosina quinasa antes de gastar tiempo llevando a cabo un ensayo. Para esto vamos a usar una herramienta llamada InterProScan. Esta herramienta compara tu secuencia elegida con todas las secuencias en InterPro, un recurso que provee análisis funcional de secuencias de proteínas clasificándolas en familias y prediciendo la presencia de dominios y sitios importantes. Si te gustaría aprender más sobre InterPro antes de continuar, puedes leer el Tour Rápido de InterPro o seguir el tutorial de InterPro. Si andas corto de tiempo puedes simplemente leer la sección sobre búsqueda de secuencias en el tutorial de InterPro.",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?</span>"
+    ]
+  },
+  {
+    "objectID": "ejemplo-guiado-2.html#escenario",
+    "href": "ejemplo-guiado-2.html#escenario",
+    "title": "7  Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?",
+    "section": "",
+    "text": "Ratón\nRata\nOveja",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?</span>"
+    ]
+  },
+  {
     "objectID": "references.html",
     "href": "references.html",
     "title": "Referencias",

@@ -8,7 +8,7 @@
 
 <meta name="description" content="¿Qué es la bioinformática y dónde encaja con la investigación de laboratorio en ciencias biológicas? Obten más información sobre las herramientas y recursos bioinformáticos disponibles y cómo puedes empezar a aplicarlos en tu investigación.">
 
-<title>Bioinformática para los aterrorizados - Ejemplo guiado 1: ZAP70 como potencial diana para terapia inmunosupresiva</title>
+<title>Bioinformática para los aterrorizados - 7&nbsp; Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./buscando-ZAP70.html" rel="next">
-<link href="./búsqueda.html" rel="prev">
+<link href="./references.html" rel="next">
+<link href="./comparando.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Bioinformática para los aterrorizados - Ejemplo guiado 1: ZAP70 como potencial diana para terapia inmunosupresiva">
+<meta property="og:title" content="Bioinformática para los aterrorizados - 7&nbsp; Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?">
 <meta property="og:description" content="¿Qué es la bioinformática y dónde encaja con la investigación de laboratorio en ciencias biológicas? Obten más información sobre las herramientas y recursos bioinformáticos disponibles y cómo puedes empezar a aplicarlos en tu investigación.">
 <meta property="og:image" content="https://trainingcontent.embl.org/sites/default/files/book-images/the_scream.jpg">
 <meta property="og:site_name" content="Bioinformática para los aterrorizados">
@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bioinformática-experimental.html">La bioinformática como una ciencia experimental</a></li><li class="breadcrumb-item"><a href="./ejemplo-guiado-1.html">Ejemplo guiado 1: ZAP70 como potencial diana para terapia inmunosupresiva</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bioinformática-experimental.html">La bioinformática como una ciencia experimental</a></li><li class="breadcrumb-item"><a href="./ejemplo-guiado-2.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -205,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ejemplo-guiado-1.html" class="sidebar-item-text sidebar-link active">
+  <a href="./ejemplo-guiado-1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ejemplo guiado 1: ZAP70 como potencial diana para terapia inmunosupresiva</span></a>
   </div>
 </li>
@@ -229,7 +229,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ejemplo-guiado-2.html" class="sidebar-item-text sidebar-link">
+  <a href="./ejemplo-guiado-2.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?</span></span></a>
   </div>
 </li>
@@ -253,17 +253,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Tabla de contenidos</h2>
    
   <ul>
-  <li><a href="#contexto" id="toc-contexto" class="nav-link active" data-scroll-target="#contexto">Contexto</a></li>
-  <li><a href="#escenario" id="toc-escenario" class="nav-link" data-scroll-target="#escenario">Escenario</a></li>
+  <li><a href="#escenario" id="toc-escenario" class="nav-link active" data-scroll-target="#escenario"><span class="header-section-number">7.1</span> Escenario</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Biologia-Computacional/bioinformatics-for-terrified/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li></ul></div><div class="quarto-other-links"><h2>Otros Enlaces</h2><ul><li><a href="https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/"><i class="bi bi-link-45deg"></i>Tutorial original en inglés</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bioinformática-experimental.html">La bioinformática como una ciencia experimental</a></li><li class="breadcrumb-item"><a href="./ejemplo-guiado-1.html">Ejemplo guiado 1: ZAP70 como potencial diana para terapia inmunosupresiva</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bioinformática-experimental.html">La bioinformática como una ciencia experimental</a></li><li class="breadcrumb-item"><a href="./ejemplo-guiado-2.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Ejemplo guiado 1: ZAP70 como potencial diana para terapia inmunosupresiva</h1>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?</span></h1>
 </div>
 
 
@@ -280,19 +279,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="contexto" class="level2">
-<h2 class="anchored" data-anchor-id="contexto">Contexto</h2>
-<p>ZAP70 es una tirosina quinasa citoplasmática que se encuentra principalmente en células T y es importante tanto para el desarrollo de las células T como para la señalización del receptor de células T (Figura 12). Su deficiencia conduce a Inmunodeficiencia combinada severa (SCID, por sus siglas en inglés). ZAP70 se considera un blanco relevante para la enfermedad autoinmune, donde la activación de las células T juega un papel importante. ZAP70 también se sobreexpresa en algunos individuos con leucemia linfocítica crónica, y estos individuos tienen un pronóstico especialmente pobre. ZAP70 podría por lo tanto ser también un blanco terapéutico útil en estos pacientes.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/09/fig_12.png" class="img-fluid figure-img"></p>
-<figcaption><strong>Figura 12.</strong> Complejo de señalización del receptor de células T mostrando donde encaja ZAP70 en la cascada de señalización. Tomado del <a href="https://reactome.org/PathwayBrowser/#/R-HSA-202403&amp;SEL=R-HSA-202430&amp;">reporte de Reactome sobre la señalización TCR</a>.</figcaption>
-</figure>
-</div>
-</section>
-<section id="escenario" class="level2">
-<h2 class="anchored" data-anchor-id="escenario">Escenario</h2>
-<p>Melissa es una bióloga en una gran compañía farmacéutica internacional que trabaja en enfermedades autoinmunes. Ella también quiere saber qué proteínas están involucradas en la señalización de células T de tal forma que pueda identificar blancos de fármacos. Ella ha escuchado que ZAP70 es importante para la señalización del receptor de células T y quiere saber más sobre él.</p>
+<section id="escenario" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="escenario"><span class="header-section-number">7.1</span> Escenario</h2>
+<p>Melissa está trabajando en un programa de descubrimiento de medicamentos para crear nuevos inhibidores de ZAP70 para su uso en enfermedades autoinmunes. Gegorio, un químico médico en su grupo, ha sintetizado una serie de inhibidores de proteína tirosina quinasa. Ella necesita diseñar un ensayo celular para ver cuál de los inhibidores de Greg inhibe a la tirosina quinasa ZAP70. Ella tiene acceso a células T primarias de los siguientes animales:</p>
+<ul>
+<li>Ratón</li>
+<li>Rata</li>
+<li>Oveja</li>
+</ul>
+<p>Para decidir cuál de sus modelos tiene una proteína ZAP70 más cercanamente relacionada a la humana, ella ha decidido hacer un rápido alineamiento múltiple de secuencias. Usando EBI search, ella localizó las secuencias canónicas (isoforma 1) para las proteínas ZAP70 humana, de ratón, de rata y de oveja. Para cada una, ella descargó la secuencia de proteína en formato FASTA. Luego, ella realizó un alineamiento múltiple de secuencias de estas proteínas usando la herramienta <a href="https://www.ebi.ac.uk/jdispatcher/msa/clustalo">Clustal Omega</a>. Puedes repetir su experimento si quieres.</p>
+<p>Con base en este alineamiento, Melissa decidió usar células T de oveja para su ensayo pero ella quiere revisar que la ZAP70 de oveja tenga un dominio tirosina quinasa antes de gastar tiempo llevando a cabo un ensayo. Para esto vamos a usar una herramienta llamada InterProScan. Esta herramienta compara tu secuencia elegida con todas las secuencias en InterPro, un recurso que provee análisis funcional de secuencias de proteínas clasificándolas en familias y prediciendo la presencia de dominios y sitios importantes. Si te gustaría aprender más sobre InterPro antes de continuar, puedes leer el <a href="https://www.ebi.ac.uk/training/online/course/interpro-quick-tour">Tour Rápido de InterPro</a> o seguir el <a href="https://www.ebi.ac.uk/training/online/course/interpro-functional-and-structural-analysis-protei">tutorial de InterPro</a>. Si andas corto de tiempo puedes simplemente leer la sección sobre <a href="https://www.ebi.ac.uk/training/online/course/interpro-functional-and-structural-analysis-protei/sequence-searching">búsqueda de secuencias</a> en el tutorial de InterPro.</p>
 
 
 </section>
@@ -714,13 +710,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./búsqueda.html" class="pagination-link" aria-label="Búsqueda">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Búsqueda</span></span>
+      <a href="./comparando.html" class="pagination-link" aria-label="Comparando">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Comparando</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./buscando-ZAP70.html" class="pagination-link" aria-label="Buscando a ZAP70 usando EBI-search">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Buscando a ZAP70 usando EBI-search</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./references.html" class="pagination-link" aria-label="Referencias">
+        <span class="nav-page-text">Referencias</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
