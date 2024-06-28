@@ -1,0 +1,93 @@
+---
+filters:
+  - naquiz
+---
+
+# Revisa tu aprendizaje
+
+:::::{.question}
+- ¿En qué cromosoma está el ZAP70 humano?
+
+::::{.choices}
+:::{.choice}
+Cromosoma 22
+:::
+
+:::{.choice .correct-choice}
+Cromosoma 2
+:::
+
+:::{.choice}
+Cromosoma X
+:::
+
+::::
+:::::
+
+:::::{.question}
+- ¿En cuál de los siguientes tejidos NO están disponibles los datos de
+expresión basal para ZAP70?
+
+::::{.choices}
+:::{.choice}
+Cerebro
+:::
+
+:::{.choice .correct-choice}
+Epitelio intestinal
+:::
+
+:::{.choice}
+Sangre
+:::
+
+::::
+:::::
+
+:::::{.question}
+- ¿Hay roedores con ortólogos 1:1 del ZAP70 humano?
+
+::::{.choices}
+:::{.choice}
+No
+:::
+
+:::{.choice .correct-choice}
+Sí
+:::
+::::
+:::::
+
+:::::{.question}
+- ¿Cuántas isoformas de ZAP70 han sido identificadas?
+
+::::{.choices}
+:::{.choice .correct-choice}
+3
+:::
+
+:::{.choice}
+5
+:::
+
+:::{.choice}
+8
+:::
+::::
+:::::
+
+:::::{.question}
+- ¿ZAP70 es una proteína tirosina quinasa que atraviesa la membrana
+plasmática?
+
+::::{.choices}
+:::{.choice}
+Verdadero
+:::
+
+:::{.choice .correct-choice}
+Falso
+:::
+::::
+:::::
+

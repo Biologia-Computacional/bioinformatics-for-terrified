@@ -1,0 +1,42 @@
+# Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?
+
+## Escenario
+
+Melissa está trabajando en un programa de descubrimiento de medicamentos
+para crear nuevos inhibidores de ZAP70 para su uso en enfermedades
+autoinmunes. Gegorio, un químico médico en su grupo, ha sintetizado una
+serie de inhibidores de proteína tirosina quinasa. Ella necesita diseñar un
+ensayo celular para ver cuál de los inhibidores de Greg inhibe a la tirosina
+quinasa ZAP70. Ella tiene acceso a células T primarias de los siguientes
+animales:
+
+- Ratón
+- Rata
+- Oveja
+
+Para decidir cuál de sus modelos tiene una proteína ZAP70 más cercanamente
+relacionada a la humana, ella ha decidido hacer un rápido alineamiento
+múltiple de secuencias. Usando EBI search, ella localizó las secuencias
+canónicas (isoforma 1) para las proteínas ZAP70 humana, de ratón, de rata y de
+oveja. Para cada una, ella descargó la secuencia de proteína en formato
+FASTA. Luego, ella realizó un alineamiento múltiple de secuencias de estas
+proteínas usando la herramienta [Clustal
+Omega](https://www.ebi.ac.uk/jdispatcher/msa/clustalo). Puedes repetir su
+experimento si quieres.
+
+Con base en este alineamiento, Melissa decidió usar células T de oveja para
+su ensayo pero ella quiere revisar que la ZAP70 de oveja tenga un dominio
+tirosina quinasa antes de gastar tiempo llevando a cabo un ensayo. Para esto
+vamos a usar una herramienta llamada InterProScan. Esta herramienta compara
+tu secuencia elegida con todas las secuencias en InterPro, un recurso que
+provee análisis funcional de secuencias de proteínas clasificándolas en
+familias y prediciendo la presencia de dominios y sitios importantes. Si te
+gustaría aprender más sobre InterPro antes de continuar, puedes leer el
+[Tour Rápido de
+InterPro](https://www.ebi.ac.uk/training/online/course/interpro-quick-tour)
+o seguir el [tutorial de
+InterPro](https://www.ebi.ac.uk/training/online/course/interpro-functional-and-structural-analysis-protei).
+Si andas corto de tiempo puedes simplemente leer la sección sobre [búsqueda
+de
+secuencias](https://www.ebi.ac.uk/training/online/course/interpro-functional-and-structural-analysis-protei/sequence-searching)
+en el tutorial de InterPro.

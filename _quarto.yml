@@ -22,6 +22,9 @@ book:
         - búsqueda.qmd
         - ejemplo-guiado-1.qmd
         - buscando-ZAP70.qmd
+        - quiz_ZAP70.qmd
+        - comparando.qmd
+        - ejemplo-guiado-2.qmd
     - references.qmd
 
   sidebar:
