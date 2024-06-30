@@ -233,11 +233,131 @@
     ]
   },
   {
+    "objectID": "examinando-ZAP70.html",
+    "href": "examinando-ZAP70.html",
+    "title": "8  Examinando la secuencia de ZAP70 con InterProScan",
+    "section": "",
+    "text": "En este escenario usaremos InterPro para comparar la secuencia de la proteína ZAP70 de oveja con todas las secuencias en InterPro, un recurso que provee análisis funcional de secuencias de proteínas clasificándolas en familias y prediciendo la presencia de dominios y sitios importantes.\n&gt;tr|W5PW03|W5PW03_SHEEP Non-specific protein-tyrosine kinase (Fragment) OS=Ovis aries GN=ZAP70 PE=4 SV=1\nPRPAAHLPFFYGSISRAEAEEHLKLAGMADGLFLLRQCLRSLGGYVLSLVHEVRFHHFPIERQLNGTYA\nIAGGKAHCGPAELCEFYSRDPDGLPCNLRKPCNRPSGLEPQPGVFDNLRDAMVRDYVRQTWKLEGEALE\nQAIISQAPQVEKLIATTAHERMPWYHSSLTREEAERKLYSGSQTDGKFLLRPRKEPGTYALSLIYGKTV\nYHYLISQDKAGKYCIPEGTKFDTLWQLVEYLKLKADGLIYCLKEACPNSSASSGAAAPTLPAHPSTFTQ\nPQRRIDTLNSDGYTPEPVRLVSSEKPRTMPMDTSVYESPYSDPEELKNKKLFLKRENLLMADIELGCGN\nFGSVRQGVYRMRKKQIDVAIKVLKQSTEKGDKDEMMREAQIMHQLDNPYIVRLIGVCQAEALMLVMEMA\nGGGPLHKFLVGKKEEIPVSNVAELLHQVSMGMKYLEEKNFVHRDLAARNVLLVNRHYAKISDFGLSKAL\nGADDSYYTARSAGKWPLKWYAPECINFRKFSSRSDVWSYGVTMWEAFSYGQKPYKKMKGPEVMAFIEQG\nKRMECPPEC\nPrimero, vamos a InterPro, luego copia y pega la secuencia en el cuadro de búsqueda de InterPro, como se muestra abajo, y haz click en el botón “Search”. Tu búsqueda tomará un tiempo en correr; se paciente.\n\n\n\nFigura 15. Búsqueda por secuencia en InterPro.\n\n\nEn la parte superior de los resultados, verás noticias tranquilizadoras de que la isoforma ZAP70 de oveja es de hecho un miembro de la familia de la tirosina proteína quinasa. Al desplazarte hacia abajo verás que tiene dos dominios SH2 y un dominio proteína tirosina quinasa (ve el video de abajo sobre los resultados). Una cosa para revisar es si nuestra secuencia concuerda con los patrones para el sitio activo y el sitio de unión a ATP, dado que cualquier mutación en esta área puede hacer a la proteína enzimáticamente inactiva. En este caso, sin embargo, podemos ver que la isoforma ZAP70 de oveja contiene el perfil proteíco tanto para el sitio de unión a ATP como para el sitio activo (hacia el final de la página).\n¡Melissa debería poder utilizar células de oveja en su ensayo para probar inhibidores de tirosina proteína quinasa!",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Examinando la secuencia de ZAP70 con InterProScan</span>"
+    ]
+  },
+  {
+    "objectID": "modelamiento.html",
+    "href": "modelamiento.html",
+    "title": "9  Modelamiento",
+    "section": "",
+    "text": "El modelamiento estructural puede ser usado para generar hipótesis sobre la estructura (y por lo tanto para implicar cosas sobre la función bioquímica) de las macromoléculas.\nEl modelamiento de procesos es un aspecto importante de la biología de sistemas. Una revisión por Bartocci y Lió (2016) provee un buen resumen de los tipos de procesos que son susceptibles al modelamiento de sistemas, y algunos ejemplos de herramientas que te permitirán hacer esto. Puedes descargar modelos matemáticos en un número de formatos estándar de la base de datos BioModels. Dale un vistazo a Biomodels: Quick tour para aprender más sobre esto.\nEl modelamiento de sistemas forma parte de un ciclo en el cual la biología experimental juega un papel igualmente importante: un ciclo típico de modelamiento de sistemas involucra construir un modelo que represente lo que sabes sobre la biología y luego probar si se comporta de la misma manera que el sistema biológico en sí mismo. Si no lo hace, ajustas el modelo para que se parezca más al sistema biológico y se repite el ciclo hasta que tu modelo represente más fielmente la realidad.\nPrueba el ejemplo guiado sobre modelamiento estructural de IRAK2.\n\n\n\n\nBartocci, Ezio, y Pietro Lió. 2016. «Computational Modeling, Formal Analysis, and Tools for Systems Biology». PLOS Computational Biology 12 (1): e1004591. https://doi.org/10.1371/journal.pcbi.1004591.",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Modelamiento</span>"
+    ]
+  },
+  {
+    "objectID": "ejemplo-guiado-3.html",
+    "href": "ejemplo-guiado-3.html",
+    "title": "10  Ejemplo guiado 3: Construyendo un modelo estructural basado en similaridad de secuencias",
+    "section": "",
+    "text": "10.1 Escenario\nJuliana está interesada en quinasas asociadas al receptor de la interleuquina 1 (IRAKs, por sus siglas en inglés) como posibles blancos para terapia contra el cáncer. Muchas mutaciones en IRAK2 están asociadas con diferentes tipos de cáncer, de tal forma que a Juliana le gustaría investigar IRAK2 como un posible nuevo blanco. Hay unas cuantas pequeñas moléculas inhibidoras disponibles para proteínas relacionadas y Juliana quiere saber si estas se podrían unir a IRAK2. Sin embargo, no hay una estructura cristalográfica disponible para el dominio quinasa de IRAK2, así que Juliana quiere modelar la estructura para ver si es probable que se parezca a las estructuras 3D de otras IRAKs.",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Ejemplo guiado 3: Construyendo un modelo estructural basado en similaridad de secuencias</span>"
+    ]
+  },
+  {
+    "objectID": "paso-1-IRAK2.html",
+    "href": "paso-1-IRAK2.html",
+    "title": "11  Paso 1: descargando la secuencia de la IRAK2 humana y una primera aproximación a la modelación",
+    "section": "",
+    "text": "11.1 Controles\nHay muchos enfoques para evaluar modelos. Uno es revisar que valores tales como los ángulos de enlace, distancias, etc. en el modelo concuerden con lo que se ha observado en estructuras derivadas experimentalmente. En SWISS-MODEL el puntaje QMEAN z representa un estimado de qué tan comparable es el modelo con estructuras derivadas experimentalmente de tamaño similar. Puntajes QMEAN z alrededor de cero indican una buena concordancia entre la estructura del modelo y estructuras experimentales de tamaño similar. Modelos de baja calidad típicamente tienen puntajes de -4.0 o menos. Los símbolos de “pulgares arriba” y “pulgares abajo” al lado del puntaje se usan para indicar si el modelo es de buena calidad o no (Swiss Institute of Bioinformatics s. f.). Otro enfoque es tener en cuenta las observaciones de la calidad del método de alineamiento y búsqueda de plantillas (esto es representado en el puntaje GMQE (Global Model Quality Estimation)). El puntaje GMQE refleja la precisión esperada de ese alineamiento y se expresa como un número entre 0 y 1 donde números mayores indican mayor confiabilidad (Swiss Institute of Bioinformatics s. f.). Para más información lee las páginas de documentación de SWISS-MODEL.",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Paso 1: descargando la secuencia de la IRAK2 humana y una primera aproximación a la modelación</span>"
+    ]
+  },
+  {
+    "objectID": "paso-1-IRAK2.html#controles",
+    "href": "paso-1-IRAK2.html#controles",
+    "title": "11  Paso 1: descargando la secuencia de la IRAK2 humana y una primera aproximación a la modelación",
+    "section": "",
+    "text": "Swiss Institute of Bioinformatics. s. f. «SWISS-MODEL Documentation». Accedido 15 de marzo de 2018. https://swissmodel.expasy.org/docs/help.",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Paso 1: descargando la secuencia de la IRAK2 humana y una primera aproximación a la modelación</span>"
+    ]
+  },
+  {
+    "objectID": "paso-2-construir-modelo.html",
+    "href": "paso-2-construir-modelo.html",
+    "title": "12  Paso 2: construyendo un modelo basado en una plantilla elegida por ti",
+    "section": "",
+    "text": "Figura 17. Escogiendo tu propia plantilla estructural.\n\n\nTambién puedes escoger tu propia plantilla estructural. Haz click en ‘Search for templates’. SWISS-MODEL buscará estructuras en el PDB que tengan una secuencia cercanamente relacionada (Figura 17). Se paciente; puede tomar algún tiempo generar tu lista de plantillas. Una vez hayas hecho esto, puedes alinear tantas de estas plantillas como quieras a tu secuencia blanco. Aquí hemos escogido estructuras para IRAK4 (2oib.2.A), el receptor quinasa 1 asociado a brasinosteroide insensible 1 (3tl8.2.A) y JAK2 (4bbe.1.A). Estas tres estructuras se alinean de manera bastante cercana entre sí. Basado en esta evidencia, podría valer la pena hacer algunos ensayos para ver si inhibidores conocidos de estas enzimas también inhiben a IRAK2.",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Paso 2: construyendo un modelo basado en una plantilla elegida por ti</span>"
+    ]
+  },
+  {
+    "objectID": "integrando.html",
+    "href": "integrando.html",
+    "title": "13  Integrando",
+    "section": "",
+    "text": "La integración de los datos es desde hace tiempo un reto para la bioinformática (Figura 18) pero puede ser una forma tremendamente poderosa de compilar evidencia a favor de o en contra de una hipótesis. Por ejemplo, integrar datos de experimentos de transcriptómica, proteómica y metabolómica puede ayudar a tener evidencias de que una ruta en particular está involucrada en una enfermedad, o en la resistencia a un medicamento.\n\n\n\nFigura 18. Algunos de los retos asociados con la integración de los datos. Basado en una figura otorgada por Sandra Orchard.\n\n\nComo con el modelamiento de sistemas, la integración de los datos te ayuda a generar hipótesis, pero debe ser combinada con enfoques experimentales para probar tus hipótesis.",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Integrando</span>"
+    ]
+  },
+  {
+    "objectID": "principios-integración.html",
+    "href": "principios-integración.html",
+    "title": "14  Principios básicos de integración",
+    "section": "",
+    "text": "14.1 Herramientas para ayudar a integrar datos\nHay herramientas disponibles para ayudar, por ejemplo, UniProt ID Mapping y Ensembl Biomart te permiten convertir un conjunto de identificadores de un formato a otro. También hay mapeos de diferentes vocabularios controlados, pero hay que tener cuidado de no perder datos. Por ejemplo, un término en una ontología puede ser mapeado a otro término que es menos específico, así que podrías perder especificidad. En el EMBL-EBI se usan ontologías de aplicaciones, de las cuales el ejemplo arquetípico es la Ontología de Factores Experimentales, para resolver este problema.\nSi tú y tus colaboradores envían datos a repositorios públicos, los datos serán puestos en un formato estándar y la integración de datos será esencialmente hecha para ti. Si trabajas en un ambiente comercial, puede que tengas tus propias bases de datos internas o puedes usar instancias privadas de las bases de datos públicas. EMBL-EBI’s Embassy Cloud provee a los colaboradores del EMBL-EBI acceso directo a sus conjuntos de datos hospedados en el EMBL-EBI, y a los poderosos recursos computacionales de la institución. Este espacio de trabajo compartido de alto rendimiento le permite a los colaboradores de los proyectos en diferentes lugares analizar sus datos junto con las ofertas públicas, utilizando sus propios enfoques. El acceso a Embassy Cloud está disponible para colaboradores trabajando en proyectos con el EMBL-EBI. El servicio se ha puesto a prueba con éxito con Europe PMC (colaboradores en Manchester, Londres y el EMBL-EBI) y Tara Oceans (EMBL y colaboradores globales), y está ahora más ampliamente disponible.",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Principios básicos de integración</span>"
+    ]
+  },
+  {
+    "objectID": "principios-integración.html#de-dónde-vienen-los-datos",
+    "href": "principios-integración.html#de-dónde-vienen-los-datos",
+    "title": "14  Principios básicos de integración",
+    "section": "14.2 ¿De dónde vienen los datos?",
+    "text": "14.2 ¿De dónde vienen los datos?\nEs importante entender el origen de los datos que estás integrando, y ser capaz de revisar la evidencia para involucrar cada entidad en el panorama general. Si, por ejemplo, estás integrando diferentes tipos de datos ómicos para entender la regulación de una ruta y su desregulación en la enfermedad, necesitas tener una buena comprensión de la ruta en cuestión y la enfermedad que estás estudiando, mientras que mantienes una mentalidad abierta y sin sesgos sobre lo que los datos te pueden estar diciendo.\nLa integración de los datos requiere que todos los datos estén anotados de manera consistente. También necesitas estar absolutamente seguro de que estás comparando cosas similares. La base de datos BioSamples te permitirá encontrar todos los experimentos realizados en la misma muestra. Para aprender más sobre BioSamples echa un vistazo a BioSamples: Quick tour.\nSi estás realizando tus propios experimentos, ten en mente que otros pueden querer integrar tus datos con datos de otras fuentes en el futuro. Proveer los metadatos adecuados, y darle un formato reusable a tus datos, debería volverse un hábito para ti.\nLa guía de Toni Kazic sobre la procedencia de los datos (2015) es un buen lugar para empezar. Si estás usando datos de otras personas, revísalos como si fueran tuyos.",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Principios básicos de integración</span>"
+    ]
+  },
+  {
+    "objectID": "principios-integración.html#integración-de-datos-predeterminada",
+    "href": "principios-integración.html#integración-de-datos-predeterminada",
+    "title": "14  Principios básicos de integración",
+    "section": "14.3 Integración de datos predeterminada",
+    "text": "14.3 Integración de datos predeterminada\nLas buenas noticias son que ahora hay un mayor número de recursos que han hecho un montón de trabajo duro por ti. Ya hemos usado un servicio (EBI Search) que hace un montón de mapeo de entidades relacionadas por ti. Otro servicio que integra una gran cantidad de datos públicos relevantes para descubrir es Open Targets. Open Targets es un servicio que está diseñado para permitir la exploración y visualización de blancos de medicamentos asociados con enfermedades. Puedes aprender más sobre Open Targets en el seminario web ‘Exploring target-disease associations with the Open Targets Platform’s new interface’.\n\n\n\n\nKazic, Toni. 2015. «Ten Simple Rules for Experiments’ Provenance». PLoS Computational Biology 11 (10): e1004384. https://doi.org/10.1371/journal.pcbi.1004384.",
+    "crumbs": [
+      "La bioinformática como una ciencia experimental",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Principios básicos de integración</span>"
+    ]
+  },
+  {
+    "objectID": "resumen.html",
+    "href": "resumen.html",
+    "title": "Resumen",
+    "section": "",
+    "text": "La bioinformática es central a la investigación en ciencias de la vida.\nLas bases de datos públicas como aquellas disponibles en el sitio web del EMBL-EBI proveen acceso abierto a una rica variedad de información biológica, permitiéndote llevar a cabo experimentos in silico sin necesidad de escribir código.\nLas cosas esenciales de un recurso bioinformático robusto son una estructura de bases de datos bien pensada y una adherencia a los estándares de la comunidad; ayuda tener una conciencia básica de estos dos principios base de un recurso público de datos dado que te permitirá abrirte paso a través del mundo de las bases de datos, y comunicarte con expertos en bioinformática más eficientemente.\nLa bioinformática es una ciencia experimental: es importante dar una consideración cuidadosa al método que usas, y desarrollar controles exactamente como lo harías para un experimento de laboratorio.\nLos experimentos bioinformáticos pueden ser categorizados de manera amplia como:\n\nBúsqueda\nComparación\nModelamiento\nIntegración",
+    "crumbs": [
+      "Resumen"
+    ]
+  },
+  {
     "objectID": "references.html",
     "href": "references.html",
     "title": "Referencias",
     "section": "",
-    "text": "Marx, Vivien. 2013. “Biology: The Big Challenges of Big\nData.” Nature 498 (7453): 255—260. https://doi.org/10.1038/498255a.",
+    "text": "Bartocci, Ezio, and Pietro Lió. 2016. “Computational\nModeling, Formal Analysis, and\nTools for Systems Biology.” PLOS\nComputational Biology 12 (1): e1004591. https://doi.org/10.1371/journal.pcbi.1004591.\n\n\nKazic, Toni. 2015. “Ten Simple Rules for\nExperiments’ Provenance.” PLoS\nComputational Biology 11 (10): e1004384. https://doi.org/10.1371/journal.pcbi.1004384.\n\n\nMarx, Vivien. 2013. “Biology: The Big Challenges of Big\nData.” Nature 498 (7453): 255—260. https://doi.org/10.1038/498255a.\n\n\nSwiss Institute of Bioinformatics. n.d. “SWISS-MODEL\nDocumentation.” Accessed March 15, 2018. https://swissmodel.expasy.org/docs/help.",
     "crumbs": [
       "Referencias"
     ]

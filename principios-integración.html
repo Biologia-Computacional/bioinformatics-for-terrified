@@ -8,7 +8,7 @@
 
 <meta name="description" content="¿Qué es la bioinformática y dónde encaja con la investigación de laboratorio en ciencias biológicas? Obten más información sobre las herramientas y recursos bioinformáticos disponibles y cómo puedes empezar a aplicarlos en tu investigación.">
 
-<title>Bioinformática para los aterrorizados - 3&nbsp; Búsqueda</title>
+<title>Bioinformática para los aterrorizados - 14&nbsp; Principios básicos de integración</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -31,8 +51,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./ejemplo-guiado-1.html" rel="next">
-<link href="./bioinformática-experimental.html" rel="prev">
+<link href="./resumen.html" rel="next">
+<link href="./integrando.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Bioinformática para los aterrorizados - 3&nbsp; Búsqueda">
+<meta property="og:title" content="Bioinformática para los aterrorizados - 14&nbsp; Principios básicos de integración">
 <meta property="og:description" content="¿Qué es la bioinformática y dónde encaja con la investigación de laboratorio en ciencias biológicas? Obten más información sobre las herramientas y recursos bioinformáticos disponibles y cómo puedes empezar a aplicarlos en tu investigación.">
 <meta property="og:image" content="https://trainingcontent.embl.org/sites/default/files/book-images/the_scream.jpg">
 <meta property="og:site_name" content="Bioinformática para los aterrorizados">
@@ -86,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bioinformática-experimental.html">La bioinformática como una ciencia experimental</a></li><li class="breadcrumb-item"><a href="./búsqueda.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Búsqueda</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bioinformática-experimental.html">La bioinformática como una ciencia experimental</a></li><li class="breadcrumb-item"><a href="./principios-integración.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Principios básicos de integración</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -199,7 +219,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./búsqueda.html" class="sidebar-item-text sidebar-link active">
+  <a href="./búsqueda.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Búsqueda</span></span></a>
   </div>
 </li>
@@ -271,7 +291,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./principios-integración.html" class="sidebar-item-text sidebar-link">
+  <a href="./principios-integración.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Principios básicos de integración</span></span></a>
   </div>
 </li>
@@ -302,16 +322,18 @@ Atribución Internacional 4.0 (CC BY 4.0)</a></p>
     <h2 id="toc-title">Tabla de contenidos</h2>
    
   <ul>
-  <li><a href="#controles" id="toc-controles" class="nav-link active" data-scroll-target="#controles"><span class="header-section-number">3.1</span> Controles</a></li>
+  <li><a href="#herramientas-para-ayudar-a-integrar-datos" id="toc-herramientas-para-ayudar-a-integrar-datos" class="nav-link active" data-scroll-target="#herramientas-para-ayudar-a-integrar-datos"><span class="header-section-number">14.1</span> Herramientas para ayudar a integrar datos</a></li>
+  <li><a href="#de-dónde-vienen-los-datos" id="toc-de-dónde-vienen-los-datos" class="nav-link" data-scroll-target="#de-dónde-vienen-los-datos"><span class="header-section-number">14.2</span> ¿De dónde vienen los datos?</a></li>
+  <li><a href="#integración-de-datos-predeterminada" id="toc-integración-de-datos-predeterminada" class="nav-link" data-scroll-target="#integración-de-datos-predeterminada"><span class="header-section-number">14.3</span> Integración de datos predeterminada</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Biologia-Computacional/bioinformatics-for-terrified/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li></ul></div><div class="quarto-other-links"><h2>Otros Enlaces</h2><ul><li><a href="https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/"><i class="bi bi-link-45deg"></i>Tutorial original en inglés</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bioinformática-experimental.html">La bioinformática como una ciencia experimental</a></li><li class="breadcrumb-item"><a href="./búsqueda.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Búsqueda</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bioinformática-experimental.html">La bioinformática como una ciencia experimental</a></li><li class="breadcrumb-item"><a href="./principios-integración.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Principios básicos de integración</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Búsqueda</span></h1>
+<h1 class="title"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Principios básicos de integración</span></h1>
 </div>
 
 
@@ -328,20 +350,29 @@ Atribución Internacional 4.0 (CC BY 4.0)</a></p>
 </header>
 
 
-<p>Tal vez el tipo más simple de experimento bioinformático que puedes realizar es buscar en las bases de datos públicas la información sobre un gen o una proteína en específico. Con <a href="https://www.ebi.ac.uk/ebisearch/">EBI Search</a>, puedes buscar a lo largo de un gran número de bases de datos públicas de manera simultánea, sin necesidad de saber de antemano cuál base de datos es más relevante para ti (Figura 11).</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/09/fig_11.png" class="img-fluid figure-img"></p>
-<figcaption><strong>Figura 11.</strong> Tipos de datos que se pueden buscar usando EBI Search. Puedes explorar los datos del EMBL-EBI usando una versión interactiva y <a href="https://www.ebi.ac.uk/ebisearch/overview.ebi/data-coverage">ampliable</a> de este mapa.</figcaption>
-</figure>
+<p>Si planeas integrar datos, estos necesitan tener tantas similaridades como sea posible. La misma entidad o concepto descrito de diferentes maneras no está en buenas condiciones para la integración. La integración de datos requiere por lo tanto invariblemente algo de preparación.</p>
+<section id="herramientas-para-ayudar-a-integrar-datos" class="level2" data-number="14.1">
+<h2 data-number="14.1" class="anchored" data-anchor-id="herramientas-para-ayudar-a-integrar-datos"><span class="header-section-number">14.1</span> Herramientas para ayudar a integrar datos</h2>
+<p>Hay herramientas disponibles para ayudar, por ejemplo, <a href="https://www.uniprot.org/id-mapping">UniProt ID Mapping</a> y <a href="https://www.ensembl.org/biomart/martview">Ensembl Biomart</a> te permiten convertir un conjunto de identificadores de un formato a otro. También hay mapeos de diferentes vocabularios controlados, pero hay que tener cuidado de no perder datos. Por ejemplo, un término en una ontología puede ser mapeado a otro término que es menos específico, así que podrías perder especificidad. En el EMBL-EBI se usan ontologías de aplicaciones, de las cuales el ejemplo arquetípico es la <a href="https://www.ebi.ac.uk/efo/">Ontología de Factores Experimentales</a>, para resolver este problema.</p>
+<p>Si tú y tus colaboradores envían datos a repositorios públicos, los datos serán puestos en un formato estándar y la integración de datos será esencialmente hecha para ti. Si trabajas en un ambiente comercial, puede que tengas tus propias bases de datos internas o puedes usar instancias privadas de las bases de datos públicas. <a href="http://www.embassycloud.org/">EMBL-EBI’s Embassy Cloud</a> provee a los colaboradores del EMBL-EBI acceso directo a sus conjuntos de datos hospedados en el EMBL-EBI, y a los poderosos recursos computacionales de la institución. Este espacio de trabajo compartido de alto rendimiento le permite a los colaboradores de los proyectos en diferentes lugares analizar sus datos junto con las ofertas públicas, utilizando sus propios enfoques. El acceso a Embassy Cloud está disponible para colaboradores trabajando en proyectos con el EMBL-EBI. El servicio se ha puesto a prueba con éxito con <a href="https://europepmc.org/">Europe PMC</a> (colaboradores en Manchester, Londres y el EMBL-EBI) y Tara Oceans (EMBL y colaboradores globales), y está ahora más ampliamente disponible.</p>
+</section>
+<section id="de-dónde-vienen-los-datos" class="level2" data-number="14.2">
+<h2 data-number="14.2" class="anchored" data-anchor-id="de-dónde-vienen-los-datos"><span class="header-section-number">14.2</span> ¿De dónde vienen los datos?</h2>
+<p>Es importante entender el origen de los datos que estás integrando, y ser capaz de revisar la evidencia para involucrar cada entidad en el panorama general. Si, por ejemplo, estás integrando diferentes tipos de datos ómicos para entender la regulación de una ruta y su desregulación en la enfermedad, necesitas tener una buena comprensión de la ruta en cuestión y la enfermedad que estás estudiando, mientras que mantienes una mentalidad abierta y sin sesgos sobre lo que los datos te pueden estar diciendo.</p>
+<p>La integración de los datos requiere que todos los datos estén anotados de manera consistente. También necesitas estar absolutamente seguro de que estás comparando cosas similares. La base de datos <a href="https://www.ebi.ac.uk/biosamples/">BioSamples</a> te permitirá encontrar todos los experimentos realizados en la misma muestra. Para aprender más sobre BioSamples echa un vistazo a <a href="https://www.ebi.ac.uk/training/online/course/biosamples-quick-tour">BioSamples: Quick tour</a>.</p>
+<p>Si estás realizando tus propios experimentos, ten en mente que otros pueden querer integrar tus datos con datos de otras fuentes en el futuro. Proveer los metadatos adecuados, y darle un formato reusable a tus datos, debería volverse un hábito para ti.</p>
+<p>La guía de Toni Kazic sobre la procedencia de los datos <span class="citation" data-cites="kazic2015">(<a href="references.html#ref-kazic2015" role="doc-biblioref">2015</a>)</span> es un buen lugar para empezar. Si estás usando datos de otras personas, revísalos como si fueran tuyos.</p>
+</section>
+<section id="integración-de-datos-predeterminada" class="level2" data-number="14.3">
+<h2 data-number="14.3" class="anchored" data-anchor-id="integración-de-datos-predeterminada"><span class="header-section-number">14.3</span> Integración de datos predeterminada</h2>
+<p>Las buenas noticias son que ahora hay un mayor número de recursos que han hecho un montón de trabajo duro por ti. Ya hemos usado un servicio (<a href="https://www.ebi.ac.uk/ebisearch/">EBI Search</a>) que hace un montón de mapeo de entidades relacionadas por ti. Otro servicio que integra una gran cantidad de datos públicos relevantes para descubrir es <a href="https://www.targetvalidation.org/">Open Targets</a>. Open Targets es un servicio que está diseñado para permitir la exploración y visualización de blancos de medicamentos asociados con enfermedades. Puedes aprender más sobre Open Targets en el seminario web ‘<a href="https://www.ebi.ac.uk/training/events/exploring-target-disease-associations-open-targets-platforms-new-interface/">Exploring target-disease associations with the Open Targets Platform’s new interface</a>’.</p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-kazic2015" class="csl-entry" role="listitem">
+Kazic, Toni. 2015. <span>«Ten <span>Simple Rules</span> for <span>Experiments</span>’ <span>Provenance</span>»</span>. <em>PLoS Computational Biology</em> 11 (10): e1004384. <a href="https://doi.org/10.1371/journal.pcbi.1004384">https://doi.org/10.1371/journal.pcbi.1004384</a>.
 </div>
-<p>Para aprender a usar la búsqueda simple de EBI Search, mira <a href="https://embl-ebi.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7e4c828c-a0cd-439f-91c1-b108009d95c9">este corto video</a> (en inglés) con Anna Swan, directora sénior de formación científica del EMBL-EBI.</p>
-<section id="controles" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="controles"><span class="header-section-number">3.1</span> Controles</h2>
-<p>Llevar a cabo una búsqueda simple no es necesariamente un experimento y por lo tanto no necesita un control. Sin embargo, tan pronto como uses los resultados de una búsqueda para responder a una pregunta biológica, se convierte en un experimento. Por ejemplo, si quieres encontrar todas las secuencias de proteína con la palabra clave ‘globin’ (globina), esto es una búsqueda, no un experimento. Pero si quieres encontrar qué proteína quinasas i) hacen parte de una ruta de reacción en particular y ii) están sobrerreguladas en un estado particular de una enfermedad, esto es un experimento y deberías añadir algunos controles para corroborar que estás sacando las conclusiones correctas de los resultados. Por ejemplo, podrías corroborar si tus términos de búsqueda mapean a otras rutas no relacionadas. Podrías también mirar si tus términos de búsqueda están asociados correctamente a la entrada biológica (¿puedes, por ejemplo, encontrar los mismos términos en entradas relacionadas?).</p>
-<p>Para aprender cómo usar EBI Search para estudiar dianas potenciales, sigue el <a href="https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/bioinformatics-as-an-experimental-science/searching/guided-example-1-zap70-as-a-potential-target-for-immunosuppressive-therapy/">ejemplo guiado sobre ZAP70</a>.</p>
-
-
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -761,13 +792,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./bioinformática-experimental.html" class="pagination-link" aria-label="La bioinformática como una ciencia experimental">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">La bioinformática como una ciencia experimental</span>
+      <a href="./integrando.html" class="pagination-link" aria-label="Integrando">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Integrando</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./ejemplo-guiado-1.html" class="pagination-link" aria-label="Ejemplo guiado 1: ZAP70 como potencial diana para terapia inmunosupresiva">
-        <span class="nav-page-text">Ejemplo guiado 1: ZAP70 como potencial diana para terapia inmunosupresiva</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./resumen.html" class="pagination-link" aria-label="Resumen">
+        <span class="nav-page-text">Resumen</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
