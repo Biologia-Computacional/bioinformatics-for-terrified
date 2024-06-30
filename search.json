@@ -43,21 +43,43 @@
   {
     "objectID": "rol-bases-de-datos.html",
     "href": "rol-bases-de-datos.html",
-    "title": "2  El rol de las bases de datos públicas",
+    "title": "El rol de las bases de datos públicas",
     "section": "",
-    "text": "2.1 Centros bioinformáticos de excelencia\nHay un pequeño número de centros de bioinformática de excelencia a nivel mundial que han tomado la responsabilidad de colectar, catalogar y proveer acceso abierto a datos biológicos publicados (Figura 3). Entre estos centros están:\nEste trabajo comenzó a principios de la década de 1980 cuando los datos de secuencias de ADN se empezaron a acumular en la literatura científica. La librería de datos del EMBL (ahora el European Nucleotide Archive) fue desarrollada para almacenar secuencias de ADN publicadas en la literatura científica. El GenBank del NCBI y el DDBJ del NIG le siguieron.",
+    "text": "Centros bioinformáticos de excelencia\nHay un pequeño número de centros de bioinformática de excelencia a nivel mundial que han tomado la responsabilidad de colectar, catalogar y proveer acceso abierto a datos biológicos publicados (Figura 3). Entre estos centros están:\nEste trabajo comenzó a principios de la década de 1980 cuando los datos de secuencias de ADN se empezaron a acumular en la literatura científica. La librería de datos del EMBL (ahora el European Nucleotide Archive) fue desarrollada para almacenar secuencias de ADN publicadas en la literatura científica. El GenBank del NCBI y el DDBJ del NIG le siguieron.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>El rol de las bases de datos públicas</span>"
+      "El rol de las bases de datos públicas"
     ]
   },
   {
     "objectID": "rol-bases-de-datos.html#centros-bioinformáticos-de-excelencia",
     "href": "rol-bases-de-datos.html#centros-bioinformáticos-de-excelencia",
-    "title": "2  El rol de las bases de datos públicas",
+    "title": "El rol de las bases de datos públicas",
     "section": "",
     "text": "El EMBL-European Bioinformatics Institute (EMBL-EBI)\nEl National Center for Biotechnology Information (NCBI) de Estados Unidos\nEl National Institute of Genetics en Japón (NIG)\n\n\n\n\n\nFigura 3. El rol de los centros de bioinformática de excelencia en hacer que los datos biológicos estén disponibles para toda la comunidad.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>El rol de las bases de datos públicas</span>"
+      "El rol de las bases de datos públicas"
+    ]
+  },
+  {
+    "objectID": "colaboraciones.html",
+    "href": "colaboraciones.html",
+    "title": "2  Colaboraciones de intercambio de datos",
+    "section": "",
+    "text": "2.1 ¿A quién le pertenecen los datos?\nDesde sus inicios, la comunidad de bioinformática ha defendido el intercambio abierto de datos, y lo hizo una realidad a través de colaboraciones tales como las resumidas en la Tabla 1. Esta política abierta ha permitido que la comunidad de investigadores haga un buen uso de los datos que emergen de grandes proyectos internacionales tales como el Proyecto Genoma Humano (2001) y el proyecto Encode. Sin embargo, es importante tener en cuenta que el intercambio abierto de datos no es solo para estas grandes colaboraciones. Retos recientes en las políticas de financiamiento han empezado a reflejar la visión ampliamente sostenida hoy en día de que, si se gasta dinero público en investigación (en cualquier área), los datos de esa investigación deberían estar disponibles públicamente para que otros los usen.",
+    "crumbs": [
+      "El rol de las bases de datos públicas",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Colaboraciones de intercambio de datos</span>"
+    ]
+  },
+  {
+    "objectID": "colaboraciones.html#a-quién-le-pertenecen-los-datos",
+    "href": "colaboraciones.html#a-quién-le-pertenecen-los-datos",
+    "title": "2  Colaboraciones de intercambio de datos",
+    "section": "",
+    "text": "International Human Genome Sequencing Consortium. 2001. «Initial Sequencing and Analysis of the Human Genome». Nature 409 (6822): 860-921. https://doi.org/10.1038/35057062.",
+    "crumbs": [
+      "El rol de las bases de datos públicas",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Colaboraciones de intercambio de datos</span>"
     ]
   },
   {
@@ -357,7 +379,7 @@
     "href": "references.html",
     "title": "Referencias",
     "section": "",
-    "text": "Bartocci, Ezio, and Pietro Lió. 2016. “Computational\nModeling, Formal Analysis, and\nTools for Systems Biology.” PLOS\nComputational Biology 12 (1): e1004591. https://doi.org/10.1371/journal.pcbi.1004591.\n\n\nKazic, Toni. 2015. “Ten Simple Rules for\nExperiments’ Provenance.” PLoS\nComputational Biology 11 (10): e1004384. https://doi.org/10.1371/journal.pcbi.1004384.\n\n\nMarx, Vivien. 2013. “Biology: The Big Challenges of Big\nData.” Nature 498 (7453): 255—260. https://doi.org/10.1038/498255a.\n\n\nSwiss Institute of Bioinformatics. n.d. “SWISS-MODEL\nDocumentation.” Accessed March 15, 2018. https://swissmodel.expasy.org/docs/help.",
+    "text": "Bartocci, Ezio, and Pietro Lió. 2016. “Computational\nModeling, Formal Analysis, and\nTools for Systems Biology.” PLOS\nComputational Biology 12 (1): e1004591. https://doi.org/10.1371/journal.pcbi.1004591.\n\n\nInternational Human Genome Sequencing Consortium. 2001. “Initial\nSequencing and Analysis of the Human Genome.” Nature 409\n(6822): 860–921. https://doi.org/10.1038/35057062.\n\n\nKazic, Toni. 2015. “Ten Simple Rules for\nExperiments’ Provenance.” PLoS\nComputational Biology 11 (10): e1004384. https://doi.org/10.1371/journal.pcbi.1004384.\n\n\nMarx, Vivien. 2013. “Biology: The Big Challenges of Big\nData.” Nature 498 (7453): 255—260. https://doi.org/10.1038/498255a.\n\n\nSwiss Institute of Bioinformatics. n.d. “SWISS-MODEL\nDocumentation.” Accessed March 15, 2018. https://swissmodel.expasy.org/docs/help.",
     "crumbs": [
       "Referencias"
     ]
