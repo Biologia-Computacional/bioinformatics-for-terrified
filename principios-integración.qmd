@@ -1,0 +1,77 @@
+# Principios básicos de integración
+
+Si planeas integrar datos, estos necesitan tener tantas similaridades como
+sea posible. La misma entidad o concepto descrito de diferentes maneras no
+está en buenas condiciones para la integración. La integración de datos
+requiere por lo tanto invariblemente algo de preparación.
+
+## Herramientas para ayudar a integrar datos
+
+Hay herramientas disponibles para ayudar, por ejemplo, [UniProt ID
+Mapping](https://www.uniprot.org/id-mapping) y [Ensembl
+Biomart](https://www.ensembl.org/biomart/martview) te permiten convertir un
+conjunto de identificadores de un formato a otro. También hay mapeos de
+diferentes vocabularios controlados, pero hay que tener cuidado de no perder
+datos. Por ejemplo, un término en una ontología puede ser mapeado a otro
+término que es menos específico, así que podrías perder especificidad. En el
+EMBL-EBI se usan ontologías de aplicaciones, de las cuales el ejemplo
+arquetípico es la [Ontología de Factores
+Experimentales](https://www.ebi.ac.uk/efo/), para resolver este problema.
+
+Si tú y tus colaboradores envían datos a repositorios públicos, los datos
+serán puestos en un formato estándar y la integración de datos será
+esencialmente hecha para ti. Si trabajas en un ambiente comercial, puede que
+tengas tus propias bases de datos internas o puedes usar instancias privadas
+de las bases de datos públicas. [EMBL-EBI’s Embassy
+Cloud](http://www.embassycloud.org/) provee a los colaboradores del EMBL-EBI
+acceso directo a sus conjuntos de datos hospedados en el EMBL-EBI, y a los
+poderosos recursos computacionales de la institución. Este espacio de
+trabajo compartido de alto rendimiento le permite a los colaboradores de los
+proyectos en diferentes lugares analizar sus datos junto con las ofertas
+públicas, utilizando sus propios enfoques. El acceso a Embassy Cloud está
+disponible para colaboradores trabajando en proyectos con el EMBL-EBI. El
+servicio se ha puesto a prueba con éxito con [Europe
+PMC](https://europepmc.org/) (colaboradores en Manchester, Londres y el
+EMBL-EBI) y Tara Oceans (EMBL y colaboradores globales), y está ahora más
+ampliamente disponible.
+
+## ¿De dónde vienen los datos?
+
+Es importante entender el origen de los datos que estás integrando, y ser
+capaz de revisar la evidencia para involucrar cada entidad en el panorama
+general. Si, por ejemplo, estás integrando diferentes tipos de datos ómicos
+para entender la regulación de una ruta y su desregulación en la enfermedad,
+necesitas tener una buena comprensión de la ruta en cuestión y la enfermedad
+que estás estudiando, mientras que mantienes una mentalidad abierta y sin
+sesgos sobre lo que los datos te pueden estar diciendo.
+
+La integración de los datos requiere que todos los datos estén anotados de
+manera consistente. También necesitas estar absolutamente seguro de que
+estás comparando cosas similares. La base de datos
+[BioSamples](https://www.ebi.ac.uk/biosamples/) te permitirá encontrar todos
+los experimentos realizados en la misma muestra. Para aprender más sobre
+BioSamples echa un vistazo a [BioSamples: Quick
+tour](https://www.ebi.ac.uk/training/online/course/biosamples-quick-tour).
+
+Si estás realizando tus propios experimentos, ten en mente que otros pueden
+querer integrar tus datos con datos de otras fuentes en el futuro. Proveer
+los metadatos adecuados, y darle un formato reusable a tus datos, debería
+volverse un hábito para ti.
+
+La guía de Toni Kazic sobre la procedencia de los datos [-@kazic2015] es un
+buen lugar para empezar. Si estás usando datos de otras personas, revísalos
+como si fueran tuyos.
+
+## Integración de datos predeterminada
+
+Las buenas noticias son que ahora hay un mayor número de recursos que han
+hecho un montón de trabajo duro por ti. Ya hemos usado un servicio ([EBI
+Search](https://www.ebi.ac.uk/ebisearch/)) que hace un montón de mapeo de
+entidades relacionadas por ti. Otro servicio que integra una gran cantidad
+de datos públicos relevantes para descubrir es [Open
+Targets](https://www.targetvalidation.org/). Open Targets es un servicio que
+está diseñado para permitir la exploración y visualización de blancos de
+medicamentos asociados con enfermedades. Puedes aprender más sobre Open
+Targets en el seminario web '[Exploring target-disease associations with the
+Open Targets Platform’s new
+interface](https://www.ebi.ac.uk/training/events/exploring-target-disease-associations-open-targets-platforms-new-interface/)'.

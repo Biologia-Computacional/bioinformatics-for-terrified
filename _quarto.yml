@@ -31,10 +31,15 @@ book:
         - paso-1-IRAK2.qmd
         - paso-2-construir-modelo.qmd
         - integrando.qmd
+        - principios-integración.qmd
+    - part: resumen.qmd
     - references.qmd
 
   sidebar:
     logo: https://trainingcontent.embl.org/sites/default/files/book-images/the_scream.jpg
+    footer: |
+      [![](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/themes/ebi-academy/images/CC_BY.png)\
+      Atribución Internacional 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
   translator:
     - name: Laura Manuela Builes Cerón

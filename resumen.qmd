@@ -1,0 +1,26 @@
+# Resumen
+
+- La bioinformática es central a la investigación en ciencias de la vida.
+
+- Las bases de datos públicas como aquellas disponibles en el sitio web del
+  EMBL-EBI proveen acceso abierto a una rica variedad de información
+  biológica, permitiéndote llevar a cabo experimentos *in silico* sin
+  necesidad de escribir código.
+
+- Las cosas esenciales de un recurso bioinformático robusto son una
+  estructura de bases de datos bien pensada y una adherencia a los
+  estándares de la comunidad; ayuda tener una conciencia básica de estos dos
+  principios base de un recurso público de datos dado que te permitirá
+  abrirte paso a través del mundo de las bases de datos, y comunicarte con
+  expertos en bioinformática más eficientemente.
+
+- La bioinformática es una ciencia experimental: es importante dar una
+  consideración cuidadosa al método que usas, y desarrollar controles
+  exactamente como lo harías para un experimento de laboratorio.
+
+- Los experimentos bioinformáticos pueden ser categorizados de manera amplia
+  como:
+  - Búsqueda
+  - Comparación
+  - Modelamiento
+  - Integración
