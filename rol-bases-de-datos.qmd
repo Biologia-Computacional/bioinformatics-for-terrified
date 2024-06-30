@@ -22,4 +22,4 @@ NCBI y el DDBJ del NIG le siguieron.
 
 ![**Figura 3.** El rol de los centros de bioinformática de excelencia en
 hacer que los datos biológicos estén disponibles para toda la
-comunidad.](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/09/bx_terrified_fig_3-689x516-1.jpg)
+comunidad.](figs/fig_3.svg)

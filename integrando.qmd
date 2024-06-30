@@ -9,7 +9,7 @@ involucrada en una enfermedad, o en la resistencia a un medicamento.
 
 ![**Figura 18.** Algunos de los retos asociados con la integración de los
 datos. Basado en una figura otorgada por Sandra
-Orchard.](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/09/fig_15_cropped.jpg)
+Orchard.](figs/fig_18.svg)
 
 Como con el modelamiento de sistemas, la integración de los datos te ayuda a
 generar hipótesis, pero debe ser combinada con enfoques experimentales para

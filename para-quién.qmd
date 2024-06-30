@@ -2,7 +2,7 @@
 
 ![**Figura 2.** Las personas (ficticias) ilustradas aquí, mientras que no son
 bioinformáticos en el sentido clásico, usan bioinformática para su
-investigación. Caricaturas cortesía de Jenny Cham, EMBL-EBI.](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/09/bx_terrified_fig_2_700px-1.jpg)
+investigación. Caricaturas cortesía de Jenny Cham, EMBL-EBI.](figs/fig_2.svg)
 
 Las ciencias moleculares de la vida se han vuelto cada vez más impulsadas
 por los datos y dependientes del intercambio de datos a través de bases de
