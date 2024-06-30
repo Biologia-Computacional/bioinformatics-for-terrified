@@ -12,7 +12,9 @@ book:
     - part: qué-es-bioinformática.qmd
       chapters:
         - para-quién.qmd
-    - rol-bases-de-datos.qmd
+    - part: rol-bases-de-datos.qmd
+      chapters:
+        - colaboraciones.qmd
     - part: qué-hace-buena-database.qmd
       chapters:
         - primarias-y-secundarias.qmd
