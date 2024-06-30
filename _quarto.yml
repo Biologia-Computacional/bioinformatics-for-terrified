@@ -12,11 +12,11 @@ book:
     - part: qué-es-bioinformática.qmd
       chapters:
         - para-quién.qmd
-    - part: rol-bases-de-datos.qmd
+    - rol-bases-de-datos.qmd
     - part: qué-hace-buena-database.qmd
       chapters:
         - primarias-y-secundarias.qmd
-    - part: envío-datos.qmd
+    - envío-datos.qmd
     - part: bioinformática-experimental.qmd
       chapters:
         - búsqueda.qmd
@@ -32,7 +32,7 @@ book:
         - paso-2-construir-modelo.qmd
         - integrando.qmd
         - principios-integración.qmd
-    - part: resumen.qmd
+    - resumen.qmd
     - references.qmd
 
   sidebar:
