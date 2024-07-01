@@ -18,6 +18,7 @@ book:
     - part: qué-hace-buena-database.qmd
       chapters:
         - primarias-y-secundarias.qmd
+    - consejos-datos.qmd
     - envío-datos.qmd
     - part: bioinformática-experimental.qmd
       chapters:

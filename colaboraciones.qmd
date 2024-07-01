@@ -1,0 +1,45 @@
+# Colaboraciones de intercambio de datos
+
+A medida que el número de secuencias publicadas incrementó, el flujo de
+trabajo cambió: abriendo discusiones con los publicadores de literatura
+científica, las organizaciones detrás de estas bases de datos convencieron a
+los publicadores de que le pidieran a los investigadores enviar sus
+secuencias a una base de datos pública antes de someter un artículo. A
+cambio, a los autores se les otorga un número de acceso que pueden citar
+luego en el artículo. Este modelo ha sido seguido por muchos proveedores de
+datos biológicos públicos. La Tabla 1 provee algunos ejemplos
+significativos.
+
+El otro aspecto importante de estas colaboraciones es que sus participantes
+intercambian datos y/o asignan cargas de trabajo de tal forma que se evadan
+los esfuerzos duplicados mientras que se asegura que los datos están
+anotados y se hacen disponibles de manera consistente.
+
+**Tabla 1.** Algunos ejemplos de colaboraciones globales establecidas para
+gestionar el registro público de diferentes tipos de datos biológicos.
+
+| Tipo de datos | Colaboración |
+| ------------- | ------------ |
+| Secuencias de nucleótidos | [Colaboración Internacional de Bases de datos de Secuencias](http://www.insdc.org/) |
+| Secuencias de proteínas | [Consorcio UniProt](http://www.uniprot.org/help/about) |
+| Estructuras de macromoléculas | [Banco mundial de datos de proteínas](http://www.wwpdb.org/)
+| Interacciones moleculares | [Consorcio Internacional de Intercambio Molecular](http://www.imexconsortium.org/)
+| Identificaciones de proteínas | [Consorcio ProteomeXchange](http://www.proteomexchange.org/)
+| Datos genómicos y clínicos | [Alianza Global para la Genómica y la Salud](http://genomicsandhealth.org/)
+
+## ¿A quién le pertenecen los datos?
+
+Desde sus inicios, la comunidad de bioinformática ha defendido el
+intercambio abierto de datos, y lo hizo una realidad a través de
+colaboraciones tales como las resumidas en la Tabla 1. Esta política abierta
+ha permitido que la comunidad de investigadores haga un buen uso de los
+datos que emergen de grandes proyectos internacionales tales como el
+Proyecto Genoma Humano [-@es2001] y el [proyecto
+Encode](http://www.nature.com/encode/#/threads). Sin embargo, es importante
+tener en cuenta que el intercambio abierto de datos no es solo para estas
+grandes colaboraciones. Retos recientes en las políticas de financiamiento
+han empezado a reflejar la visión ampliamente sostenida hoy en día de que,
+si se gasta dinero público en investigación (en cualquier área), los datos
+de esa investigación deberían estar disponibles públicamente para que otros
+los usen.
+

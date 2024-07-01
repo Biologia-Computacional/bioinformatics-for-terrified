@@ -1,0 +1,36 @@
+# Consejos sobre administrar y compartir datos
+
+Vale la pena preguntarte si tú, tus colegas y colaboradoes están
+administrando los datos de tal forma que puedan maximizar su reutilización
+en el futuro. Sin importar si estás trabajando en un ambiente académico o
+comercial, permitir la reutilización de tus datos se está volviendo una
+parte central de la práctica profesional.
+
+Si estás sometiendo datos entonces hay unos cuantos pasos simples que puedes
+tomar para hacer el proceso más fácil:
+
+- Comenzar temprano: empieza a colectar datos y metadatos al principio de tu
+  experimento.
+- Considera crear un plan de manejo de datos, usando herramientas como
+  [DMPonline](https://dmponline.dcc.ac.uk/plans) y el [Data stewardship
+  wizard](https://ds-wizard.org/).
+- Identifica la base de datos correcta (mira '[¿A dónde envío mis
+  datos?](envío-datos.qmd)' en la próxima página).
+- Habla con los curadores que trabajan con esa base de datos, ¡revisa cuáles
+  son los requerimientos para someter!
+- Aprende sobre los requerimientos de metadatos y estándares de datos usados
+  en tu área. Puedes buscarlos en
+  [FAIRsharing.org](https://fairsharing.org/).
+- Usa una ontología para anotar los datos, por ejemplo la ontología de
+  Factores Experimentales.
+
+::: {.callout-note}
+Para aprender más sobre gestión de datos, prueba el tutorial en línea
+[Bringing data to life: data management for the biomolecular
+sciences](https://www.ebi.ac.uk/training/online/courses/bringing-data-to-life-data-management/).
+Hay muchos artículos excelentes para iniciarte en gestionar y compartir
+datos [@goodman2014; @masum2013; @michener2015]. Una gran cantidad de
+información sobre acceso abierto, ciencia abierta y datos abiertos está
+disponible en el [portal de entrenamiento
+FOSTER](https://www.fosteropenscience.eu/).
+:::
