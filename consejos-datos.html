@@ -8,7 +8,7 @@
 
 <meta name="description" content="¿Qué es la bioinformática y dónde encaja con la investigación de laboratorio en ciencias biológicas? Obten más información sobre las herramientas y recursos bioinformáticos disponibles y cómo puedes empezar a aplicarlos en tu investigación.">
 
-<title>Bioinformática para los aterrorizados - 17&nbsp; Principios básicos de integración</title>
+<title>Bioinformática para los aterrorizados - 4&nbsp; Consejos sobre administrar y compartir datos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -51,8 +51,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./resumen.html" rel="next">
-<link href="./integrando.html" rel="prev">
+<link href="./envío-datos.html" rel="next">
+<link href="./primarias-y-secundarias.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -91,7 +91,7 @@ div.csl-indent {
 }</script>
 
 
-<meta property="og:title" content="Bioinformática para los aterrorizados - 17&nbsp; Principios básicos de integración">
+<meta property="og:title" content="Bioinformática para los aterrorizados - 4&nbsp; Consejos sobre administrar y compartir datos">
 <meta property="og:description" content="¿Qué es la bioinformática y dónde encaja con la investigación de laboratorio en ciencias biológicas? Obten más información sobre las herramientas y recursos bioinformáticos disponibles y cómo puedes empezar a aplicarlos en tu investigación.">
 <meta property="og:image" content="https://trainingcontent.embl.org/sites/default/files/book-images/the_scream.jpg">
 <meta property="og:site_name" content="Bioinformática para los aterrorizados">
@@ -106,7 +106,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bioinformática-experimental.html">La bioinformática como una ciencia experimental</a></li><li class="breadcrumb-item"><a href="./principios-integración.html"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Principios básicos de integración</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./consejos-datos.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Consejos sobre administrar y compartir datos</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -219,7 +219,7 @@ div.csl-indent {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./consejos-datos.html" class="sidebar-item-text sidebar-link">
+  <a href="./consejos-datos.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Consejos sobre administrar y compartir datos</span></span></a>
   </div>
 </li>
@@ -312,7 +312,7 @@ div.csl-indent {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./principios-integración.html" class="sidebar-item-text sidebar-link active">
+  <a href="./principios-integración.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Principios básicos de integración</span></span></a>
   </div>
 </li>
@@ -341,22 +341,14 @@ Atribución Internacional 4.0 (CC BY 4.0)</a></p>
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
 <p>Traducción realizada por el <a href="https://biologia-computacional.github.io/">Grupo de Biología Computacional</a></p>
 </div></div>
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Tabla de contenidos</h2>
-   
-  <ul>
-  <li><a href="#herramientas-para-ayudar-a-integrar-datos" id="toc-herramientas-para-ayudar-a-integrar-datos" class="nav-link active" data-scroll-target="#herramientas-para-ayudar-a-integrar-datos"><span class="header-section-number">17.1</span> Herramientas para ayudar a integrar datos</a></li>
-  <li><a href="#de-dónde-vienen-los-datos" id="toc-de-dónde-vienen-los-datos" class="nav-link" data-scroll-target="#de-dónde-vienen-los-datos"><span class="header-section-number">17.2</span> ¿De dónde vienen los datos?</a></li>
-  <li><a href="#integración-de-datos-predeterminada" id="toc-integración-de-datos-predeterminada" class="nav-link" data-scroll-target="#integración-de-datos-predeterminada"><span class="header-section-number">17.3</span> Integración de datos predeterminada</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/Biologia-Computacional/bioinformatics-for-terrified/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li></ul></div><div class="quarto-other-links"><h2>Otros Enlaces</h2><ul><li><a href="https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/"><i class="bi bi-link-45deg"></i>Tutorial original en inglés</a></li></ul></div></nav>
-    </div>
+        
+    <div class="quarto-other-links"><h2>Otros Enlaces</h2><ul><li><a href="https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/"><i class="bi bi-link-45deg"></i>Tutorial original en inglés</a></li></ul></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bioinformática-experimental.html">La bioinformática como una ciencia experimental</a></li><li class="breadcrumb-item"><a href="./principios-integración.html"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Principios básicos de integración</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Principios básicos de integración</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Consejos sobre administrar y compartir datos</span></h1>
 </div>
 
 
@@ -373,30 +365,42 @@ Atribución Internacional 4.0 (CC BY 4.0)</a></p>
 </header>
 
 
-<p>Si planeas integrar datos, estos necesitan tener tantas similaridades como sea posible. La misma entidad o concepto descrito de diferentes maneras no está en buenas condiciones para la integración. La integración de datos requiere por lo tanto invariblemente algo de preparación.</p>
-<section id="herramientas-para-ayudar-a-integrar-datos" class="level2" data-number="17.1">
-<h2 data-number="17.1" class="anchored" data-anchor-id="herramientas-para-ayudar-a-integrar-datos"><span class="header-section-number">17.1</span> Herramientas para ayudar a integrar datos</h2>
-<p>Hay herramientas disponibles para ayudar, por ejemplo, <a href="https://www.uniprot.org/id-mapping">UniProt ID Mapping</a> y <a href="https://www.ensembl.org/biomart/martview">Ensembl Biomart</a> te permiten convertir un conjunto de identificadores de un formato a otro. También hay mapeos de diferentes vocabularios controlados, pero hay que tener cuidado de no perder datos. Por ejemplo, un término en una ontología puede ser mapeado a otro término que es menos específico, así que podrías perder especificidad. En el EMBL-EBI se usan ontologías de aplicaciones, de las cuales el ejemplo arquetípico es la <a href="https://www.ebi.ac.uk/efo/">Ontología de Factores Experimentales</a>, para resolver este problema.</p>
-<p>Si tú y tus colaboradores envían datos a repositorios públicos, los datos serán puestos en un formato estándar y la integración de datos será esencialmente hecha para ti. Si trabajas en un ambiente comercial, puede que tengas tus propias bases de datos internas o puedes usar instancias privadas de las bases de datos públicas. <a href="http://www.embassycloud.org/">EMBL-EBI’s Embassy Cloud</a> provee a los colaboradores del EMBL-EBI acceso directo a sus conjuntos de datos hospedados en el EMBL-EBI, y a los poderosos recursos computacionales de la institución. Este espacio de trabajo compartido de alto rendimiento le permite a los colaboradores de los proyectos en diferentes lugares analizar sus datos junto con las ofertas públicas, utilizando sus propios enfoques. El acceso a Embassy Cloud está disponible para colaboradores trabajando en proyectos con el EMBL-EBI. El servicio se ha puesto a prueba con éxito con <a href="https://europepmc.org/">Europe PMC</a> (colaboradores en Manchester, Londres y el EMBL-EBI) y Tara Oceans (EMBL y colaboradores globales), y está ahora más ampliamente disponible.</p>
-</section>
-<section id="de-dónde-vienen-los-datos" class="level2" data-number="17.2">
-<h2 data-number="17.2" class="anchored" data-anchor-id="de-dónde-vienen-los-datos"><span class="header-section-number">17.2</span> ¿De dónde vienen los datos?</h2>
-<p>Es importante entender el origen de los datos que estás integrando, y ser capaz de revisar la evidencia para involucrar cada entidad en el panorama general. Si, por ejemplo, estás integrando diferentes tipos de datos ómicos para entender la regulación de una ruta y su desregulación en la enfermedad, necesitas tener una buena comprensión de la ruta en cuestión y la enfermedad que estás estudiando, mientras que mantienes una mentalidad abierta y sin sesgos sobre lo que los datos te pueden estar diciendo.</p>
-<p>La integración de los datos requiere que todos los datos estén anotados de manera consistente. También necesitas estar absolutamente seguro de que estás comparando cosas similares. La base de datos <a href="https://www.ebi.ac.uk/biosamples/">BioSamples</a> te permitirá encontrar todos los experimentos realizados en la misma muestra. Para aprender más sobre BioSamples echa un vistazo a <a href="https://www.ebi.ac.uk/training/online/course/biosamples-quick-tour">BioSamples: Quick tour</a>.</p>
-<p>Si estás realizando tus propios experimentos, ten en mente que otros pueden querer integrar tus datos con datos de otras fuentes en el futuro. Proveer los metadatos adecuados, y darle un formato reusable a tus datos, debería volverse un hábito para ti.</p>
-<p>La guía de Toni Kazic sobre la procedencia de los datos <span class="citation" data-cites="kazic2015">(<a href="references.html#ref-kazic2015" role="doc-biblioref">2015</a>)</span> es un buen lugar para empezar. Si estás usando datos de otras personas, revísalos como si fueran tuyos.</p>
-</section>
-<section id="integración-de-datos-predeterminada" class="level2" data-number="17.3">
-<h2 data-number="17.3" class="anchored" data-anchor-id="integración-de-datos-predeterminada"><span class="header-section-number">17.3</span> Integración de datos predeterminada</h2>
-<p>Las buenas noticias son que ahora hay un mayor número de recursos que han hecho un montón de trabajo duro por ti. Ya hemos usado un servicio (<a href="https://www.ebi.ac.uk/ebisearch/">EBI Search</a>) que hace un montón de mapeo de entidades relacionadas por ti. Otro servicio que integra una gran cantidad de datos públicos relevantes para descubrir es <a href="https://www.targetvalidation.org/">Open Targets</a>. Open Targets es un servicio que está diseñado para permitir la exploración y visualización de blancos de medicamentos asociados con enfermedades. Puedes aprender más sobre Open Targets en el seminario web ‘<a href="https://www.ebi.ac.uk/training/events/exploring-target-disease-associations-open-targets-platforms-new-interface/">Exploring target-disease associations with the Open Targets Platform’s new interface</a>’.</p>
+<p>Vale la pena preguntarte si tú, tus colegas y colaboradoes están administrando los datos de tal forma que puedan maximizar su reutilización en el futuro. Sin importar si estás trabajando en un ambiente académico o comercial, permitir la reutilización de tus datos se está volviendo una parte central de la práctica profesional.</p>
+<p>Si estás sometiendo datos entonces hay unos cuantos pasos simples que puedes tomar para hacer el proceso más fácil:</p>
+<ul>
+<li>Comenzar temprano: empieza a colectar datos y metadatos al principio de tu experimento.</li>
+<li>Considera crear un plan de manejo de datos, usando herramientas como <a href="https://dmponline.dcc.ac.uk/plans">DMPonline</a> y el <a href="https://ds-wizard.org/">Data stewardship wizard</a>.</li>
+<li>Identifica la base de datos correcta (mira ‘<a href="./envío-datos.html">¿A dónde envío mis datos?</a>’ en la próxima página).</li>
+<li>Habla con los curadores que trabajan con esa base de datos, ¡revisa cuáles son los requerimientos para someter!</li>
+<li>Aprende sobre los requerimientos de metadatos y estándares de datos usados en tu área. Puedes buscarlos en <a href="https://fairsharing.org/">FAIRsharing.org</a>.</li>
+<li>Usa una ontología para anotar los datos, por ejemplo la ontología de Factores Experimentales.</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Para aprender más sobre gestión de datos, prueba el tutorial en línea <a href="https://www.ebi.ac.uk/training/online/courses/bringing-data-to-life-data-management/">Bringing data to life: data management for the biomolecular sciences</a>. Hay muchos artículos excelentes para iniciarte en gestionar y compartir datos <span class="citation" data-cites="goodman2014 masum2013 michener2015">(<a href="references.html#ref-goodman2014" role="doc-biblioref">Goodman et&nbsp;al. 2014</a>; <a href="references.html#ref-masum2013" role="doc-biblioref">Masum et&nbsp;al. 2013</a>; <a href="references.html#ref-michener2015" role="doc-biblioref">Michener 2015</a>)</span>. Una gran cantidad de información sobre acceso abierto, ciencia abierta y datos abiertos está disponible en el <a href="https://www.fosteropenscience.eu/">portal de entrenamiento FOSTER</a>.</p>
+</div>
+</div>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-kazic2015" class="csl-entry" role="listitem">
-Kazic, Toni. 2015. <span>«Ten <span>Simple Rules</span> for <span>Experiments</span>’ <span>Provenance</span>»</span>. <em>PLoS Computational Biology</em> 11 (10): e1004384. <a href="https://doi.org/10.1371/journal.pcbi.1004384">https://doi.org/10.1371/journal.pcbi.1004384</a>.
+<div id="ref-goodman2014" class="csl-entry" role="listitem">
+Goodman, Alyssa, Alberto Pepe, Alexander W Blocker, Christine L Borgman, Kyle Cranmer, Merce Crosas, Rosanne Di Stefano, et&nbsp;al. 2014. <span>«Ten Simple Rules for the Care and Feeding of Scientific Data»</span>. <em>PLoS Computational Biology</em> 10 (4): e1003542. <a href="https://doi.org/10.1371/journal.pcbi.1003542">https://doi.org/10.1371/journal.pcbi.1003542</a>.
+</div>
+<div id="ref-masum2013" class="csl-entry" role="listitem">
+Masum, Hassan, Aarthi Rao, Benjamin M Good, Matthew H Todd, Aled M Edwards, Leslie Chan, Barry A Bunin, Andrew I Su, Zakir Thomas, y Philip E Bourne. 2013. <span>«Ten Simple Rules for Cultivating Open Science and Collaborative <span>R</span>&amp;<span>D</span>»</span>. <em>PLoS Computational Biology</em> 9 (9): e1003244. <a href="https://doi.org/10.1371/journal.pcbi.1003244">https://doi.org/10.1371/journal.pcbi.1003244</a>.
+</div>
+<div id="ref-michener2015" class="csl-entry" role="listitem">
+Michener, William K. 2015. <span>«Ten <span>Simple Rules</span> for <span>Creating</span> a <span>Good Data Management Plan</span>»</span>. <em>PLoS Computational Biology</em> 11 (10): e1004525. <a href="https://doi.org/10.1371/journal.pcbi.1004525">https://doi.org/10.1371/journal.pcbi.1004525</a>.
 </div>
 </div>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -815,13 +819,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./integrando.html" class="pagination-link" aria-label="Integrando">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Integrando</span></span>
+      <a href="./primarias-y-secundarias.html" class="pagination-link" aria-label="Base de datos primarias y secundarias">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Base de datos primarias y secundarias</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./resumen.html" class="pagination-link" aria-label="Resumen">
-        <span class="nav-page-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Resumen</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./envío-datos.html" class="pagination-link" aria-label="¿A dónde envío mis datos?">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">¿A dónde envío mis datos?</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -830,4 +834,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Biologia-Computacional/bioinformatics-for-terrified/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/Biologia-Computacional/bioinformatics-for-terrified/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li></ul></div></div></div></footer></body></html>
