@@ -8,7 +8,7 @@
 
 <meta name="description" content="¿Qué es la bioinformática y dónde encaja con la investigación de laboratorio en ciencias biológicas? Obten más información sobre las herramientas y recursos bioinformáticos disponibles y cómo puedes empezar a aplicarlos en tu investigación.">
 
-<title>Bioinformática para los aterrorizados - 10&nbsp; Revisa tu aprendizaje</title>
+<title>Bioinformática para los aterrorizados - 5&nbsp; Estándares mínimos de información</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -31,8 +51,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./comparando.html" rel="next">
-<link href="./buscando-ZAP70.html" rel="prev">
+<link href="./consejos-datos.html" rel="next">
+<link href="./describiendo-datos-consistentemente.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -42,7 +62,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/alpine-3.12/buttons.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -72,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Bioinformática para los aterrorizados - 10&nbsp; Revisa tu aprendizaje">
+<meta property="og:title" content="Bioinformática para los aterrorizados - 5&nbsp; Estándares mínimos de información">
 <meta property="og:description" content="¿Qué es la bioinformática y dónde encaja con la investigación de laboratorio en ciencias biológicas? Obten más información sobre las herramientas y recursos bioinformáticos disponibles y cómo puedes empezar a aplicarlos en tu investigación.">
 <meta property="og:image" content="https://trainingcontent.embl.org/sites/default/files/book-images/the_scream.jpg">
 <meta property="og:site_name" content="Bioinformática para los aterrorizados">
@@ -87,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bioinformática-experimental.html">La bioinformática como una ciencia experimental</a></li><li class="breadcrumb-item"><a href="./quiz_ZAP70.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Revisa tu aprendizaje</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./qué-hace-buena-database.html">¿Qué hace que una base de datos bioinformática sea buena?</a></li><li class="breadcrumb-item"><a href="./est-min-info.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Estándares mínimos de información</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -204,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./est-min-info.html" class="sidebar-item-text sidebar-link">
+  <a href="./est-min-info.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Estándares mínimos de información</span></span></a>
   </div>
 </li>
@@ -251,7 +270,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./quiz_ZAP70.html" class="sidebar-item-text sidebar-link active">
+  <a href="./quiz_ZAP70.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Revisa tu aprendizaje</span></span></a>
   </div>
 </li>
@@ -334,14 +353,20 @@ Atribución Internacional 4.0 (CC BY 4.0)</a></p>
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
 <p>Traducción realizada por el <a href="https://biologia-computacional.github.io/">Grupo de Biología Computacional</a></p>
 </div></div>
-        
-    <div class="quarto-other-links"><h2>Otros Enlaces</h2><ul><li><a href="https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/"><i class="bi bi-link-45deg"></i>Tutorial original en inglés</a></li></ul></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#miame-para-experimentos-de-microarreglos" id="toc-miame-para-experimentos-de-microarreglos" class="nav-link active" data-scroll-target="#miame-para-experimentos-de-microarreglos"><span class="header-section-number">5.1</span> MIAME para experimentos de microarreglos</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/Biologia-Computacional/bioinformatics-for-terrified/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li></ul></div><div class="quarto-other-links"><h2>Otros Enlaces</h2><ul><li><a href="https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/"><i class="bi bi-link-45deg"></i>Tutorial original en inglés</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bioinformática-experimental.html">La bioinformática como una ciencia experimental</a></li><li class="breadcrumb-item"><a href="./quiz_ZAP70.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Revisa tu aprendizaje</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./qué-hace-buena-database.html">¿Qué hace que una base de datos bioinformática sea buena?</a></li><li class="breadcrumb-item"><a href="./est-min-info.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Estándares mínimos de información</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Revisa tu aprendizaje</span></h1>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Estándares mínimos de información</span></h1>
 </div>
 
 
@@ -358,102 +383,26 @@ Atribución Internacional 4.0 (CC BY 4.0)</a></p>
 </header>
 
 
-<div class="question">
-<ul>
-<li>¿En qué cromosoma está el ZAP70 humano?</li>
-</ul>
-<div class="choices">
-<div x-data="{ answer: '' , clear() { this.answer = '' }}">
-
-<div class="choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="no1"> <span id="no1" x-show="answer == $el.id" class="badge">✗</span>Cromosoma 22</p><p></p>
+<p>Los <a href="https://en.wikipedia.org/wiki/Minimum_Information_Standards">estándares mínimos de información</a> son conjuntos de pautas y formatos para reportar datos derivados de métodos específicos de alto rendimiento. Su propósito es asegurarse que los datos generados por estos métodos puedan ser fácilmente verificados, analizados e interpretados por la comunidad científica. Al final, estos facilitan la transferencia de datos desde los artículos de investigación (datos no estructurados) hacia las bases de datos (datos estructurados) en una forma que permita que los datos sean minados a lo largo de múltiples conjuntos de datos. Los estándares mínimos de información están disponibles para una amplia variedad de tipos de experimentos incluyendo microarreglos (MIAME), RNAseq (MINSEQE), metabolómica (MSI) y proteómica (MIAPE). Puedes explorar los estándares de datos disponibles en tu área en <a href="https://fairsharing.org/collection/MIBBI">FAIRsharing.org</a>.</p>
+<section id="miame-para-experimentos-de-microarreglos" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="miame-para-experimentos-de-microarreglos"><span class="header-section-number">5.1</span> MIAME para experimentos de microarreglos</h2>
+<p>El ejemplo típico de un estándar mínimo de información es el ‘Minimum Information about a Microarray Experiment, <em>Información Mínima sobre un Experimento de Microarreglos</em>’ (MIAME), desarrollado por la Functional Genomics Data Society (<a href="http://fged.org/">FGED</a>; originalmente la Microarray Data Society) (Figura 5). La comunidad que al final se convirtió en la FGED incluyó representantes de laboratorios generando datos de microarreglos (académicos e industriales), repositorios de datos, fabricantes de microarreglos y revistas editoras. Muchas revistas y agencias de financiamiento ahora exigen que los autores que reportan experimentos de microarreglos o experimentos basados en transcriptómica cumplan con el estándar MIAME.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/fig_5.svg" class="img-fluid figure-img"></p>
+<figcaption><strong>Figura 5.</strong> Una representación esquemática de los seis tipos de datos capturados en MIAME; adaptado de la publicación original <span class="citation" data-cites="brazma2001">(<a href="references.html#ref-brazma2001" role="doc-biblioref">Brazma et&nbsp;al. 2001</a>)</span>. En esta figura <strong>Experimento:</strong> el conjunto de experimentos de hibridación como un todo; <strong>Arreglo:</strong> cada arreglo usado y cada elemento (punto, característica) en el arreglo; <strong>Muestra:</strong> muestras usadas, preparación del extracto y etiquetado; <strong>Hibridación:</strong> procedimientos y parámetros; <strong>Datos:</strong> imágenes, cuantificación y especificaciones; <strong>Normalización:</strong> tipos, valores y especificaciones de los controles; <strong>Cajas blancas:</strong> representan enlaces externos.</figcaption>
+</figure>
 </div>
-<div class="choice correct-choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="correct"> <span id="correct" x-show="answer == $el.id" class="badge">✓</span>Cromosoma 2</p><p></p>
-</div>
-<div class="choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="no3"> <span id="no3" x-show="answer == $el.id" class="badge">✗</span>Cromosoma X</p><p></p>
-</div>
-</div>
-
-</div>
-</div>
-<div class="question">
-<ul>
-<li>¿En cuál de los siguientes tejidos NO están disponibles los datos de expresión basal para ZAP70?</li>
-</ul>
-<div class="choices">
-<div x-data="{ answer: '' , clear() { this.answer = '' }}">
-
-<div class="choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="no1"> <span id="no1" x-show="answer == $el.id" class="badge">✗</span>Cerebro</p><p></p>
-</div>
-<div class="choice correct-choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="correct"> <span id="correct" x-show="answer == $el.id" class="badge">✓</span>Epitelio intestinal</p><p></p>
-</div>
-<div class="choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="no3"> <span id="no3" x-show="answer == $el.id" class="badge">✗</span>Sangre</p><p></p>
-</div>
-</div>
-
-</div>
-</div>
-<div class="question">
-<ul>
-<li>¿Hay roedores con ortólogos 1:1 del ZAP70 humano?</li>
-</ul>
-<div class="choices">
-<div x-data="{ answer: '' , clear() { this.answer = '' }}">
-
-<div class="choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="no1"> <span id="no1" x-show="answer == $el.id" class="badge">✗</span>No</p><p></p>
-</div>
-<div class="choice correct-choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="correct"> <span id="correct" x-show="answer == $el.id" class="badge">✓</span>Sí</p><p></p>
-</div>
-</div>
-
-</div>
-</div>
-<div class="question">
-<ul>
-<li>¿Cuántas isoformas de ZAP70 han sido identificadas?</li>
-</ul>
-<div class="choices">
-<div x-data="{ answer: '' , clear() { this.answer = '' }}">
-
-<div class="choice correct-choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="correct"> <span id="correct" x-show="answer == $el.id" class="badge">✓</span>3</p><p></p>
-</div>
-<div class="choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="no2"> <span id="no2" x-show="answer == $el.id" class="badge">✗</span>5</p><p></p>
-</div>
-<div class="choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="no3"> <span id="no3" x-show="answer == $el.id" class="badge">✗</span>8</p><p></p>
-</div>
-</div>
-
-</div>
-</div>
-<div class="question">
-<ul>
-<li>¿ZAP70 es una proteína tirosina quinasa que atraviesa la membrana plasmática?</li>
-</ul>
-<div class="choices">
-<div x-data="{ answer: '' , clear() { this.answer = '' }}">
-
-<div class="choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="no1"> <span id="no1" x-show="answer == $el.id" class="badge">✗</span>Verdadero</p><p></p>
-</div>
-<div class="choice correct-choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="correct"> <span id="correct" x-show="answer == $el.id" class="badge">✓</span>Falso</p><p></p>
-</div>
-</div>
-
-</div>
-</div>
+<p>Los estándares mínimos de información tienen típicamente dos partes. En primer lugar, está el conjunto de requisitos de reporte, típicamente presentados como una tabla o una lista de chequeo. En segundo lugar, existe un formato de datos. La información sobre un experimento necesita ser convertida en el formato de dato apropiado para ser enviada a la base de datos correspondiente. En el caso de MIAME, el formato de datos es provisto en formato de hoja de cálculo (MAGE-TAB). Algunas de las comunidades que mantienen estándares mínimos de información también proveen herramientas para ayudar a los investigadores experimentales a anotar sus datos. Por ejemplo, <a href="https://www.ebi.ac.uk/fg/annotare/login/">Annotare</a> le ayuda a los investigadores a construir archivos de anotación compatibles con MIAME basándose en el formato MAGE-TAB.</p>
+<p><a href="https://fairsharing.org/collection/MIBBI">FAIRSharing.org</a> provee una lista de estándares mínimos de información, etiquetados como pautas de reporte o modelos/formatos.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-brazma2001" class="csl-entry" role="listitem">
+Brazma, A, P Hingamp, J Quackenbush, G Sherlock, P Spellman, C Stoeckert, J Aach, et&nbsp;al. 2001. <span>«Minimum Information about a Microarray Experiment (<span>MIAME</span>)-Toward Standards for Microarray Data»</span>. <em>Nature Genetics</em> 29 (4): 365-71. <a href="https://doi.org/10.1038/ng1201-365">https://doi.org/10.1038/ng1201-365</a>.
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -872,13 +821,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./buscando-ZAP70.html" class="pagination-link" aria-label="Buscando a ZAP70 usando EBI-search">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Buscando a ZAP70 usando EBI-search</span></span>
+      <a href="./describiendo-datos-consistentemente.html" class="pagination-link" aria-label="Describiendo datos de manera constistente">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Describiendo datos de manera constistente</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./comparando.html" class="pagination-link" aria-label="Comparando">
-        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Comparando</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./consejos-datos.html" class="pagination-link" aria-label="Consejos sobre administrar y compartir datos">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Consejos sobre administrar y compartir datos</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -887,5 +836,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/Biologia-Computacional/bioinformatics-for-terrified/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li></ul></div></div></div></footer><script src="site_libs/quarto-contrib/alpine-3.12/alpine@3.12.min.js"></script>
-</body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Biologia-Computacional/bioinformatics-for-terrified/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li></ul></div></div></div></footer></body></html>
