@@ -181,33 +181,77 @@
     ]
   },
   {
+    "objectID": "vocabularios-controlados.html",
+    "href": "vocabularios-controlados.html",
+    "title": "6  Vocabularios controlados",
+    "section": "",
+    "text": "6.1 Vocabularios controlados en bioinformática\nLos vocabularios controlados son un ingrediente vital para anotar datos almacenados en bases de datos.\nEn contraste a tener una entrada de texto completamente libre, controlar el vocabulario ayuda a los computadores y a los humanos a categorizar la información y ayuda a reducir la redundancia y los errores. Siempre que haces una selección de una lista de términos predefinidos, por ejemplo escoger un aeropuerto cuando estás reservando un vuelo, estás usando un vocabulario controlado.\nLas bases de datos biológicas usan muchos tipos diferentes de vocabularios controlados, que serán discutidos en las próximas secciones.",
+    "crumbs": [
+      "¿Qué hace que una base de datos bioinformática sea buena?",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Vocabularios controlados</span>"
+    ]
+  },
+  {
+    "objectID": "listas-no-jerárquicas.html",
+    "href": "listas-no-jerárquicas.html",
+    "title": "7  Listas no jerárquicas",
+    "section": "",
+    "text": "El tipo más simple de vocabulario controlado es una lista no jerárquica de términos, tal como una lista de países. Anotar datos con estas listas hace mucho más fácil filtrar o buscar registros relacionados en una base de datos. Por ejemplo, si usas la búsqueda avanzada de literatura de Europe PMC, y filtras los resultados por idioma, estás escogiendo items de una lista determinada por un vocabulario controlado (Figura 6).\n\n\n\nFigura 6. Europe PMC, el recurso de literatura del EMBL-EBI, usa una lista no jerárquica para ayudarte a encontrar publicaciones en diferentes idiomas.",
+    "crumbs": [
+      "¿Qué hace que una base de datos bioinformática sea buena?",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Listas no jerárquicas</span>"
+    ]
+  },
+  {
+    "objectID": "taxonomía.html",
+    "href": "taxonomía.html",
+    "title": "8  Taxonomía",
+    "section": "",
+    "text": "Una taxonomía es un esquema de clasificación. La forma más antigua de taxonomía, y la que es más probable que te sea más familiar si te dedicas a las ciencias de la vida, es la clasificación de los organismos propuesta por Linneo. Normalmente, las taxonomías son jerárquicas: cada término ‘hijo’ (un término más específico) tiene un término ‘parental’ (un término más genérico), y un término parental puede tener uno o más términos hijos. Este es el caso de la taxonomía propuesta por Linneo (Figura 7): comenzamos con los organismos vivos, nos movemos a dominio, luego a reino, después a filo, clase, orden, familia, género y finalmente especie.\nLas taxonomías no tienen por qué ser jerarquías; pueden ser también redes, en las cuales un término hijo puede tener uno o más parentales. La principal ventaja de usar una taxonomía en lugar de una lista no jerárquica es que puedes encontrar todo anotado como una sub-categoría del término de búsqueda.\n\n\n\nFigura 7. La clasificación de los organismos propuesta por Linneo, posiblemente el ejemplo arquetípico de taxonomía.",
+    "crumbs": [
+      "¿Qué hace que una base de datos bioinformática sea buena?",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Taxonomía</span>"
+    ]
+  },
+  {
+    "objectID": "tesauro.html",
+    "href": "tesauro.html",
+    "title": "9  Tesauro",
+    "section": "",
+    "text": "En el área de la obtención de información, un tesauro se define como un vocabulario controlado y estructurado en el cual los conceptos son representados por términos. Los términos están organizados de tal manera que las relaciones entre los conceptos se hacen explícitas. Los términos preferidos son acompañados por subsiguientes entradas para sinónimos o cuasisinónimos (vea el estándar internacional relevante). Un ejemplo de un tesauro con el que te puedes haber cruzado es el MeSH, el tesauro de la Librería Nacional de Medicina (NLM, por sus siglas en inglés) de los Estados Unidos sobre Encabezados de Temas Médicos (Medical Subject Headings) (Figura 8).\nEl NLM provee una serie de seminarios web y tutoriales sobre el MeSH; uno que podría ser de particular interés es Buscando medicamentos o químicos en PubMed. La principal ventaja de un tesauro comparado con una lista no jerárquica es que, si los sinónimos están bien definidos, el usuario puede encontrar información sin usar la terminología exacta usada por la persona que creó el registro en la base de datos.\n\n\n\nFigura 8. Una captura de pantalla de la entrada para las proteína tirosina quinasas en MeSH; los sinónimos están etiquetados como ‘Entry term’.",
+    "crumbs": [
+      "¿Qué hace que una base de datos bioinformática sea buena?",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Tesauro</span>"
+    ]
+  },
+  {
     "objectID": "consejos-datos.html",
     "href": "consejos-datos.html",
-    "title": "6  Consejos sobre administrar y compartir datos",
+    "title": "10  Consejos sobre administrar y compartir datos",
     "section": "",
     "text": "Vale la pena preguntarte si tú, tus colegas y colaboradoes están administrando los datos de tal forma que puedan maximizar su reutilización en el futuro. Sin importar si estás trabajando en un ambiente académico o comercial, permitir la reutilización de tus datos se está volviendo una parte central de la práctica profesional.\nSi estás sometiendo datos entonces hay unos cuantos pasos simples que puedes tomar para hacer el proceso más fácil:\n\nComenzar temprano: empieza a colectar datos y metadatos al principio de tu experimento.\nConsidera crear un plan de manejo de datos, usando herramientas como DMPonline y el Data stewardship wizard.\nIdentifica la base de datos correcta (mira ‘¿A dónde envío mis datos?’ en la próxima página).\nHabla con los curadores que trabajan con esa base de datos, ¡revisa cuáles son los requerimientos para someter!\nAprende sobre los requerimientos de metadatos y estándares de datos usados en tu área. Puedes buscarlos en FAIRsharing.org.\nUsa una ontología para anotar los datos, por ejemplo la ontología de Factores Experimentales.\n\n\n\n\n\n\n\nNota\n\n\n\nPara aprender más sobre gestión de datos, prueba el tutorial en línea Bringing data to life: data management for the biomolecular sciences. Hay muchos artículos excelentes para iniciarte en gestionar y compartir datos (Goodman et al. 2014; Masum et al. 2013; Michener 2015). Una gran cantidad de información sobre acceso abierto, ciencia abierta y datos abiertos está disponible en el portal de entrenamiento FOSTER.\n\n\n\n\n\n\nGoodman, Alyssa, Alberto Pepe, Alexander W Blocker, Christine L Borgman, Kyle Cranmer, Merce Crosas, Rosanne Di Stefano, et al. 2014. «Ten Simple Rules for the Care and Feeding of Scientific Data». PLoS Computational Biology 10 (4): e1003542. https://doi.org/10.1371/journal.pcbi.1003542.\n\n\nMasum, Hassan, Aarthi Rao, Benjamin M Good, Matthew H Todd, Aled M Edwards, Leslie Chan, Barry A Bunin, Andrew I Su, Zakir Thomas, y Philip E Bourne. 2013. «Ten Simple Rules for Cultivating Open Science and Collaborative R&D». PLoS Computational Biology 9 (9): e1003244. https://doi.org/10.1371/journal.pcbi.1003244.\n\n\nMichener, William K. 2015. «Ten Simple Rules for Creating a Good Data Management Plan». PLoS Computational Biology 11 (10): e1004525. https://doi.org/10.1371/journal.pcbi.1004525.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Consejos sobre administrar y compartir datos</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Consejos sobre administrar y compartir datos</span>"
     ]
   },
   {
     "objectID": "envío-datos.html",
     "href": "envío-datos.html",
-    "title": "7  ¿A dónde envío mis datos?",
+    "title": "11  ¿A dónde envío mis datos?",
     "section": "",
-    "text": "7.1 ¿Cuándo no es apropiado compartir de manera abierta?\nHay dos principales razones que puedes encontrar frecuentemente para no compartir datos abiertamente:",
+    "text": "11.1 ¿Cuándo no es apropiado compartir de manera abierta?\nHay dos principales razones que puedes encontrar frecuentemente para no compartir datos abiertamente:",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿A dónde envío mis datos?</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>¿A dónde envío mis datos?</span>"
     ]
   },
   {
     "objectID": "envío-datos.html#cuándo-no-es-apropiado-compartir-de-manera-abierta",
     "href": "envío-datos.html#cuándo-no-es-apropiado-compartir-de-manera-abierta",
-    "title": "7  ¿A dónde envío mis datos?",
+    "title": "11  ¿A dónde envío mis datos?",
     "section": "",
     "text": "Para proteger a los individuos: cualquier información con relación a individuos identificables es sensible y debería ser protegida mediante políticas éticas. Puedes aprender mucho más sobre esto en el curso Biomedical data: Ethical, legal and social implications. Aun así, estos datos pueden ser compartidos en bases de datos como el European Genome-Phenome Archive, pero los investigadores que deseen acceder a ellos deben solicitar permiso al comité de ética correspondiente para obtener acceso a los datos para su investigación. Para aprender más sobre la gestión de datos sensibles, escucha este webinar grabado (en inglés): Working with sensitive data.\nPara proteger la propiedad intelectual u otro tipo de información competitiva. Si los datos son potencialmente aplicables en el ámbito comercial (digamos, por ejemplo, que has estado modelando el acoplamiento entre el virus del Zika y proteínas transmembranales y piensas que tienes evidencia de un blanco de superficie celular para una terapia), aun así los datos pueden hacerse públicos pero deberían ser protegidos primero mediante patentes apropiadas.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿A dónde envío mis datos?</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>¿A dónde envío mis datos?</span>"
     ]
   },
   {
@@ -223,12 +267,12 @@
   {
     "objectID": "búsqueda.html",
     "href": "búsqueda.html",
-    "title": "8  Búsqueda",
+    "title": "12  Búsqueda",
     "section": "",
-    "text": "8.1 Controles\nLlevar a cabo una búsqueda simple no es necesariamente un experimento y por lo tanto no necesita un control. Sin embargo, tan pronto como uses los resultados de una búsqueda para responder a una pregunta biológica, se convierte en un experimento. Por ejemplo, si quieres encontrar todas las secuencias de proteína con la palabra clave ‘globin’ (globina), esto es una búsqueda, no un experimento. Pero si quieres encontrar qué proteína quinasas i) hacen parte de una ruta de reacción en particular y ii) están sobrerreguladas en un estado particular de una enfermedad, esto es un experimento y deberías añadir algunos controles para corroborar que estás sacando las conclusiones correctas de los resultados. Por ejemplo, podrías corroborar si tus términos de búsqueda mapean a otras rutas no relacionadas. Podrías también mirar si tus términos de búsqueda están asociados correctamente a la entrada biológica (¿puedes, por ejemplo, encontrar los mismos términos en entradas relacionadas?).\nPara aprender cómo usar EBI Search para estudiar dianas potenciales, sigue el ejemplo guiado sobre ZAP70.",
+    "text": "12.1 Controles\nLlevar a cabo una búsqueda simple no es necesariamente un experimento y por lo tanto no necesita un control. Sin embargo, tan pronto como uses los resultados de una búsqueda para responder a una pregunta biológica, se convierte en un experimento. Por ejemplo, si quieres encontrar todas las secuencias de proteína con la palabra clave ‘globin’ (globina), esto es una búsqueda, no un experimento. Pero si quieres encontrar qué proteína quinasas i) hacen parte de una ruta de reacción en particular y ii) están sobrerreguladas en un estado particular de una enfermedad, esto es un experimento y deberías añadir algunos controles para corroborar que estás sacando las conclusiones correctas de los resultados. Por ejemplo, podrías corroborar si tus términos de búsqueda mapean a otras rutas no relacionadas. Podrías también mirar si tus términos de búsqueda están asociados correctamente a la entrada biológica (¿puedes, por ejemplo, encontrar los mismos términos en entradas relacionadas?).\nPara aprender cómo usar EBI Search para estudiar dianas potenciales, sigue el ejemplo guiado sobre ZAP70.",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Búsqueda</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Búsqueda</span>"
     ]
   },
   {
@@ -267,176 +311,176 @@
   {
     "objectID": "buscando-ZAP70.html",
     "href": "buscando-ZAP70.html",
-    "title": "9  Buscando a ZAP70 usando EBI-search",
+    "title": "13  Buscando a ZAP70 usando EBI-search",
     "section": "",
     "text": "En este escenario ayudaremos a Melissa a encontrar más sobre ZAP70 usando EBI Search.\nPara usar EBI Search, simplemente ve a la página principal del EMBL-EBI y escribe ZAP70 en el cuadro de búsqueda. Una vez la búsqueda haya finalizado desplázate hacia abajo para ver los resultados y las piezas de información de los datos.\n\n\n\nFigura 13. EBI Search.\n\n\nEl panel principal de resultados está dividido en tres secciones:\n\nLos Filtros a la izquierda agrupan las bases de datos en grupos que también pueden ser usados para refinar tus resultados.\nLa sección de más arriba, Gene & protein summaries (resúmenes de genes y proteínas), tiene páginas de resúmen para especies frecuentemente estudiadas. Estos resúmenes obtienen datos a partir de numerosos recursos en el EMBL-EBI para juntar información comunmente buscada tal como las secuencias de genes y proteínas, patrones de expresión e información de estructuras tridimensionales.\nDesplázate más abajo y podrás navegar por la lista completa de resultados.\n\n\n\n\nFigura 14. Resultados de EBI Search para ZAP70.\n\n\nA continuación echaremos un vistazo a la sección ‘Gene & protein summaries’ para ZAP70. Haz click en el enlace para ir a través de esta página.\nEn el lado izquierdo verás varias pestañas que te guiarán a la información resumida sobre el gen, su expresión, la proteína, su estructura y cualquier literatura de respaldo.\nExplora estas pestañas para encontrar las respuestas a las siguientes preguntas:\n\n¿En qué cromosoma humano está ZAP70?\n¿En cuál de los siguientes tejidos no están disponibles los datos sobre la expresión basal de ZAP70? Sangre, Cerebro, Epitelio intestinal, Endometrio.\n¿Cuántas isoformas de ZAP70 se han identificado?\n¿Es ZAP70 una proteína tirosina quinasa que atraviesa la membrana plasmática?\n¿Hay roedores con ortólogos 1:1 del ZAP70 humano?\n\n Corrobora tus respuestas en el siguiente quiz.",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Buscando a ZAP70 usando EBI-search</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Buscando a ZAP70 usando EBI-search</span>"
     ]
   },
   {
     "objectID": "quiz_ZAP70.html",
     "href": "quiz_ZAP70.html",
-    "title": "10  Revisa tu aprendizaje",
+    "title": "14  Revisa tu aprendizaje",
     "section": "",
     "text": "¿En qué cromosoma está el ZAP70 humano?\n\n\n\n\n\n ✗Cromosoma 22\n\n\n ✓Cromosoma 2\n\n\n ✗Cromosoma X\n\n\n\n\n\n\n\n¿En cuál de los siguientes tejidos NO están disponibles los datos de expresión basal para ZAP70?\n\n\n\n\n\n ✗Cerebro\n\n\n ✓Epitelio intestinal\n\n\n ✗Sangre\n\n\n\n\n\n\n\n¿Hay roedores con ortólogos 1:1 del ZAP70 humano?\n\n\n\n\n\n ✗No\n\n\n ✓Sí\n\n\n\n\n\n\n\n¿Cuántas isoformas de ZAP70 han sido identificadas?\n\n\n\n\n\n ✓3\n\n\n ✗5\n\n\n ✗8\n\n\n\n\n\n\n\n¿ZAP70 es una proteína tirosina quinasa que atraviesa la membrana plasmática?\n\n\n\n\n\n ✗Verdadero\n\n\n ✓Falso",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Revisa tu aprendizaje</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Revisa tu aprendizaje</span>"
     ]
   },
   {
     "objectID": "comparando.html",
     "href": "comparando.html",
-    "title": "11  Comparando",
+    "title": "15  Comparando",
     "section": "",
-    "text": "11.1 Controles\nCuando se trata de comparar secuencias con entradas en una base de datos de secuencias (a veces llamado búsqueda de similaridad de secuencias) el reto está en evaluar si un alineamiento en particular es significativo, y no en el alineamiento en sí mismo. En este caso, un alineamiento es significativo cuando la probabilidad de que ocurra por azar (es decir, aleatoriamente) es pequeña. Esto es expresado como el puntaje de expectativa (también conocido como valor-e) en donde entre más pequeño el puntaje, más significativo el alineamiento, y más probable es que se deba a la existencia de un ancestro compartido y por lo tanto a homología. Los controles para chequear la validez de una búsqueda de similaridad de secuencias incluyen hacer una comparación con secuencias aleatorias, y evaluar el puntaje de secuencias no relacionadas. Cuando se realizan búsquedas de secuencias es importante considerar la herramienta que estás usando dado que estas varían en cuanto a su velocidad y precisión y pueden ser mejores para ciertas aplicaciones.\nPara aprender más sobre búsquedas de similaridad de secuencias y cómo escoger una herramienta apropiada mira este seminario web sobre herramientas de similaridad de secuencias: A guide to sequence similarity search for biomolecular sequences.",
+    "text": "15.1 Controles\nCuando se trata de comparar secuencias con entradas en una base de datos de secuencias (a veces llamado búsqueda de similaridad de secuencias) el reto está en evaluar si un alineamiento en particular es significativo, y no en el alineamiento en sí mismo. En este caso, un alineamiento es significativo cuando la probabilidad de que ocurra por azar (es decir, aleatoriamente) es pequeña. Esto es expresado como el puntaje de expectativa (también conocido como valor-e) en donde entre más pequeño el puntaje, más significativo el alineamiento, y más probable es que se deba a la existencia de un ancestro compartido y por lo tanto a homología. Los controles para chequear la validez de una búsqueda de similaridad de secuencias incluyen hacer una comparación con secuencias aleatorias, y evaluar el puntaje de secuencias no relacionadas. Cuando se realizan búsquedas de secuencias es importante considerar la herramienta que estás usando dado que estas varían en cuanto a su velocidad y precisión y pueden ser mejores para ciertas aplicaciones.\nPara aprender más sobre búsquedas de similaridad de secuencias y cómo escoger una herramienta apropiada mira este seminario web sobre herramientas de similaridad de secuencias: A guide to sequence similarity search for biomolecular sequences.",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Comparando</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Comparando</span>"
     ]
   },
   {
     "objectID": "ejemplo-guiado-2.html",
     "href": "ejemplo-guiado-2.html",
-    "title": "12  Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?",
+    "title": "16  Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?",
     "section": "",
-    "text": "12.1 Escenario\nMelissa está trabajando en un programa de descubrimiento de medicamentos para crear nuevos inhibidores de ZAP70 para su uso en enfermedades autoinmunes. Gegorio, un químico médico en su grupo, ha sintetizado una serie de inhibidores de proteína tirosina quinasa. Ella necesita diseñar un ensayo celular para ver cuál de los inhibidores de Greg inhibe a la tirosina quinasa ZAP70. Ella tiene acceso a células T primarias de los siguientes animales:\nPara decidir cuál de sus modelos tiene una proteína ZAP70 más cercanamente relacionada a la humana, ella ha decidido hacer un rápido alineamiento múltiple de secuencias. Usando EBI search, ella localizó las secuencias canónicas (isoforma 1) para las proteínas ZAP70 humana, de ratón, de rata y de oveja. Para cada una, ella descargó la secuencia de proteína en formato FASTA. Luego, ella realizó un alineamiento múltiple de secuencias de estas proteínas usando la herramienta Clustal Omega. Puedes repetir su experimento si quieres.\nCon base en este alineamiento, Melissa decidió usar células T de oveja para su ensayo pero ella quiere revisar que la ZAP70 de oveja tenga un dominio tirosina quinasa antes de gastar tiempo llevando a cabo un ensayo. Para esto vamos a usar una herramienta llamada InterProScan. Esta herramienta compara tu secuencia elegida con todas las secuencias en InterPro, un recurso que provee análisis funcional de secuencias de proteínas clasificándolas en familias y prediciendo la presencia de dominios y sitios importantes. Si te gustaría aprender más sobre InterPro antes de continuar, puedes leer el Tour Rápido de InterPro o seguir el tutorial de InterPro. Si andas corto de tiempo puedes simplemente leer la sección sobre búsqueda de secuencias en el tutorial de InterPro.",
+    "text": "16.1 Escenario\nMelissa está trabajando en un programa de descubrimiento de medicamentos para crear nuevos inhibidores de ZAP70 para su uso en enfermedades autoinmunes. Gegorio, un químico médico en su grupo, ha sintetizado una serie de inhibidores de proteína tirosina quinasa. Ella necesita diseñar un ensayo celular para ver cuál de los inhibidores de Greg inhibe a la tirosina quinasa ZAP70. Ella tiene acceso a células T primarias de los siguientes animales:\nPara decidir cuál de sus modelos tiene una proteína ZAP70 más cercanamente relacionada a la humana, ella ha decidido hacer un rápido alineamiento múltiple de secuencias. Usando EBI search, ella localizó las secuencias canónicas (isoforma 1) para las proteínas ZAP70 humana, de ratón, de rata y de oveja. Para cada una, ella descargó la secuencia de proteína en formato FASTA. Luego, ella realizó un alineamiento múltiple de secuencias de estas proteínas usando la herramienta Clustal Omega. Puedes repetir su experimento si quieres.\nCon base en este alineamiento, Melissa decidió usar células T de oveja para su ensayo pero ella quiere revisar que la ZAP70 de oveja tenga un dominio tirosina quinasa antes de gastar tiempo llevando a cabo un ensayo. Para esto vamos a usar una herramienta llamada InterProScan. Esta herramienta compara tu secuencia elegida con todas las secuencias en InterPro, un recurso que provee análisis funcional de secuencias de proteínas clasificándolas en familias y prediciendo la presencia de dominios y sitios importantes. Si te gustaría aprender más sobre InterPro antes de continuar, puedes leer el Tour Rápido de InterPro o seguir el tutorial de InterPro. Si andas corto de tiempo puedes simplemente leer la sección sobre búsqueda de secuencias en el tutorial de InterPro.",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?</span>"
     ]
   },
   {
     "objectID": "ejemplo-guiado-2.html#escenario",
     "href": "ejemplo-guiado-2.html#escenario",
-    "title": "12  Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?",
+    "title": "16  Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?",
     "section": "",
     "text": "Ratón\nRata\nOveja",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Ejemplo guiado 2: ¿Tiene la ZAP70 de oveja una tirosina quinasa activa?</span>"
     ]
   },
   {
     "objectID": "examinando-ZAP70.html",
     "href": "examinando-ZAP70.html",
-    "title": "13  Examinando la secuencia de ZAP70 con InterProScan",
+    "title": "17  Examinando la secuencia de ZAP70 con InterProScan",
     "section": "",
     "text": "En este escenario usaremos InterPro para comparar la secuencia de la proteína ZAP70 de oveja con todas las secuencias en InterPro, un recurso que provee análisis funcional de secuencias de proteínas clasificándolas en familias y prediciendo la presencia de dominios y sitios importantes.\n&gt;tr|W5PW03|W5PW03_SHEEP Non-specific protein-tyrosine kinase (Fragment) OS=Ovis aries GN=ZAP70 PE=4 SV=1\nPRPAAHLPFFYGSISRAEAEEHLKLAGMADGLFLLRQCLRSLGGYVLSLVHEVRFHHFPIERQLNGTYA\nIAGGKAHCGPAELCEFYSRDPDGLPCNLRKPCNRPSGLEPQPGVFDNLRDAMVRDYVRQTWKLEGEALE\nQAIISQAPQVEKLIATTAHERMPWYHSSLTREEAERKLYSGSQTDGKFLLRPRKEPGTYALSLIYGKTV\nYHYLISQDKAGKYCIPEGTKFDTLWQLVEYLKLKADGLIYCLKEACPNSSASSGAAAPTLPAHPSTFTQ\nPQRRIDTLNSDGYTPEPVRLVSSEKPRTMPMDTSVYESPYSDPEELKNKKLFLKRENLLMADIELGCGN\nFGSVRQGVYRMRKKQIDVAIKVLKQSTEKGDKDEMMREAQIMHQLDNPYIVRLIGVCQAEALMLVMEMA\nGGGPLHKFLVGKKEEIPVSNVAELLHQVSMGMKYLEEKNFVHRDLAARNVLLVNRHYAKISDFGLSKAL\nGADDSYYTARSAGKWPLKWYAPECINFRKFSSRSDVWSYGVTMWEAFSYGQKPYKKMKGPEVMAFIEQG\nKRMECPPEC\nPrimero, vamos a InterPro, luego copia y pega la secuencia en el cuadro de búsqueda de InterPro, como se muestra abajo, y haz click en el botón “Search”. Tu búsqueda tomará un tiempo en correr; se paciente.\n\n\n\nFigura 15. Búsqueda por secuencia en InterPro.\n\n\nEn la parte superior de los resultados, verás noticias tranquilizadoras de que la isoforma ZAP70 de oveja es de hecho un miembro de la familia de la tirosina proteína quinasa. Al desplazarte hacia abajo verás que tiene dos dominios SH2 y un dominio proteína tirosina quinasa (ve el video de abajo sobre los resultados). Una cosa para revisar es si nuestra secuencia concuerda con los patrones para el sitio activo y el sitio de unión a ATP, dado que cualquier mutación en esta área puede hacer a la proteína enzimáticamente inactiva. En este caso, sin embargo, podemos ver que la isoforma ZAP70 de oveja contiene el perfil proteíco tanto para el sitio de unión a ATP como para el sitio activo (hacia el final de la página).\n¡Melissa debería poder utilizar células de oveja en su ensayo para probar inhibidores de tirosina proteína quinasa!",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Examinando la secuencia de ZAP70 con InterProScan</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Examinando la secuencia de ZAP70 con InterProScan</span>"
     ]
   },
   {
     "objectID": "modelamiento.html",
     "href": "modelamiento.html",
-    "title": "14  Modelamiento",
+    "title": "18  Modelamiento",
     "section": "",
     "text": "El modelamiento estructural puede ser usado para generar hipótesis sobre la estructura (y por lo tanto para implicar cosas sobre la función bioquímica) de las macromoléculas.\nEl modelamiento de procesos es un aspecto importante de la biología de sistemas. Una revisión por Bartocci y Lió (2016) provee un buen resumen de los tipos de procesos que son susceptibles al modelamiento de sistemas, y algunos ejemplos de herramientas que te permitirán hacer esto. Puedes descargar modelos matemáticos en un número de formatos estándar de la base de datos BioModels. Dale un vistazo a Biomodels: Quick tour para aprender más sobre esto.\nEl modelamiento de sistemas forma parte de un ciclo en el cual la biología experimental juega un papel igualmente importante: un ciclo típico de modelamiento de sistemas involucra construir un modelo que represente lo que sabes sobre la biología y luego probar si se comporta de la misma manera que el sistema biológico en sí mismo. Si no lo hace, ajustas el modelo para que se parezca más al sistema biológico y se repite el ciclo hasta que tu modelo represente más fielmente la realidad.\nPrueba el ejemplo guiado sobre modelamiento estructural de IRAK2.\n\n\n\n\nBartocci, Ezio, y Pietro Lió. 2016. «Computational Modeling, Formal Analysis, and Tools for Systems Biology». PLOS Computational Biology 12 (1): e1004591. https://doi.org/10.1371/journal.pcbi.1004591.",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Modelamiento</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Modelamiento</span>"
     ]
   },
   {
     "objectID": "ejemplo-guiado-3.html",
     "href": "ejemplo-guiado-3.html",
-    "title": "15  Ejemplo guiado 3: Construyendo un modelo estructural basado en similaridad de secuencias",
+    "title": "19  Ejemplo guiado 3: Construyendo un modelo estructural basado en similaridad de secuencias",
     "section": "",
-    "text": "15.1 Escenario\nJuliana está interesada en quinasas asociadas al receptor de la interleuquina 1 (IRAKs, por sus siglas en inglés) como posibles blancos para terapia contra el cáncer. Muchas mutaciones en IRAK2 están asociadas con diferentes tipos de cáncer, de tal forma que a Juliana le gustaría investigar IRAK2 como un posible nuevo blanco. Hay unas cuantas pequeñas moléculas inhibidoras disponibles para proteínas relacionadas y Juliana quiere saber si estas se podrían unir a IRAK2. Sin embargo, no hay una estructura cristalográfica disponible para el dominio quinasa de IRAK2, así que Juliana quiere modelar la estructura para ver si es probable que se parezca a las estructuras 3D de otras IRAKs.",
+    "text": "19.1 Escenario\nJuliana está interesada en quinasas asociadas al receptor de la interleuquina 1 (IRAKs, por sus siglas en inglés) como posibles blancos para terapia contra el cáncer. Muchas mutaciones en IRAK2 están asociadas con diferentes tipos de cáncer, de tal forma que a Juliana le gustaría investigar IRAK2 como un posible nuevo blanco. Hay unas cuantas pequeñas moléculas inhibidoras disponibles para proteínas relacionadas y Juliana quiere saber si estas se podrían unir a IRAK2. Sin embargo, no hay una estructura cristalográfica disponible para el dominio quinasa de IRAK2, así que Juliana quiere modelar la estructura para ver si es probable que se parezca a las estructuras 3D de otras IRAKs.",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Ejemplo guiado 3: Construyendo un modelo estructural basado en similaridad de secuencias</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Ejemplo guiado 3: Construyendo un modelo estructural basado en similaridad de secuencias</span>"
     ]
   },
   {
     "objectID": "paso-1-IRAK2.html",
     "href": "paso-1-IRAK2.html",
-    "title": "16  Paso 1: descargando la secuencia de la IRAK2 humana y una primera aproximación a la modelación",
+    "title": "20  Paso 1: descargando la secuencia de la IRAK2 humana y una primera aproximación a la modelación",
     "section": "",
-    "text": "16.1 Controles\nHay muchos enfoques para evaluar modelos. Uno es revisar que valores tales como los ángulos de enlace, distancias, etc. en el modelo concuerden con lo que se ha observado en estructuras derivadas experimentalmente. En SWISS-MODEL el puntaje QMEAN z representa un estimado de qué tan comparable es el modelo con estructuras derivadas experimentalmente de tamaño similar. Puntajes QMEAN z alrededor de cero indican una buena concordancia entre la estructura del modelo y estructuras experimentales de tamaño similar. Modelos de baja calidad típicamente tienen puntajes de -4.0 o menos. Los símbolos de “pulgares arriba” y “pulgares abajo” al lado del puntaje se usan para indicar si el modelo es de buena calidad o no (Swiss Institute of Bioinformatics s. f.). Otro enfoque es tener en cuenta las observaciones de la calidad del método de alineamiento y búsqueda de plantillas (esto es representado en el puntaje GMQE (Global Model Quality Estimation)). El puntaje GMQE refleja la precisión esperada de ese alineamiento y se expresa como un número entre 0 y 1 donde números mayores indican mayor confiabilidad (Swiss Institute of Bioinformatics s. f.). Para más información lee las páginas de documentación de SWISS-MODEL.",
+    "text": "20.1 Controles\nHay muchos enfoques para evaluar modelos. Uno es revisar que valores tales como los ángulos de enlace, distancias, etc. en el modelo concuerden con lo que se ha observado en estructuras derivadas experimentalmente. En SWISS-MODEL el puntaje QMEAN z representa un estimado de qué tan comparable es el modelo con estructuras derivadas experimentalmente de tamaño similar. Puntajes QMEAN z alrededor de cero indican una buena concordancia entre la estructura del modelo y estructuras experimentales de tamaño similar. Modelos de baja calidad típicamente tienen puntajes de -4.0 o menos. Los símbolos de “pulgares arriba” y “pulgares abajo” al lado del puntaje se usan para indicar si el modelo es de buena calidad o no (Swiss Institute of Bioinformatics s. f.). Otro enfoque es tener en cuenta las observaciones de la calidad del método de alineamiento y búsqueda de plantillas (esto es representado en el puntaje GMQE (Global Model Quality Estimation)). El puntaje GMQE refleja la precisión esperada de ese alineamiento y se expresa como un número entre 0 y 1 donde números mayores indican mayor confiabilidad (Swiss Institute of Bioinformatics s. f.). Para más información lee las páginas de documentación de SWISS-MODEL.",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Paso 1: descargando la secuencia de la IRAK2 humana y una primera aproximación a la modelación</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Paso 1: descargando la secuencia de la IRAK2 humana y una primera aproximación a la modelación</span>"
     ]
   },
   {
     "objectID": "paso-1-IRAK2.html#controles",
     "href": "paso-1-IRAK2.html#controles",
-    "title": "16  Paso 1: descargando la secuencia de la IRAK2 humana y una primera aproximación a la modelación",
+    "title": "20  Paso 1: descargando la secuencia de la IRAK2 humana y una primera aproximación a la modelación",
     "section": "",
     "text": "Swiss Institute of Bioinformatics. s. f. «SWISS-MODEL Documentation». Accedido 15 de marzo de 2018. https://swissmodel.expasy.org/docs/help.",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Paso 1: descargando la secuencia de la IRAK2 humana y una primera aproximación a la modelación</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Paso 1: descargando la secuencia de la IRAK2 humana y una primera aproximación a la modelación</span>"
     ]
   },
   {
     "objectID": "paso-2-construir-modelo.html",
     "href": "paso-2-construir-modelo.html",
-    "title": "17  Paso 2: construyendo un modelo basado en una plantilla elegida por ti",
+    "title": "21  Paso 2: construyendo un modelo basado en una plantilla elegida por ti",
     "section": "",
     "text": "Figura 17. Escogiendo tu propia plantilla estructural.\n\n\nTambién puedes escoger tu propia plantilla estructural. Haz click en ‘Search for templates’. SWISS-MODEL buscará estructuras en el PDB que tengan una secuencia cercanamente relacionada (Figura 17). Se paciente; puede tomar algún tiempo generar tu lista de plantillas. Una vez hayas hecho esto, puedes alinear tantas de estas plantillas como quieras a tu secuencia blanco. Aquí hemos escogido estructuras para IRAK4 (2oib.2.A), el receptor quinasa 1 asociado a brasinosteroide insensible 1 (3tl8.2.A) y JAK2 (4bbe.1.A). Estas tres estructuras se alinean de manera bastante cercana entre sí. Basado en esta evidencia, podría valer la pena hacer algunos ensayos para ver si inhibidores conocidos de estas enzimas también inhiben a IRAK2.",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Paso 2: construyendo un modelo basado en una plantilla elegida por ti</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Paso 2: construyendo un modelo basado en una plantilla elegida por ti</span>"
     ]
   },
   {
     "objectID": "integrando.html",
     "href": "integrando.html",
-    "title": "18  Integrando",
+    "title": "22  Integrando",
     "section": "",
     "text": "La integración de los datos es desde hace tiempo un reto para la bioinformática (Figura 18) pero puede ser una forma tremendamente poderosa de compilar evidencia a favor de o en contra de una hipótesis. Por ejemplo, integrar datos de experimentos de transcriptómica, proteómica y metabolómica puede ayudar a tener evidencias de que una ruta en particular está involucrada en una enfermedad, o en la resistencia a un medicamento.\n\n\n\nFigura 18. Algunos de los retos asociados con la integración de los datos. Basado en una figura otorgada por Sandra Orchard.\n\n\nComo con el modelamiento de sistemas, la integración de los datos te ayuda a generar hipótesis, pero debe ser combinada con enfoques experimentales para probar tus hipótesis.",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Integrando</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Integrando</span>"
     ]
   },
   {
     "objectID": "principios-integración.html",
     "href": "principios-integración.html",
-    "title": "19  Principios básicos de integración",
+    "title": "23  Principios básicos de integración",
     "section": "",
-    "text": "19.1 Herramientas para ayudar a integrar datos\nHay herramientas disponibles para ayudar, por ejemplo, UniProt ID Mapping y Ensembl Biomart te permiten convertir un conjunto de identificadores de un formato a otro. También hay mapeos de diferentes vocabularios controlados, pero hay que tener cuidado de no perder datos. Por ejemplo, un término en una ontología puede ser mapeado a otro término que es menos específico, así que podrías perder especificidad. En el EMBL-EBI se usan ontologías de aplicaciones, de las cuales el ejemplo arquetípico es la Ontología de Factores Experimentales, para resolver este problema.\nSi tú y tus colaboradores envían datos a repositorios públicos, los datos serán puestos en un formato estándar y la integración de datos será esencialmente hecha para ti. Si trabajas en un ambiente comercial, puede que tengas tus propias bases de datos internas o puedes usar instancias privadas de las bases de datos públicas. EMBL-EBI’s Embassy Cloud provee a los colaboradores del EMBL-EBI acceso directo a sus conjuntos de datos hospedados en el EMBL-EBI, y a los poderosos recursos computacionales de la institución. Este espacio de trabajo compartido de alto rendimiento le permite a los colaboradores de los proyectos en diferentes lugares analizar sus datos junto con las ofertas públicas, utilizando sus propios enfoques. El acceso a Embassy Cloud está disponible para colaboradores trabajando en proyectos con el EMBL-EBI. El servicio se ha puesto a prueba con éxito con Europe PMC (colaboradores en Manchester, Londres y el EMBL-EBI) y Tara Oceans (EMBL y colaboradores globales), y está ahora más ampliamente disponible.",
+    "text": "23.1 Herramientas para ayudar a integrar datos\nHay herramientas disponibles para ayudar, por ejemplo, UniProt ID Mapping y Ensembl Biomart te permiten convertir un conjunto de identificadores de un formato a otro. También hay mapeos de diferentes vocabularios controlados, pero hay que tener cuidado de no perder datos. Por ejemplo, un término en una ontología puede ser mapeado a otro término que es menos específico, así que podrías perder especificidad. En el EMBL-EBI se usan ontologías de aplicaciones, de las cuales el ejemplo arquetípico es la Ontología de Factores Experimentales, para resolver este problema.\nSi tú y tus colaboradores envían datos a repositorios públicos, los datos serán puestos en un formato estándar y la integración de datos será esencialmente hecha para ti. Si trabajas en un ambiente comercial, puede que tengas tus propias bases de datos internas o puedes usar instancias privadas de las bases de datos públicas. EMBL-EBI’s Embassy Cloud provee a los colaboradores del EMBL-EBI acceso directo a sus conjuntos de datos hospedados en el EMBL-EBI, y a los poderosos recursos computacionales de la institución. Este espacio de trabajo compartido de alto rendimiento le permite a los colaboradores de los proyectos en diferentes lugares analizar sus datos junto con las ofertas públicas, utilizando sus propios enfoques. El acceso a Embassy Cloud está disponible para colaboradores trabajando en proyectos con el EMBL-EBI. El servicio se ha puesto a prueba con éxito con Europe PMC (colaboradores en Manchester, Londres y el EMBL-EBI) y Tara Oceans (EMBL y colaboradores globales), y está ahora más ampliamente disponible.",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Principios básicos de integración</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Principios básicos de integración</span>"
     ]
   },
   {
     "objectID": "principios-integración.html#de-dónde-vienen-los-datos",
     "href": "principios-integración.html#de-dónde-vienen-los-datos",
-    "title": "19  Principios básicos de integración",
-    "section": "19.2 ¿De dónde vienen los datos?",
-    "text": "19.2 ¿De dónde vienen los datos?\nEs importante entender el origen de los datos que estás integrando, y ser capaz de revisar la evidencia para involucrar cada entidad en el panorama general. Si, por ejemplo, estás integrando diferentes tipos de datos ómicos para entender la regulación de una ruta y su desregulación en la enfermedad, necesitas tener una buena comprensión de la ruta en cuestión y la enfermedad que estás estudiando, mientras que mantienes una mentalidad abierta y sin sesgos sobre lo que los datos te pueden estar diciendo.\nLa integración de los datos requiere que todos los datos estén anotados de manera consistente. También necesitas estar absolutamente seguro de que estás comparando cosas similares. La base de datos BioSamples te permitirá encontrar todos los experimentos realizados en la misma muestra. Para aprender más sobre BioSamples echa un vistazo a BioSamples: Quick tour.\nSi estás realizando tus propios experimentos, ten en mente que otros pueden querer integrar tus datos con datos de otras fuentes en el futuro. Proveer los metadatos adecuados, y darle un formato reusable a tus datos, debería volverse un hábito para ti.\nLa guía de Toni Kazic sobre la procedencia de los datos (2015) es un buen lugar para empezar. Si estás usando datos de otras personas, revísalos como si fueran tuyos.",
+    "title": "23  Principios básicos de integración",
+    "section": "23.2 ¿De dónde vienen los datos?",
+    "text": "23.2 ¿De dónde vienen los datos?\nEs importante entender el origen de los datos que estás integrando, y ser capaz de revisar la evidencia para involucrar cada entidad en el panorama general. Si, por ejemplo, estás integrando diferentes tipos de datos ómicos para entender la regulación de una ruta y su desregulación en la enfermedad, necesitas tener una buena comprensión de la ruta en cuestión y la enfermedad que estás estudiando, mientras que mantienes una mentalidad abierta y sin sesgos sobre lo que los datos te pueden estar diciendo.\nLa integración de los datos requiere que todos los datos estén anotados de manera consistente. También necesitas estar absolutamente seguro de que estás comparando cosas similares. La base de datos BioSamples te permitirá encontrar todos los experimentos realizados en la misma muestra. Para aprender más sobre BioSamples echa un vistazo a BioSamples: Quick tour.\nSi estás realizando tus propios experimentos, ten en mente que otros pueden querer integrar tus datos con datos de otras fuentes en el futuro. Proveer los metadatos adecuados, y darle un formato reusable a tus datos, debería volverse un hábito para ti.\nLa guía de Toni Kazic sobre la procedencia de los datos (2015) es un buen lugar para empezar. Si estás usando datos de otras personas, revísalos como si fueran tuyos.",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Principios básicos de integración</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Principios básicos de integración</span>"
     ]
   },
   {
     "objectID": "principios-integración.html#integración-de-datos-predeterminada",
     "href": "principios-integración.html#integración-de-datos-predeterminada",
-    "title": "19  Principios básicos de integración",
-    "section": "19.3 Integración de datos predeterminada",
-    "text": "19.3 Integración de datos predeterminada\nLas buenas noticias son que ahora hay un mayor número de recursos que han hecho un montón de trabajo duro por ti. Ya hemos usado un servicio (EBI Search) que hace un montón de mapeo de entidades relacionadas por ti. Otro servicio que integra una gran cantidad de datos públicos relevantes para descubrir es Open Targets. Open Targets es un servicio que está diseñado para permitir la exploración y visualización de blancos de medicamentos asociados con enfermedades. Puedes aprender más sobre Open Targets en el seminario web ‘Exploring target-disease associations with the Open Targets Platform’s new interface’.\n\n\n\n\nKazic, Toni. 2015. «Ten Simple Rules for Experiments’ Provenance». PLoS Computational Biology 11 (10): e1004384. https://doi.org/10.1371/journal.pcbi.1004384.",
+    "title": "23  Principios básicos de integración",
+    "section": "23.3 Integración de datos predeterminada",
+    "text": "23.3 Integración de datos predeterminada\nLas buenas noticias son que ahora hay un mayor número de recursos que han hecho un montón de trabajo duro por ti. Ya hemos usado un servicio (EBI Search) que hace un montón de mapeo de entidades relacionadas por ti. Otro servicio que integra una gran cantidad de datos públicos relevantes para descubrir es Open Targets. Open Targets es un servicio que está diseñado para permitir la exploración y visualización de blancos de medicamentos asociados con enfermedades. Puedes aprender más sobre Open Targets en el seminario web ‘Exploring target-disease associations with the Open Targets Platform’s new interface’.\n\n\n\n\nKazic, Toni. 2015. «Ten Simple Rules for Experiments’ Provenance». PLoS Computational Biology 11 (10): e1004384. https://doi.org/10.1371/journal.pcbi.1004384.",
     "crumbs": [
       "La bioinformática como una ciencia experimental",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Principios básicos de integración</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Principios básicos de integración</span>"
     ]
   },
   {
     "objectID": "resumen.html",
     "href": "resumen.html",
-    "title": "20  Resumen",
+    "title": "24  Resumen",
     "section": "",
     "text": "La bioinformática es central a la investigación en ciencias de la vida.\nLas bases de datos públicas como aquellas disponibles en el sitio web del EMBL-EBI proveen acceso abierto a una rica variedad de información biológica, permitiéndote llevar a cabo experimentos in silico sin necesidad de escribir código.\nLas cosas esenciales de un recurso bioinformático robusto son una estructura de bases de datos bien pensada y una adherencia a los estándares de la comunidad; ayuda tener una conciencia básica de estos dos principios base de un recurso público de datos dado que te permitirá abrirte paso a través del mundo de las bases de datos, y comunicarte con expertos en bioinformática más eficientemente.\nLa bioinformática es una ciencia experimental: es importante dar una consideración cuidadosa al método que usas, y desarrollar controles exactamente como lo harías para un experimento de laboratorio.\nLos experimentos bioinformáticos pueden ser categorizados de manera amplia como:\n\nBúsqueda\nComparación\nModelamiento\nIntegración",
     "crumbs": [
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Resumen</span>"
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Resumen</span>"
     ]
   },
   {
