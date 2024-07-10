@@ -18,6 +18,8 @@ book:
     - part: qué-hace-buena-database.qmd
       chapters:
         - primarias-y-secundarias.qmd
+        - describiendo-datos-consistentemente.qmd
+        - est-min-info.qmd
     - consejos-datos.qmd
     - envío-datos.qmd
     - part: bioinformática-experimental.qmd

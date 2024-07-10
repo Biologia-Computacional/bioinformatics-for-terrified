@@ -1,0 +1,57 @@
+# Estándares mínimos de información
+
+Los [estándares mínimos de
+información](https://en.wikipedia.org/wiki/Minimum_Information_Standards)
+son conjuntos de pautas y formatos para reportar datos derivados de métodos
+específicos de alto rendimiento. Su propósito es asegurarse que los datos
+generados por estos métodos puedan ser fácilmente verificados, analizados e
+interpretados por la comunidad científica. Al final, estos facilitan la
+transferencia de datos desde los artículos de investigación (datos no
+estructurados) hacia las bases de datos (datos estructurados) en una forma
+que permita que los datos sean minados a lo largo de múltiples conjuntos de
+datos. Los estándares mínimos de información están disponibles para una
+amplia variedad de tipos de experimentos incluyendo microarreglos (MIAME),
+RNAseq (MINSEQE), metabolómica (MSI) y proteómica (MIAPE). Puedes explorar
+los estándares de datos disponibles en tu área en
+[FAIRsharing.org](https://fairsharing.org/collection/MIBBI).
+
+## MIAME para experimentos de microarreglos
+
+El ejemplo típico de un estándar mínimo de información es el 'Minimum
+Information about a Microarray Experiment, *Información Mínima sobre un
+Experimento de Microarreglos*' (MIAME), desarrollado por la Functional
+Genomics Data Society ([FGED](http://fged.org/); originalmente la Microarray
+Data Society) (Figura 5). La comunidad que al final se convirtió en la FGED
+incluyó representantes de laboratorios generando datos de microarreglos
+(académicos e industriales), repositorios de datos, fabricantes de
+microarreglos y revistas editoras. Muchas revistas y agencias de
+financiamiento ahora exigen que los autores que reportan experimentos de
+microarreglos o experimentos basados en transcriptómica cumplan con el
+estándar MIAME.
+
+![**Figura 5.** Una representación esquemática de los seis tipos de datos
+capturados en MIAME; adaptado de la publicación original [@brazma2001]. En
+esta figura **Experimento:** el conjunto de experimentos de hibridación como
+un todo; **Arreglo:** cada arreglo usado y cada elemento (punto,
+característica) en el arreglo; **Muestra:** muestras usadas, preparación del
+extracto y etiquetado; **Hibridación:** procedimientos y parámetros;
+**Datos:** imágenes, cuantificación y especificaciones; **Normalización:**
+tipos, valores y especificaciones de los controles; **Cajas blancas:**
+representan enlaces externos.](figs/fig_5.svg)
+
+Los estándares mínimos de información tienen típicamente dos partes. En
+primer lugar, está el conjunto de requisitos de reporte, típicamente
+presentados como una tabla o una lista de chequeo. En segundo lugar, existe
+un formato de datos. La información sobre un experimento necesita ser
+convertida en el formato de dato apropiado para ser enviada a la base de
+datos correspondiente. En el caso de MIAME, el formato de datos es provisto
+en formato de hoja de cálculo (MAGE-TAB). Algunas de las comunidades que
+mantienen estándares mínimos de información también proveen herramientas
+para ayudar a los investigadores experimentales a anotar sus datos. Por
+ejemplo, [Annotare](https://www.ebi.ac.uk/fg/annotare/login/) le ayuda a los
+investigadores a construir archivos de anotación compatibles con MIAME
+basándose en el formato MAGE-TAB.
+
+[FAIRSharing.org](https://fairsharing.org/collection/MIBBI) provee una lista
+de estándares mínimos de información, etiquetados como pautas de reporte o
+modelos/formatos.
