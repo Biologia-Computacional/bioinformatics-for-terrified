@@ -1,0 +1,39 @@
+# Ontología de genes (Gene Ontology)
+
+El ejemplo arquetípico de una ontología en las ciencias moleculares de la
+vida es el Gene Ontology (GO, *Ontología de genes*), creado y mantenido por
+el [Gene Ontology Consortium](http://geneontology.org/). GO describe la
+función y localización celular de productos génicos de todas las especies
+(Figura 9), y puedes encontrar más sobre ello en [GOA and QuickGo: Quick
+tour](https://www.ebi.ac.uk/training/online/course/goa-and-quickgo-quick-tour).
+
+GO es usado para describir genes y sus productos en las principales bases de
+datos, incluyendo [UniProt](http://www.uniprot.org/),
+[Ensembl](http://www.ensembl.org/index.html) y muchas bases de datos de
+organismos modelos como [FlyBase](http://flybase.org/),
+[SGD](http://www.yeastgenome.org/) y [MGI](http://www.informatics.jax.org/).
+El GO provee una forma poderosa de analizar conjuntos de datos, por ejemplo,
+puede ser usado para determinar si genes identificados como sobreexpresados
+en un experimento de genómica funcional pueden tener funciones relacionadas
+o localizaciones similares (análisis de enriquecimiento de GO). Para mayor
+información sobre el Gene Ontology, mira la grabación del seminario web
+[Explorando el Gene Ontology, las anotaciones del GO, herramientas y
+recursos](https://www.ebi.ac.uk/training/events/exploring-gene-ontology-go-annotations-tools-and-resources/).
+
+![**Figura 9.** Captura de pantalla de la entrada sobre proteína tirosina
+quinasa en el GO, mostrando la riqueza de una ontología y resaltando los
+términos que son usados para poblar los vocabularios
+controlados](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/09/fig_9.jpg)
+
+Desde el desarrollo del GO a finales de la década de 1990, muchas más
+ontologías se han desarrollado usando los mismos principios. Estos
+principios incluyen el acceso abierto, el desarrollo colaborativo y la
+interoperatividad. Estas ontologías son recolectadas en el [OBO
+Foundry](http://www.obofoundry.org/) y también están listadas en
+[FAIRsharing.org](https://biosharing.org/standards/?selected_facets=isOBO:true).
+
+Si tienes un conjunto de datos y quieres anotarlo usando una ontología,
+puede ser un gran reto identificar la más apropiada. El [Servicio de
+Búsqueda de Ontologías](https://www.ebi.ac.uk/ols/beta/index) es un buen
+lugar para empezar, ya que no requiere conocimiento previo de cuáles
+ontologías existen.

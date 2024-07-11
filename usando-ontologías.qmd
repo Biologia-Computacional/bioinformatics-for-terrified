@@ -1,0 +1,30 @@
+# Usando ontologías para proveer vocabularios controlados
+
+## ¿Qué es una ontología?
+
+En informática y ciencias de la computación, una ontología es una
+representación del conocimiento compartido por una comunidad [@stevens2010].
+Una ontología describe las categorías de objetos descritos en un cuerpo de
+datos, las relaciones entre esos objetos, y las relaciones entre estas
+categorías. Al hacer esto, una ontología describe los objetos en sí mismos y
+a veces define lo que necesitas saber para reconocer uno de esos objetos.
+Las etiquetas usadas para describir los objetos pueden ser usadas para
+otorgar un vocabulario controlado, pero una ontología es mucho más que un
+vocabulario controlado.
+
+## {{< fa pencil >}} Ontologías jerárquicas
+
+Las ontologías jerárquicas toman la forma de un árbol, con términos que se
+vuelven más específicos entre más abajo estén las ramas. El árbol a
+continuación muestra una subsección de una ontología jerárquica que describe
+la anatomía humana.
+
+![](figs/ontología.svg)
+
+Aprende más sobre ontologías en [este
+video](https://embl-ebi.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2d71644d-4271-424f-8f49-acf700d11d26)
+con Sarah Morgan, Coordinadora de Entrenamiento Científico en el EMBL-EBI.
+
+Para saber más sobre ontologías, mira la grabación del seminario web
+[Ontologies for
+biocuration](https://www.ebi.ac.uk/training/events/ontologies-biocuration/).

@@ -1,0 +1,30 @@
+# Tesauro
+
+En el área de la obtención de información, un tesauro se define como un
+vocabulario controlado y estructurado en el cual los conceptos son
+representados por términos. Los términos están organizados de tal manera que
+las relaciones entre los conceptos se hacen explícitas. Los términos
+preferidos son acompañados por subsiguientes entradas para sinónimos o
+cuasisinónimos (vea el [estándar
+internacional](https://en.wikipedia.org/wiki/ISO_25964) relevante). Un
+ejemplo de un tesauro con el que te puedes haber cruzado es el
+[MeSH](https://en.wikipedia.org/wiki/Medical_Subject_Headings), el tesauro
+de la Librería Nacional de Medicina (NLM, por sus siglas en inglés) de los
+Estados Unidos sobre Encabezados de Temas Médicos (*Medical Subject Headings*)
+(Figura 8).
+
+El NLM provee una serie de [seminarios web y
+tutoriales](https://www.nlm.nih.gov/bsd/disted/mesh.html) sobre el MeSH; uno
+que podría ser de particular interés es [Buscando medicamentos o químicos en
+PubMed](https://www.nlm.nih.gov/bsd/disted/drugs/intro.html). La principal
+ventaja de un tesauro comparado con una lista no jerárquica es que, si los
+sinónimos están bien definidos, el usuario puede encontrar información sin
+usar la terminología exacta usada por la persona que creó el registro en la
+base de datos.
+
+![**Figura 8.** Una captura de pantalla de la entrada para las proteína
+tirosina quinasas en [MeSH](https://meshb.nlm.nih.gov/record/ui?ui=D011505);
+los sinónimos están etiquetados como 'Entry
+term'.](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/09/Fig_8.png)
+
+

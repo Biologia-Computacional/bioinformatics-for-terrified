@@ -20,6 +20,13 @@ book:
         - primarias-y-secundarias.qmd
         - describiendo-datos-consistentemente.qmd
         - est-min-info.qmd
+        - vocabularios-controlados.qmd
+        - listas-no-jerárquicas.qmd
+        - taxonomía.qmd
+        - tesauro.qmd
+        - usando-ontologías.qmd
+        - gene-ontology.qmd
+        - quiz-bases-de-datos.qmd
     - consejos-datos.qmd
     - envío-datos.qmd
     - part: bioinformática-experimental.qmd

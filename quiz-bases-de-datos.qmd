@@ -1,0 +1,88 @@
+---
+filters:
+  - naquiz
+---
+
+# Revisa tu aprendizaje
+
+:::::{.question}
+- ¿Cuáles de estas no son bases de datos primarias?
+
+::::{.choices}
+:::{.choice}
+InterPro
+:::
+
+:::{.choice}
+Protein Data Bank (PDB)
+:::
+
+:::{.choice}
+European Nucleotide Archive (ENA)
+:::
+
+:::{.choice}
+Ensembl
+:::
+
+:::{.button-answer title="Show Answer" button-class="btn btn-info btn-xs"}
+Las respuetas correctas son **InterPro** y **Ensembl**.\
+PDB es una base de datos primaria para estructuras macromoleculares.\
+ENA es una base de datos primaria para secuencias de nucleótidos.
+:::
+::::
+:::::
+
+:::::{.question}
+- Los vocabularios controlados definen palabras específicas para reducir la
+  ambigüedad y la duplicación.
+
+::::{.choices}
+:::{.choice .correct-choice}
+Verdadero
+:::
+
+:::{.choice}
+Falso
+:::
+::::
+:::::
+
+:::::{.question}
+- La clasificación de los organismos propuesta por Linneo es un ejemplo de
+  una taxonomía no jerárquica.
+
+::::{.choices}
+:::{.choice}
+Verdadero
+:::
+
+:::{.choice .correct-choice}
+Falso
+:::
+::::
+:::::
+
+:::::{.question}
+- ¿Cuáles de los siguientes enunciados sobre el GO son correctos?
+
+::::{.choices}
+:::{.choice}
+El GO es usado para describir genes y sus productos en las principales bases
+de datos públicas.
+:::
+
+:::{.choice}
+El GO describe la función y la localización celular de productos génicos en
+todas las especies.
+:::
+
+:::{.choice}
+GO significa Gene Ontology.
+:::
+
+:::{.choice .correct-choice}
+Todos los enunciados son correctos.
+:::
+::::
+:::::

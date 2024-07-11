@@ -7,10 +7,6 @@ de Antioquia. Encuentra el tutorial original [en este
 enlace](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/).
 :::
 
-::: {.callout-warning}
-Esta traducción no está finalizada, estamos trabajando para completarla.
-:::
-
 ## Descripción del curso
 
 ### ¿Para quién es este curso?

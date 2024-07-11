@@ -1,0 +1,21 @@
+# Taxonomía
+
+Una taxonomía es un esquema de clasificación. La forma más antigua de
+taxonomía, y la que es más probable que te sea más familiar si te dedicas a
+las ciencias de la vida, es la clasificación de los organismos propuesta por
+Linneo. Normalmente, las taxonomías son jerárquicas: cada término 'hijo' (un
+término más específico) tiene un término 'parental' (un término más
+genérico), y un término parental puede tener uno o más términos hijos. Este
+es el caso de la taxonomía propuesta por Linneo (Figura 7): comenzamos con
+los organismos vivos, nos movemos a dominio, luego a reino, después a filo,
+clase, orden, familia, género y finalmente especie.
+
+Las taxonomías no tienen por qué ser jerarquías; pueden ser también redes,
+en las cuales un término hijo puede tener uno o más parentales. La principal
+ventaja de usar una taxonomía en lugar de una lista no jerárquica es que
+puedes encontrar todo anotado como una sub-categoría del término de
+búsqueda.
+
+[![**Figura 7.** La clasificación de los organismos propuesta por Linneo,
+posiblemente el ejemplo arquetípico de
+taxonomía.](https://upload.wikimedia.org/wikipedia/commons/a/a5/Biological_classification_L_Pengo_vflip.svg){alt="Biological classification L Pengo vflip"}](https://commons.wikimedia.org/wiki/File:Biological_classification_L_Pengo_vflip.svg){title="Peter Halasz. (User:Pengo), Public domain, via Wikimedia Commons"}

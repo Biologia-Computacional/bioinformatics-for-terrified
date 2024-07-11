@@ -1,0 +1,13 @@
+# Listas no jerárquicas
+
+El tipo más simple de vocabulario controlado es una lista no jerárquica de
+términos, tal como una lista de países. Anotar datos con estas listas hace
+mucho más fácil filtrar o buscar registros relacionados en una base de
+datos. Por ejemplo, si usas la búsqueda avanzada de literatura de [Europe
+PMC](https://europepmc.org/), y filtras los resultados por idioma, estás
+escogiendo items de una lista determinada por un vocabulario controlado
+(Figura 6).
+
+![**Figura 6.** Europe PMC, el recurso de literatura del EMBL-EBI, usa una
+lista no jerárquica para ayudarte a encontrar publicaciones en diferentes
+idiomas.](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/wp-content/uploads/sites/4/2019/10/Fig_6-2.jpg)

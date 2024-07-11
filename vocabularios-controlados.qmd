@@ -1,0 +1,19 @@
+# Vocabularios controlados
+
+Los vocabularios controlados definen palabras específicas para reducir la
+ambigüedad y la duplicación.
+
+## Vocabularios controlados en bioinformática
+
+Los vocabularios controlados son un ingrediente vital para anotar datos
+almacenados en bases de datos.
+
+En contraste a tener una entrada de texto completamente libre, controlar el
+vocabulario ayuda a los computadores y a los humanos a categorizar la
+información y ayuda a reducir la redundancia y los errores. Siempre que
+haces una selección de una lista de términos predefinidos, por ejemplo
+escoger un aeropuerto cuando estás reservando un vuelo, estás usando un
+vocabulario controlado.
+
+Las bases de datos biológicas usan muchos tipos diferentes de vocabularios
+controlados, que serán discutidos en las próximas secciones.
