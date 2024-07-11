@@ -8,7 +8,7 @@
 
 <meta name="description" content="¿Qué es la bioinformática y dónde encaja con la investigación de laboratorio en ciencias biológicas? Obten más información sobre las herramientas y recursos bioinformáticos disponibles y cómo puedes empezar a aplicarlos en tu investigación.">
 
-<title>Bioinformática para los aterrorizados - 2&nbsp; Colaboraciones de intercambio de datos</title>
+<title>Bioinformática para los aterrorizados - 10&nbsp; Usando ontologías para proveer vocabularios controlados</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -51,8 +51,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./qué-hace-buena-database.html" rel="next">
-<link href="./rol-bases-de-datos.html" rel="prev">
+<link href="./gene-ontology.html" rel="next">
+<link href="./tesauro.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -62,6 +62,8 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -91,7 +93,7 @@ div.csl-indent {
 }</script>
 
 
-<meta property="og:title" content="Bioinformática para los aterrorizados - 2&nbsp; Colaboraciones de intercambio de datos">
+<meta property="og:title" content="Bioinformática para los aterrorizados - 10&nbsp; Usando ontologías para proveer vocabularios controlados">
 <meta property="og:description" content="¿Qué es la bioinformática y dónde encaja con la investigación de laboratorio en ciencias biológicas? Obten más información sobre las herramientas y recursos bioinformáticos disponibles y cómo puedes empezar a aplicarlos en tu investigación.">
 <meta property="og:image" content="https://trainingcontent.embl.org/sites/default/files/book-images/the_scream.jpg">
 <meta property="og:site_name" content="Bioinformática para los aterrorizados">
@@ -106,7 +108,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./rol-bases-de-datos.html">El rol de las bases de datos públicas</a></li><li class="breadcrumb-item"><a href="./colaboraciones.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Colaboraciones de intercambio de datos</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./qué-hace-buena-database.html">¿Qué hace que una base de datos bioinformática sea buena?</a></li><li class="breadcrumb-item"><a href="./usando-ontologías.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Usando ontologías para proveer vocabularios controlados</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -194,7 +196,7 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./colaboraciones.html" class="sidebar-item-text sidebar-link active">
+  <a href="./colaboraciones.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Colaboraciones de intercambio de datos</span></span></a>
   </div>
 </li>
@@ -253,7 +255,7 @@ div.csl-indent {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./usando-ontologías.html" class="sidebar-item-text sidebar-link">
+  <a href="./usando-ontologías.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Usando ontologías para proveer vocabularios controlados</span></span></a>
   </div>
 </li>
@@ -399,16 +401,17 @@ Atribución Internacional 4.0 (CC BY 4.0)</a></p>
     <h2 id="toc-title">Tabla de contenidos</h2>
    
   <ul>
-  <li><a href="#a-quién-le-pertenecen-los-datos" id="toc-a-quién-le-pertenecen-los-datos" class="nav-link active" data-scroll-target="#a-quién-le-pertenecen-los-datos"><span class="header-section-number">2.1</span> ¿A quién le pertenecen los datos?</a></li>
+  <li><a href="#qué-es-una-ontología" id="toc-qué-es-una-ontología" class="nav-link active" data-scroll-target="#qué-es-una-ontología"><span class="header-section-number">10.1</span> ¿Qué es una ontología?</a></li>
+  <li><a href="#ontologías-jerárquicas" id="toc-ontologías-jerárquicas" class="nav-link" data-scroll-target="#ontologías-jerárquicas"><span class="header-section-number">10.2</span> <i class="fa-solid fa-pencil" aria-label="pencil"></i> Ontologías jerárquicas</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Biologia-Computacional/bioinformatics-for-terrified/issues/new" class="toc-action"><i class="bi bi-github"></i>Informar de un problema</a></li></ul></div><div class="quarto-other-links"><h2>Otros Enlaces</h2><ul><li><a href="https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/"><i class="bi bi-link-45deg"></i>Tutorial original en inglés</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./rol-bases-de-datos.html">El rol de las bases de datos públicas</a></li><li class="breadcrumb-item"><a href="./colaboraciones.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Colaboraciones de intercambio de datos</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./qué-hace-buena-database.html">¿Qué hace que una base de datos bioinformática sea buena?</a></li><li class="breadcrumb-item"><a href="./usando-ontologías.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Usando ontologías para proveer vocabularios controlados</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Colaboraciones de intercambio de datos</span></h1>
+<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Usando ontologías para proveer vocabularios controlados</span></h1>
 </div>
 
 
@@ -425,51 +428,21 @@ Atribución Internacional 4.0 (CC BY 4.0)</a></p>
 </header>
 
 
-<p>A medida que el número de secuencias publicadas incrementó, el flujo de trabajo cambió: abriendo discusiones con los publicadores de literatura científica, las organizaciones detrás de estas bases de datos convencieron a los publicadores de que le pidieran a los investigadores enviar sus secuencias a una base de datos pública antes de someter un artículo. A cambio, a los autores se les otorga un número de acceso que pueden citar luego en el artículo. Este modelo ha sido seguido por muchos proveedores de datos biológicos públicos. La Tabla 1 provee algunos ejemplos significativos.</p>
-<p>El otro aspecto importante de estas colaboraciones es que sus participantes intercambian datos y/o asignan cargas de trabajo de tal forma que se evadan los esfuerzos duplicados mientras que se asegura que los datos están anotados y se hacen disponibles de manera consistente.</p>
-<p><strong>Tabla 1.</strong> Algunos ejemplos de colaboraciones globales establecidas para gestionar el registro público de diferentes tipos de datos biológicos.</p>
-<table class="table">
-<thead>
-<tr class="header">
-<th>Tipo de datos</th>
-<th>Colaboración</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Secuencias de nucleótidos</td>
-<td><a href="http://www.insdc.org/">Colaboración Internacional de Bases de datos de Secuencias</a></td>
-</tr>
-<tr class="even">
-<td>Secuencias de proteínas</td>
-<td><a href="http://www.uniprot.org/help/about">Consorcio UniProt</a></td>
-</tr>
-<tr class="odd">
-<td>Estructuras de macromoléculas</td>
-<td><a href="http://www.wwpdb.org/">Banco mundial de datos de proteínas</a></td>
-</tr>
-<tr class="even">
-<td>Interacciones moleculares</td>
-<td><a href="http://www.imexconsortium.org/">Consorcio Internacional de Intercambio Molecular</a></td>
-</tr>
-<tr class="odd">
-<td>Identificaciones de proteínas</td>
-<td><a href="http://www.proteomexchange.org/">Consorcio ProteomeXchange</a></td>
-</tr>
-<tr class="even">
-<td>Datos genómicos y clínicos</td>
-<td><a href="http://genomicsandhealth.org/">Alianza Global para la Genómica y la Salud</a></td>
-</tr>
-</tbody>
-</table>
-<section id="a-quién-le-pertenecen-los-datos" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="a-quién-le-pertenecen-los-datos"><span class="header-section-number">2.1</span> ¿A quién le pertenecen los datos?</h2>
-<p>Desde sus inicios, la comunidad de bioinformática ha defendido el intercambio abierto de datos, y lo hizo una realidad a través de colaboraciones tales como las resumidas en la Tabla 1. Esta política abierta ha permitido que la comunidad de investigadores haga un buen uso de los datos que emergen de grandes proyectos internacionales tales como el Proyecto Genoma Humano <span class="citation" data-cites="es2001">(<a href="references.html#ref-es2001" role="doc-biblioref">2001</a>)</span> y el <a href="http://www.nature.com/encode/#/threads">proyecto Encode</a>. Sin embargo, es importante tener en cuenta que el intercambio abierto de datos no es solo para estas grandes colaboraciones. Retos recientes en las políticas de financiamiento han empezado a reflejar la visión ampliamente sostenida hoy en día de que, si se gasta dinero público en investigación (en cualquier área), los datos de esa investigación deberían estar disponibles públicamente para que otros los usen.</p>
+<section id="qué-es-una-ontología" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="qué-es-una-ontología"><span class="header-section-number">10.1</span> ¿Qué es una ontología?</h2>
+<p>En informática y ciencias de la computación, una ontología es una representación del conocimiento compartido por una comunidad <span class="citation" data-cites="stevens2010">(<a href="references.html#ref-stevens2010" role="doc-biblioref">Stevens, Rector, y Hull 2010</a>)</span>. Una ontología describe las categorías de objetos descritos en un cuerpo de datos, las relaciones entre esos objetos, y las relaciones entre estas categorías. Al hacer esto, una ontología describe los objetos en sí mismos y a veces define lo que necesitas saber para reconocer uno de esos objetos. Las etiquetas usadas para describir los objetos pueden ser usadas para otorgar un vocabulario controlado, pero una ontología es mucho más que un vocabulario controlado.</p>
+</section>
+<section id="ontologías-jerárquicas" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="ontologías-jerárquicas"><span class="header-section-number">10.2</span> <i class="fa-solid fa-pencil" aria-label="pencil"></i> Ontologías jerárquicas</h2>
+<p>Las ontologías jerárquicas toman la forma de un árbol, con términos que se vuelven más específicos entre más abajo estén las ramas. El árbol a continuación muestra una subsección de una ontología jerárquica que describe la anatomía humana.</p>
+<p><img src="figs/ontología.svg" class="img-fluid"></p>
+<p>Aprende más sobre ontologías en <a href="https://embl-ebi.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2d71644d-4271-424f-8f49-acf700d11d26">este video</a> con Sarah Morgan, Coordinadora de Entrenamiento Científico en el EMBL-EBI.</p>
+<p>Para saber más sobre ontologías, mira la grabación del seminario web <a href="https://www.ebi.ac.uk/training/events/ontologies-biocuration/">Ontologies for biocuration</a>.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-es2001" class="csl-entry" role="listitem">
-International Human Genome Sequencing Consortium. 2001. <span>«Initial Sequencing and Analysis of the Human Genome»</span>. <em>Nature</em> 409 (6822): 860-921. <a href="https://doi.org/10.1038/35057062">https://doi.org/10.1038/35057062</a>.
+<div id="ref-stevens2010" class="csl-entry" role="listitem">
+Stevens, Robert, Alan Rector, y Duncan Hull. 2010. <span>«What Is an Ontology?»</span> <em>Ontogenesis</em>, enero. <a href="https://web.archive.org/web/20181016060057/http://ontogenesis.knowledgeblog.org/66">https://web.archive.org/web/20181016060057/http://ontogenesis.knowledgeblog.org/66</a>.
 </div>
 </div>
 </section>
@@ -891,13 +864,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./rol-bases-de-datos.html" class="pagination-link" aria-label="El rol de las bases de datos públicas">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">El rol de las bases de datos públicas</span>
+      <a href="./tesauro.html" class="pagination-link" aria-label="Tesauro">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Tesauro</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./qué-hace-buena-database.html" class="pagination-link" aria-label="¿Qué hace que una base de datos bioinformática sea buena?">
-        <span class="nav-page-text">¿Qué hace que una base de datos bioinformática sea buena?</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./gene-ontology.html" class="pagination-link" aria-label="Ontología de genes (Gene Ontology)">
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Ontología de genes (Gene Ontology)</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
