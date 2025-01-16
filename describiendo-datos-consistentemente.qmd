@@ -1,4 +1,4 @@
-# Describiendo datos de manera constistente
+# Describiendo datos de manera consistente
 
 ## ¿Qué son los metadatos?
 
