@@ -3,7 +3,8 @@
 ::: {.callout-note}
 Este tutorial es una traducción realizada por el [Grupo de Biología
 Computacional](https://biologia-computacional.github.io/) de la Universidad
-de Antioquia. Encuentra el tutorial original [en este
+de Antioquia. El tutorial original fue escrito por el EMBL-EBI Training y lo
+puedes encontrar [en este
 enlace](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/).
 :::
 
